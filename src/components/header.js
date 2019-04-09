@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { Menu } from "antd"
+import { Menu, Icon } from "antd"
 import { globalHistory } from "@reach/router"
 
 class Header extends React.Component {
@@ -17,7 +17,10 @@ class Header extends React.Component {
       >
         {this.props.menuLinks.map(link => (
           <Menu.Item key={link.name}>
-            <Link to={link.link}>{link.name}</Link>
+            <Link to={link.link}>
+              {link.link === "/" && <Icon type="home" />}
+              {link.name}
+            </Link>
           </Menu.Item>
         ))}
       </Menu>

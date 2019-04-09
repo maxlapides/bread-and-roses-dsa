@@ -3,13 +3,12 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Logo from "../images/bread-and-roses.svg"
 
-const IndexPage = () => (
+const Tasks = () => (
   <Layout>
-    <SEO title="Home" />
-    <Logo className="logo" />
+    <SEO title="Tasks 2019" />
+    <h1>Tasks 2019</h1>
   </Layout>
 )
 
-export default IndexPage
+export default Tasks

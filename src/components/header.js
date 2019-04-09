@@ -1,35 +1,29 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { Menu } from "antd"
+import { globalHistory } from "@reach/router"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+class Header extends React.Component {
+  findKey = pathName => {
+    return this.props.menuLinks.find(link => link.link === pathName).name
+  }
+
+  render() {
+    return (
+      <Menu
+        selectedKeys={[this.findKey(globalHistory.location.pathname)]}
+        mode="horizontal"
+      >
+        {this.props.menuLinks.map(link => (
+          <Menu.Item key={link.name}>
+            <Link to={link.link}>{link.name}</Link>
+          </Menu.Item>
+        ))}
+      </Menu>
+    )
+  }
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

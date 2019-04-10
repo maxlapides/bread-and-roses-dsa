@@ -9,7 +9,7 @@ module.exports = {
         link: "/",
       },
       {
-        name: "Tasks 2019",
+        name: "Tasks for 2019",
         link: "/tasks/",
       },
     ],

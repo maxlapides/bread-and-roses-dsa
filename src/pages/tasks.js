@@ -2,8 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link, Element, scroller } from "react-scroll"
-import { globalHistory } from "@reach/router"
+import { Link, Element } from "react-scroll"
 
 const InternalLink = ({ to, children }) => (
   <Link to={to} smooth={true} duration={500} offset={-60} spy hashSpy>

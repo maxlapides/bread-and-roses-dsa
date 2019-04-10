@@ -1,26 +1,17 @@
 import { Link } from "gatsby"
 import React from "react"
 import { Menu, Layout as AntLayout } from "antd"
-import { globalHistory } from "@reach/router"
+import { Location } from "@reach/router"
 
 import { Join } from "./join"
 
-class Header extends React.Component {
-  state = {
-    selected: globalHistory.location.pathname,
-  }
-
-  handleClick = key => this.setState({ selected: key })
-
-  render() {
-    return (
+const Header = ({ menuLinks }) => (
+  <Location>
+    {({ location }) => (
       <AntLayout.Header>
-        <Menu mode="horizontal" selectedKeys={[this.state.selected]}>
-          {this.props.menuLinks.map(link => (
-            <Menu.Item
-              key={link.link}
-              onClick={() => this.handleClick(link.link)}
-            >
+        <Menu mode="horizontal" selectedKeys={[location.pathname]}>
+          {menuLinks.map(link => (
+            <Menu.Item key={link.link}>
               <Link to={link.link}>{link.name}</Link>
             </Menu.Item>
           ))}
@@ -38,8 +29,8 @@ class Header extends React.Component {
           </Menu.Item>
         </Menu>
       </AntLayout.Header>
-    )
-  }
-}
+    )}
+  </Location>
+)
 
 export default Header

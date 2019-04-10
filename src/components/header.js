@@ -13,7 +13,7 @@ const Header = ({ menuLinks }) => (
           <Link to={link.link}>{link.name}</Link>
         </Menu.Item>
       ))}
-      <Menu.Item>
+      <Menu.Item key="call">
         <a
           href="https://socialistcall.com/"
           target="_blank"
@@ -22,7 +22,7 @@ const Header = ({ menuLinks }) => (
           The Call
         </a>
       </Menu.Item>
-      <Menu.Item>
+      <Menu.Item key="join">
         <Join />
       </Menu.Item>
     </Menu>

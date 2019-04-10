@@ -46,7 +46,7 @@ main {
 .ant-layout-content {
   margin: 2.5rem auto 3rem;
   max-width: 960px;
-  padding: 1.5rem 2rem 2rem;
+  padding: 2rem;
   background-color: white;
   border-radius: 4px;
 }
@@ -58,4 +58,13 @@ h1 {
 
 .join-button {
   text-align: center;
+}
+
+.blurb {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0 auto 2rem;
+  background: #555555;
+  padding: 20px;
+  color: white;
 }

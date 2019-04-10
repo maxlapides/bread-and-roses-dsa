@@ -25,7 +25,7 @@ class Header extends React.Component {
           ))}
           <Menu.Item>
             <a
-              href="https:socialistcall.com/"
+              href="https://socialistcall.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -37,29 +37,6 @@ class Header extends React.Component {
           </Menu.Item>
         </Menu>
       </AntLayout.Header>
-
-      // <Menu
-      //   selectedKeys={[this.findKey(globalHistory.location.pathname)]}
-      //   mode="horizontal"
-      // >
-      //   {this.props.menuLinks.map(link => (
-      //     <Menu.Item key={link.name}>
-      //       <Link to={link.link}>{link.name}</Link>
-      //     </Menu.Item>
-      //   ))}
-      //   <Menu.Item>
-      //     <a
-      //       href="https://socialistcall.com/"
-      //       target="_blank"
-      //       rel="noopener noreferrer"
-      //     >
-      //       The Call
-      //     </a>
-      //   </Menu.Item>
-      //   <Menu.Item>
-      //     <Join />
-      //   </Menu.Item>
-      // </Menu>
     )
   }
 }

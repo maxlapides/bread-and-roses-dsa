@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Bread and Roses DSA`,
-    description: `Bread and Roses DSA is committed to building a democratic socialist world, one that ends the exploitation and oppression that define capitalism and guarantees everyone the right to live freely and creatively.`,
+    description: `Bread and Roses is a caucus of Marxist organizers in the Democratic Socialists of America committed to helping build an effective DSA rooted in the multiracial working class`,
     author: `@gatsbyjs`,
     menuLinks: [
       {

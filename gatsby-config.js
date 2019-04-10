@@ -1,24 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: `Bread and Roses DSA`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Bread and Roses DSA is committed to building a democratic socialist world, one that ends the exploitation and oppression that define capitalism and guarantees everyone the right to live freely and creatively.`,
     author: `@gatsbyjs`,
     menuLinks: [
       {
-        name: "Home",
-        link: "/",
-      },
-      {
         name: "Where We Stand",
-        link: "/where-we-stand/",
+        link: "/",
       },
       {
         name: "Tasks 2019",
         link: "/tasks/",
-      },
-      {
-        name: "Sign Up",
-        link: "/sign-up/",
       },
     ],
   },

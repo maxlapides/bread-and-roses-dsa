@@ -18,7 +18,44 @@ main {
   margin-top: 50px;
 }
 
-.logo {
-  padding: 0 50px;
+.logo-container {
+  padding: 35px 20px 0;
+  width: 650px;
   max-width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100%;
+}
+
+.ant-layout {
+  padding-top: 47px;
+}
+
+.ant-layout-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 46px;
+  padding: 0;
+  text-align: center;
+}
+
+.ant-layout-content {
+  margin: 2.5rem auto 3rem;
+  max-width: 960px;
+  padding: 1.5rem 2rem 2rem;
+  background-color: white;
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.join-button {
+  text-align: center;
 }

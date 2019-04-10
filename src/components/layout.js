@@ -8,8 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import { Layout as AntLayout } from "antd"
 
+import Logo from "../images/bread-and-roses.svg"
 import Header from "./header"
+import { JoinButton } from "./join"
 import "antd/dist/antd.less"
 import "./layout.css"
 
@@ -29,22 +32,19 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <AntLayout>
         <Header
           menuLinks={data.site.siteMetadata.menuLinks}
           siteTitle={data.site.siteMetadata.title}
         />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
-          <main>{children}</main>
+        <div className="logo-container">
+          <Logo className="logo" />
         </div>
-      </>
+        <AntLayout.Content>
+          {children}
+          <JoinButton />
+        </AntLayout.Content>
+      </AntLayout>
     )}
   />
 )

@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Where We Stand" />
+    <SEO title="Where We Stand" ogTitle="Bread and Roses DSA" />
     <p className="blurb">
       <strong>Bread and Roses</strong> is a national caucus of Marxist
       organizers in the Democratic Socialists of America committed to helping

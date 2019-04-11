@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import { Menu, Layout as AntLayout } from "antd"
+import { Menu, Layout as AntLayout, Icon } from "antd"
 import { Location } from "@reach/router"
 
 import { Join } from "./join"
@@ -24,17 +24,17 @@ const Header = ({ menuLinks }) => (
               The Call
             </a>
           </Menu.Item>
+          <Menu.Item key="join">
+            <Join />
+          </Menu.Item>
           <Menu.Item key="facebook">
             <a
               href="https://www.facebook.com/breadandrosesdsa/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Facebook
+              <Icon type="facebook" theme="filled" />
             </a>
-          </Menu.Item>
-          <Menu.Item key="join">
-            <Join />
           </Menu.Item>
         </Menu>
       </AntLayout.Header>

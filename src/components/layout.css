@@ -43,6 +43,10 @@ main {
   text-align: center;
 }
 
+.ant-layout-header .anticon-facebook {
+  margin: 0;
+}
+
 .ant-layout-content {
   margin: 2.5rem auto 3rem;
   max-width: 960px;

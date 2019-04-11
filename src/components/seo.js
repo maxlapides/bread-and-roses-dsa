@@ -53,7 +53,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -66,6 +66,10 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          name: `og:image`,
+          content: `https://breadandrosesdsa.org/marching.jpg`,
         },
       ]
         .concat(

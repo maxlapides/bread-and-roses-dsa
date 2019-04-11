@@ -24,6 +24,15 @@ const Header = ({ menuLinks }) => (
               The Call
             </a>
           </Menu.Item>
+          <Menu.Item key="facebook">
+            <a
+              href="https://www.facebook.com/breadandrosesdsa/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook
+            </a>
+          </Menu.Item>
           <Menu.Item key="join">
             <Join />
           </Menu.Item>

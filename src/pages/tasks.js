@@ -11,10 +11,8 @@ const InternalLink = ({ to, children }) => (
 )
 
 const Tasks = () => (
-  <Layout>
-    <SEO title="Tasks 2019" slug="/tasks/" />
-    <h1>Tasks for 2019</h1>
-
+  <Layout title="Tasks for 2019" color="blue">
+    <SEO title="Tasks for 2019" slug="/tasks/" />
     <h2>Table of Contents</h2>
     <ul>
       <li>

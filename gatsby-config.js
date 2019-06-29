@@ -5,8 +5,12 @@ module.exports = {
     author: `@gatsbyjs`,
     menuLinks: [
       {
-        name: "Where We Stand",
+        name: "Home",
         link: "/",
+      },
+      {
+        name: "Where We Stand",
+        link: "/where-we-stand/",
       },
       {
         name: "Tasks for 2019",
@@ -16,6 +20,12 @@ module.exports = {
   },
 
   plugins: [
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require("sass"),
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

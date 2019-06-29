@@ -7,16 +7,17 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby"
 import { Layout as AntLayout } from "antd"
+import Helmet from "react-helmet"
 
-import Logo from "../images/bread-and-roses.svg"
+import Logo from "../images/logo.svg"
 import Header from "./header"
-import { JoinButton } from "./join"
+import Hero from "./hero"
 import "antd/dist/antd.less"
-import "./layout.css"
+import "./layout.scss"
 
-const Layout = ({ children }) => (
+const Layout = ({ title, color, children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -32,19 +33,27 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <AntLayout>
+      <>
+        <Helmet>
+          <link
+            href="https://fonts.googleapis.com/css?family=Lora&display=swap"
+            rel="stylesheet"
+          />
+        </Helmet>
         <Header
           menuLinks={data.site.siteMetadata.menuLinks}
           siteTitle={data.site.siteMetadata.title}
         />
-        <div className="logo-container">
-          <Logo className="logo" />
-        </div>
-        <AntLayout.Content>
-          {children}
-          <JoinButton />
-        </AntLayout.Content>
-      </AntLayout>
+        <AntLayout>
+          <div className="logo-container">
+            <Link to="/">
+              <Logo className="logo" />
+            </Link>
+          </div>
+          <Hero title={title} color={color} />
+          <AntLayout.Content>{children}</AntLayout.Content>
+        </AntLayout>
+      </>
     )}
   />
 )

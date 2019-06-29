@@ -1,11 +1,15 @@
 import { Link } from "gatsby"
 import React from "react"
-import { Menu, Layout as AntLayout, Icon } from "antd"
+// import { Menu, Layout as AntLayout, Icon } from "antd"
 import { Location } from "@reach/router"
+import { stack as Menu } from "react-burger-menu"
 
+import Logo from "../images/logo-mark-white.svg"
 import { Join } from "./join"
+import "./header.scss"
 
-const Header = ({ menuLinks }) => (
+/*
+const HeaderOLD = ({ menuLinks }) => (
   <Location>
     {({ location }) => (
       <AntLayout.Header>
@@ -40,6 +44,20 @@ const Header = ({ menuLinks }) => (
       </AntLayout.Header>
     )}
   </Location>
+)
+*/
+
+const Header = ({ menuLinks }) => (
+  <Menu>
+    <Link to="/">
+      <Logo className="menu-logo" />
+    </Link>
+    {menuLinks.map(link => (
+      <Link to={link.link} key={link.name}>
+        {link.name}
+      </Link>
+    ))}
+  </Menu>
 )
 
 export default Header

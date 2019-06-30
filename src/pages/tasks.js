@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import { Link, Element } from "react-scroll"
 
 const InternalLink = ({ to, children }) => (
-  <Link to={to} smooth={true} duration={500} offset={-60} spy hashSpy>
+  <Link to={to} smooth={true} duration={500} offset={-62} spy hashSpy>
     {children}
   </Link>
 )

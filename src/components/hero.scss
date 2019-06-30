@@ -1,9 +1,30 @@
 @import "colors.scss";
+@import "breakpoints.scss";
 
 .hero {
   background: $red;
-  margin-top: 2.5rem;
+  margin: 2.5rem auto 0;
   padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+
+  @include bp(desktop) {
+    margin-top: 1rem;
+    padding: 4rem 2rem;
+  }
+
+  h1 {
+    margin: 0;
+    color: white;
+    font-family: "kelpt_a1_black";
+    -webkit-font-smoothing: antialiased;
+    font-size: 60px;
+    line-height: 1em;
+
+    @include bp(desktop) {
+      font-size: 80px;
+    }
+  }
 
   &--red {
     background: $red;
@@ -19,14 +40,9 @@
 
   &--yellow {
     background: $yellow;
-  }
 
-  h1 {
-    margin: 0;
-    color: white;
-    font-family: "kelpt_a1_black";
-    -webkit-font-smoothing: antialiased;
-    font-size: 60px;
-    line-height: 1em;
+    h1 {
+      color: black;
+    }
   }
 }

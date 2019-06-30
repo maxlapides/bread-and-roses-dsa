@@ -14,6 +14,7 @@ import Helmet from "react-helmet"
 import Logo from "../images/logo.svg"
 import Header from "./header"
 import Hero from "./hero"
+import TopNav from "./top-nav"
 import "antd/dist/antd.less"
 import "./layout.scss"
 
@@ -50,6 +51,7 @@ const Layout = ({ title, color, children }) => (
               <Logo className="logo" />
             </Link>
           </div>
+          <TopNav menuLinks={data.site.siteMetadata.menuLinks} />
           <Hero title={title} color={color} />
           <AntLayout.Content>{children}</AntLayout.Content>
         </AntLayout>

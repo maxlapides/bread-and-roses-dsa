@@ -1,3 +1,5 @@
+@import "./breakpoints";
+
 @font-face {
   font-family: "kelpt_a1_black";
   src: url("../fonts/kelpt-a1-black/typesketchbook_-_kelpta1-black-webfont.woff2")
@@ -19,17 +21,35 @@ main {
 
 .logo-container {
   padding: 35px 20px 0;
-  width: 650px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
   margin: 0 auto;
+
+  @include bp(desktop) {
+    text-align: left;
+  }
+
+  @include bp(xlarge) {
+    padding-left: 0;
+  }
 }
 
 .logo {
   width: 100%;
+  max-width: 500px;
+
+  @include bp(tablet) {
+    // max-width: 1200px;
+  }
 }
 
 .ant-layout {
   padding-top: 47px;
+
+  @include bp(desktop) {
+    padding-top: 0;
+  }
 }
 
 .ant-layout-header {
@@ -48,7 +68,7 @@ main {
 
 .ant-layout-content {
   margin: 0 auto 3rem;
-  max-width: 960px;
+  max-width: 1200px;
   padding: 2rem;
   background-color: white;
   border-radius: 4px;

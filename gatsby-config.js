@@ -16,6 +16,10 @@ module.exports = {
         name: "Tasks for 2019",
         link: "/tasks/",
       },
+      {
+        name: "DSA Convention 2019",
+        link: "/convention/",
+      },
     ],
   },
 
@@ -49,7 +53,7 @@ module.exports = {
       options: {
         javascriptEnabled: true,
         modifyVars: {
-          "primary-color": "#FF1717",
+          "primary-color": "#ef3f35",
         },
       },
     },

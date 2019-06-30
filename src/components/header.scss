@@ -1,10 +1,14 @@
-@import "colors.scss";
+@import "breakpoints";
+@import "colors";
+
+.menu-logo-wrapper {
+  padding-bottom: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
 
 .menu-logo {
   outline: 0;
-  margin: 0 auto 30px;
-  width: 180px;
-  height: 184px;
 }
 
 /* Position and sizing of burger button */
@@ -14,6 +18,14 @@
   height: 20px;
   left: 2rem;
   top: 2rem;
+
+  @include bp(desktop) {
+    display: none;
+  }
+
+  button {
+    outline: 0;
+  }
 }
 
 /* Color/shape of burger icon bars */
@@ -23,7 +35,7 @@
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: $red;
+  background: $blue;
 }
 
 /* Position and sizing of clickable cross button */
@@ -50,13 +62,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu {
   background: $blue;
   padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
 
   a {
     color: white;
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 22px;
+    margin-bottom: 25px;
     text-align: center;
+    display: block;
 
     &:hover {
       text-decoration: underline;
@@ -78,7 +90,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Individual item */
 .bm-item {
-  display: inline-block;
+  display: block;
 }
 
 /* Styling of overlay */

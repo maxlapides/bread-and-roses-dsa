@@ -10,13 +10,44 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "kelpt_a1_medium";
+  src: url("../fonts/kelpt-a1-medium/typesketchbook_-_kelpta1-medium-webfont.woff2")
+      format("woff2"),
+    url("../fonts/kelpt-a1-medium/typesketchbook_-_kelpta1-medium-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: "Lora", serif;
   font-size: 16px;
+  line-height: 1.6em;
+
+  @include bp(desktop) {
+    font-size: 18px;
+  }
 }
 
 main {
   margin-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: "kelpt_a1_medium", Serif;
+  font-size: 40px;
+  line-height: 1.2em;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 0.8em;
 }
 
 .logo-container {
@@ -72,11 +103,11 @@ main {
   padding: 2rem;
   background-color: white;
   border-radius: 4px;
-}
+  position: relative;
 
-h1 {
-  text-align: center;
-  font-size: 2em;
+  @include bp(desktop) {
+    display: flex;
+  }
 }
 
 .join-button {
@@ -90,4 +121,51 @@ h1 {
   background: #555555;
   padding: 20px;
   color: white;
+}
+
+.sidebar {
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  @include bp(desktop) {
+    position: sticky;
+    top: 2rem;
+    left: 0;
+    border: 0;
+    padding: 0 2rem 0 0;
+    margin: 0;
+    width: 35%;
+    align-self: flex-start;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    ul {
+      margin-left: 1rem;
+      padding-left: 1.5rem;
+    }
+  }
+
+  li {
+    font-size: 20px;
+    list-style-type: none;
+
+    li {
+      list-style-type: circle;
+    }
+  }
+
+  a {
+    margin-bottom: 1rem;
+    display: block;
+  }
+}
+
+.content {
+  @include bp(desktop) {
+    width: 65%;
+  }
 }

@@ -1,27 +1,16 @@
 import React from "react"
+import { Element } from "react-scroll"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Link, Element } from "react-scroll"
-
-const InternalLink = ({ to, children }) => (
-  <Link
-    to={to}
-    smooth={true}
-    duration={500}
-    offset={window.innerHeight >= 100 ? -32 : -62}
-    spy
-    hashSpy
-  >
-    {children}
-  </Link>
-)
+import InternalLink from "../components/internal-link"
 
 const Tasks = () => (
   <Layout title="Tasks for 2019" color="blue">
-    <SEO title="Tasks for 2019" slug="/tasks/" />
+    <SEO title="Tasks for 2019" />
+
     <div className="sidebar">
-      <h2>Table of Contents</h2>
+      <h2>Outline</h2>
       <ul>
         <li>
           <InternalLink to="preamble">Preamble</InternalLink>

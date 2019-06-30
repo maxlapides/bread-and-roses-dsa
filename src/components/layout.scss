@@ -164,7 +164,7 @@ h3 {
   }
 }
 
-.content {
+.content:not(.content-full-width) {
   @include bp(desktop) {
     width: 65%;
   }

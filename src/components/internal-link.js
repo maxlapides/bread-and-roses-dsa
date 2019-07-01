@@ -24,7 +24,7 @@ class InternalLink extends React.Component {
 
   setOffset = () => {
     if (windowExists()) {
-      this.setState({ offset: window.innerWidth >= 1000 ? -32 : -62 })
+      this.setState({ offset: window.innerWidth >= 1000 ? -20 : -62 })
     }
   }
 

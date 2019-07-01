@@ -100,7 +100,7 @@ h3 {
 .ant-layout-content {
   margin: 0 auto 3rem;
   max-width: 1200px;
-  padding: 2rem;
+  padding: 25px 2rem;
   background-color: white;
   border-radius: 4px;
   position: relative;
@@ -130,7 +130,7 @@ h3 {
 
   @include bp(desktop) {
     position: sticky;
-    top: 2rem;
+    top: 20px;
     left: 0;
     border: 0;
     padding: 0 2rem 0 0;

@@ -4,13 +4,13 @@
 .hero {
   background: $red;
   margin: 2.5rem auto 0;
-  padding: 2rem;
+  padding: 4rem 3rem;
   width: 100%;
   max-width: 1200px;
 
   @include bp(desktop) {
     margin-top: 1rem;
-    padding: 4rem 2rem;
+    padding: 7rem 5rem;
   }
 
   h1 {
@@ -20,6 +20,7 @@
     -webkit-font-smoothing: antialiased;
     font-size: 60px;
     line-height: 1em;
+    text-align: left;
 
     @include bp(desktop) {
       font-size: 80px;

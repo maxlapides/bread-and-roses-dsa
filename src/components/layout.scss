@@ -51,7 +51,7 @@ h3 {
 }
 
 .logo-container {
-  padding: 35px 20px 0;
+  padding: 35px 3rem 0;
   width: 100%;
   max-width: 1200px;
   text-align: center;
@@ -68,15 +68,12 @@ h3 {
 
 .logo {
   width: 100%;
-  max-width: 500px;
-
-  @include bp(tablet) {
-    // max-width: 1200px;
-  }
+  max-width: 400px;
 }
 
 .ant-layout {
   padding-top: 47px;
+  background: none;
 
   @include bp(desktop) {
     padding-top: 0;
@@ -107,6 +104,10 @@ h3 {
 
   @include bp(desktop) {
     display: flex;
+  }
+
+  @include bp(xlarge) {
+    padding: 25px 0;
   }
 }
 
@@ -161,6 +162,18 @@ h3 {
   a {
     margin-bottom: 1rem;
     display: block;
+
+    @include bp(desktop) {
+      padding: 0.8rem 1rem;
+      margin: 0;
+      position: relative;
+      left: -0.8rem;
+      border-radius: 3px;
+
+      &.active {
+        background: #eee;
+      }
+    }
   }
 }
 

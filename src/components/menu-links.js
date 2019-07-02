@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import ExternalLink from "./external-link"
+
 const MenuLinks = ({ menuLinks }) => (
   <>
     {menuLinks.map(link => (
@@ -8,20 +10,10 @@ const MenuLinks = ({ menuLinks }) => (
         {link.name}
       </Link>
     ))}
-    <a
-      href="https://socialistcall.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      The Call
-    </a>
-    <a
-      href="https://forms.gle/M6vVT4JQTJQcr7Tf8"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <ExternalLink href="https://socialistcall.com/">The Call</ExternalLink>
+    <ExternalLink href="https://forms.gle/M6vVT4JQTJQcr7Tf8">
       Join Bread &amp; Roses
-    </a>
+    </ExternalLink>
   </>
 )
 

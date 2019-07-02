@@ -77,13 +77,11 @@ const VotingGuide = () => (
       </Element>
 
       <Element name="resolution-31" id="resolution-31">
-        <p>
-          <h3>
-            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScKg8Tt2GMsGwzA4BTUJL58KkWicg_IXAABV_G8Tv2tDxat0g/viewform">
-              Resolution #31: Class-Struggle Elections
-            </ExternalLink>
-          </h3>
-        </p>
+        <h3>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScKg8Tt2GMsGwzA4BTUJL58KkWicg_IXAABV_G8Tv2tDxat0g/viewform">
+            Resolution #31: Class-Struggle Elections
+          </ExternalLink>
+        </h3>
 
         <p>
           Since Trump&rsquo;s election,{" "}
@@ -117,13 +115,11 @@ const VotingGuide = () => (
       </Element>
 
       <Element name="resolution-32" id="resolution-32">
-        <p>
-          <h3>
-            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScvTihWiHZcv9rKsI_2EHN9nRRhG3kPOHGSuJjNl9lcB8tICw/viewform">
-              Resolution #32: Labor Strategy and the DSLC
-            </ExternalLink>
-          </h3>
-        </p>
+        <h3>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScvTihWiHZcv9rKsI_2EHN9nRRhG3kPOHGSuJjNl9lcB8tICw/viewform">
+            Resolution #32: Labor Strategy and the DSLC
+          </ExternalLink>
+        </h3>
 
         <p>
           In the past two years we have seen a major upswing in labor militancy
@@ -154,13 +150,11 @@ const VotingGuide = () => (
       </Element>
 
       <Element name="resolution-33" id="resolution-33">
-        <p>
-          <h3>
-            <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSdZjxbBWdYgXIl1PtZqLZrwbSJ2xjs82soCqj9rBdXuDQjx_w/viewform">
-              Resolution #33: Invest in Political Education
-            </ExternalLink>
-          </h3>
-        </p>
+        <h3>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSdZjxbBWdYgXIl1PtZqLZrwbSJ2xjs82soCqj9rBdXuDQjx_w/viewform">
+            Resolution #33: Invest in Political Education
+          </ExternalLink>
+        </h3>
         <p>
           We should all be proud of DSA&rsquo;s enormous growth and its outsized
           impact over the last few years. To build a durable movement, we need

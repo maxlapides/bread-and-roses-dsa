@@ -59,25 +59,18 @@ const Tasks = () => (
       <Element name="preamble" id="preamble">
         <h2>Preamble</h2>
         <p>
-          Today the world is more unequal than ever before.{" "}
-          <a href="https://www.theguardian.com/inequality/2018/jan/22/inequality-gap-widens-as-42-people-hold-same-wealth-as-37bn-poorest">
-            Forty two billionaires
-          </a>{" "}
-          hold the same amount of wealth as the bottom half of the world’s
-          population. In the U.S., the so-called recovery since the 2008 crash
-          has restored profits for financiers and big business many times over,
-          but the{" "}
-          <a href="https://www.washingtonpost.com/amphtml/business/2018/10/01/bottom-percent-are-still-poorer-than-they-were/?noredirect=on">
-            poorest 90% of U.S. residents
-          </a>{" "}
-          are still worse off than they were in 2007. The latest
-          Intergovernmental Panel on Climate Change{" "}
-          <a href="http://www.ipcc.ch/report/sr15/">report</a> warns we might
-          have as little as a decade to keep global warming under 1.5 degrees
-          Celsius — or face generations of ecological and social catastrophe.
-          Globally, the far-right is on the rise, and socialism is the only
-          political force capable of uniting millions to combat this reactionary
-          tide. The stakes for our movement could not be higher.
+          Today the world is more unequal than ever before. Forty two
+          billionaires hold the same amount of wealth as the bottom half of the
+          world’s population. In the U.S., the so-called recovery since the 2008
+          crash has restored profits for financiers and big business many times
+          over, but the poorest 90% of U.S. residents are still worse off than
+          they were in 2007. The latest Intergovernmental Panel on Climate
+          Change report warns we might have as little as a decade to keep global
+          warming under 1.5 degrees Celsius — or face generations of ecological
+          and social catastrophe. Globally, the far-right is on the rise, and
+          socialism is the only political force capable of uniting millions to
+          combat this reactionary tide. The stakes for our movement could not be
+          higher.
         </p>
         <p>
           Meanwhile, in the U.S., politicians govern in the interests of the

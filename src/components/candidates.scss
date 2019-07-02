@@ -1,0 +1,125 @@
+@import "./breakpoints";
+
+.candidate-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}
+
+.candidate-card {
+  border-radius: 8px;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex: 0 1 49%;
+  margin: 1% 0;
+}
+
+.all-candidates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.candidate-cards-wrapper {
+  width: 100%;
+}
+
+.candidate-cards-wrapper--single {
+  width: 49%;
+}
+
+.candidate-cards-wrapper--single .candidate-card {
+  flex: 1 1 auto;
+  margin: 0;
+}
+
+.candidate-card h3 {
+  font-size: 1.3em;
+}
+
+.candidate-card:hover {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+.candidate-card__content {
+  padding-left: 20px;
+}
+
+.candidate-photo {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.08);
+  shape-outside: circle();
+  flex: 1 0 auto;
+}
+
+@media only screen and (max-width: 750px) {
+  .candidate-card {
+    flex: 0 1 auto;
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  .candidate-photo {
+    width: 120px;
+    height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  .candidate-card h3 {
+    font-size: 1.15em;
+  }
+
+  .candidate-cards-wrapper--single {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .candidate-card {
+    display: block;
+    text-align: center;
+  }
+
+  .candidate-photo {
+    margin: 0 auto 20px;
+  }
+
+  .candidate-card__content {
+    padding: 0;
+  }
+}
+
+.ant-modal-body {
+  .candidate-photo {
+    float: left;
+    margin: 0 25px 5px 0;
+  }
+
+  p {
+    font-size: 16px;
+
+    @include bp(desktop) {
+      font-size: 18px;
+    }
+  }
+}
+
+.candidate-photo {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.08);
+  shape-outside: circle();
+  flex: 1 0 auto;
+}

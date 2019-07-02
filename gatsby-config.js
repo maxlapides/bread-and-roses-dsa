@@ -17,8 +17,12 @@ module.exports = {
         link: "/tasks/",
       },
       {
-        name: "DSA Convention 2019",
-        link: "/convention/",
+        name: "NPC Slate",
+        link: "/convention/npc-slate/",
+      },
+      {
+        name: "Voting Guide",
+        link: "/convention/voting-guide/",
       },
     ],
   },

@@ -14,14 +14,8 @@
   transition: box-shadow 0.3s;
   cursor: pointer;
   display: flex;
-  flex: 0 1 49%;
+  flex: 0 1 100%;
   margin: 1% 0;
-}
-
-.all-candidates {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .candidate-cards-wrapper {

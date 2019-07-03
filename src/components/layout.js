@@ -8,13 +8,14 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql, Link } from "gatsby"
-import { Layout as AntLayout } from "antd"
+import { Layout as AntLayout, Icon } from "antd"
 import Helmet from "react-helmet"
 
 import Logo from "../images/logo.svg"
 import Header from "./header"
 import Hero from "./hero"
 import TopNav from "./top-nav"
+import ExternalLink from "./external-link"
 import "antd/dist/antd.less"
 import "./layout.scss"
 
@@ -46,6 +47,16 @@ const Layout = ({ title, color, children }) => (
           siteTitle={data.site.siteMetadata.title}
         />
         <AntLayout>
+          <div className="social-wrapper">
+            <div className="social">
+              <ExternalLink href="https://www.facebook.com/breadandrosesdsa/">
+                <Icon type="facebook" theme="filled" />
+              </ExternalLink>
+              <ExternalLink href="https://twitter.com/socialistcall">
+                <Icon type="twitter" />
+              </ExternalLink>
+            </div>
+          </div>
           <div className="logo-container">
             <Link to="/">
               <Logo className="logo" />

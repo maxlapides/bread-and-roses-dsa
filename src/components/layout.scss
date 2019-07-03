@@ -76,6 +76,49 @@ a:hover {
   }
 }
 
+.social-wrapper {
+  position: absolute;
+  top: 2rem;
+  width: 100%;
+
+  .social {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+
+    @include bp(xlarge) {
+      padding-right: 0;
+    }
+  }
+
+  a {
+    display: block;
+    color: $blue;
+
+    &:hover {
+      color: rgba($blue, 0.8);
+    }
+  }
+
+  .anticon {
+    margin-left: 8px;
+  }
+
+  .anticon-facebook svg {
+    width: 27px;
+    height: 27px;
+    margin-top: 1px;
+  }
+
+  .anticon-twitter svg {
+    height: 30px;
+    width: 30px;
+  }
+}
+
 .logo {
   width: 100%;
   max-width: 400px;
@@ -189,6 +232,8 @@ a:hover {
 }
 
 .content {
+  margin: 0 auto;
+
   ol li {
     margin-bottom: 1em;
   }
@@ -197,5 +242,17 @@ a:hover {
 .content:not(.content-full-width) {
   @include bp(desktop) {
     width: 65%;
+  }
+}
+
+@include bp(desktop) {
+  .content-column {
+    flex: 1;
+  }
+
+  .content-column-candidates {
+    width: 30%;
+    max-width: 450px;
+    padding-right: 40px;
   }
 }

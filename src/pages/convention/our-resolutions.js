@@ -5,37 +5,13 @@ import { Link } from "gatsby"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import ExternalLink from "../../components/external-link"
-import InternalLink from "../../components/internal-link"
 
 const VotingGuide = () => (
-  <Layout title="Voting Guide" color="yellow">
-    <SEO title="Voting Guide" />
-
-    <div className="sidebar">
-      <h2>Outline</h2>
-      <ul>
-        <li>
-          <InternalLink to="our-resolutions">Our Resolutions</InternalLink>
-
-          <ul>
-            <li>
-              <InternalLink to="resolution-31">Resolution #31</InternalLink>
-            </li>
-            <li>
-              <InternalLink to="resolution-32">Resolution #32</InternalLink>
-            </li>
-            <li>
-              <InternalLink to="resolution-33">Resolution #33</InternalLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+  <Layout title="Our Resolutions" color="yellow">
+    <SEO title="Our Resolutions" />
 
     <div className="content">
       <Element name="our-resolutions" id="our-resolutions">
-        <h2>Our Resolutions</h2>
-
         <p>
           We in DSA&rsquo;s <Link to="/">Bread &amp; Roses</Link> caucus are
           excited to share three resolutions we drafted collectively for the
@@ -77,11 +53,11 @@ const VotingGuide = () => (
       </Element>
 
       <Element name="resolution-31" id="resolution-31">
-        <h3>
+        <h2>
           <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScKg8Tt2GMsGwzA4BTUJL58KkWicg_IXAABV_G8Tv2tDxat0g/viewform">
             Resolution #31: Class-Struggle Elections
           </ExternalLink>
-        </h3>
+        </h2>
 
         <p>
           Since Trump&rsquo;s election,{" "}
@@ -115,11 +91,11 @@ const VotingGuide = () => (
       </Element>
 
       <Element name="resolution-32" id="resolution-32">
-        <h3>
+        <h2>
           <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScvTihWiHZcv9rKsI_2EHN9nRRhG3kPOHGSuJjNl9lcB8tICw/viewform">
             Resolution #32: Labor Strategy and the DSLC
           </ExternalLink>
-        </h3>
+        </h2>
 
         <p>
           In the past two years we have seen a major upswing in labor militancy
@@ -150,11 +126,11 @@ const VotingGuide = () => (
       </Element>
 
       <Element name="resolution-33" id="resolution-33">
-        <h3>
+        <h2>
           <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSdZjxbBWdYgXIl1PtZqLZrwbSJ2xjs82soCqj9rBdXuDQjx_w/viewform">
             Resolution #33: Invest in Political Education
           </ExternalLink>
-        </h3>
+        </h2>
         <p>
           We should all be proud of DSA&rsquo;s enormous growth and its outsized
           impact over the last few years. To build a durable movement, we need

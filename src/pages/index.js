@@ -8,7 +8,7 @@ import ExternalLink from "../components/external-link"
 const IndexPage = () => (
   <Layout title="Democratic Socialism for the many" color="red">
     <SEO title="Home" />
-    <div className="content content-full-width">
+    <div className="content">
       <p>
         Bread &amp; Roses is a national caucus of Marxist organizers in the
         Democratic Socialists of America committed to helping build an effective

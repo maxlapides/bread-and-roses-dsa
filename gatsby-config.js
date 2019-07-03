@@ -21,8 +21,8 @@ module.exports = {
         link: "/convention/npc-slate/",
       },
       {
-        name: "Voting Guide",
-        link: "/convention/voting-guide/",
+        name: "Our Resolutions",
+        link: "/convention/our-resolutions/",
       },
     ],
   },
@@ -58,6 +58,7 @@ module.exports = {
         javascriptEnabled: true,
         modifyVars: {
           "primary-color": "#ef3f35",
+          "text-color": "#333333",
         },
       },
     },

@@ -48,7 +48,9 @@ class MenuLinks extends React.Component {
           onMouseEnter={() => this.setSubmenuHover(true)}
           onMouseLeave={() => this.setSubmenuHover(false)}
         >
-          <div onClick={this.toggleSubmenuVisible}>DSA Convention 2019</div>
+          <div className="submenu-label" onClick={this.toggleSubmenuVisible}>
+            DSA Convention 2019
+          </div>
           <ul
             className={classNames({
               visible: this.state.submenuHover || this.state.submenuVisible,
@@ -58,13 +60,13 @@ class MenuLinks extends React.Component {
               <Link to="/convention/npc-slate/">NPC Slate</Link>
             </li>
             <li className="indented">
-              <Link to="/convention/voting-guide/">Voting Guide</Link>
+              <Link to="/convention/our-resolutions/">Our Resolutions</Link>
             </li>
           </ul>
         </li>
         <li>
           <ExternalLink href="https://socialistcall.com/">
-            The Call
+            Read <em>The Call</em>
           </ExternalLink>
         </li>
         <li>

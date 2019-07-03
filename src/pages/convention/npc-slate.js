@@ -8,7 +8,6 @@ import ReactMarkdown from "react-markdown"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import ExternalLink from "../../components/external-link"
-import InternalLink from "../../components/internal-link"
 
 const candidates = [
   {
@@ -66,19 +65,33 @@ class NPCSlate extends React.Component {
     return (
       <Layout title="NPC Slate" color="yellow">
         <SEO title="NPC Slate" />
-        <div className="sidebar">
-          <h2>Outline</h2>
-          <ul>
-            <li>
-              <InternalLink to="priorities">Priorities</InternalLink>
-            </li>
-            <li>
-              <InternalLink to="candidates">Meet the Candidates</InternalLink>
-            </li>
-          </ul>
+
+        <div className="content-column content-column-candidates">
+          <Element name="candidates" id="candidates">
+            <h2>Meet the Candidates</h2>
+          </Element>
+
+          <div className="candidate-cards">
+            {candidates.map(candidate => (
+              <div
+                className="candidate-card"
+                onClick={() => this.showModal(candidate)}
+                key={candidate.name}
+              >
+                <CandidatePhoto
+                  img={this.image(candidate)}
+                  alt={candidate.name}
+                />
+                <div className="candidate-card__content">
+                  <h3>{candidate.name}</h3>
+                  <Button>Read more&hellip;</Button>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
-        <div className="content">
+        <div className="content-column">
           <Element name="priorities" id="priorities">
             <h2>Priorities</h2>
 
@@ -206,31 +219,6 @@ class NPCSlate extends React.Component {
               </li>
             </ol>
           </Element>
-
-          <Element name="candidates" id="candidates">
-            <h2>Meet the Candidates</h2>
-          </Element>
-
-          <div className="all-candidates">
-            <div className="candidate-cards">
-              {candidates.map(candidate => (
-                <div
-                  className="candidate-card"
-                  onClick={() => this.showModal(candidate)}
-                  key={candidate.name}
-                >
-                  <CandidatePhoto
-                    img={this.image(candidate)}
-                    alt={candidate.name}
-                  />
-                  <div className="candidate-card__content">
-                    <h3>{candidate.name}</h3>
-                    <Button>Read more&hellip;</Button>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
 
         <Modal

@@ -52,7 +52,7 @@ const Layout = ({ title, color, children }) => (
               <ExternalLink href="https://www.facebook.com/breadandrosesdsa/">
                 <Icon type="facebook" theme="filled" />
               </ExternalLink>
-              <ExternalLink href="https://twitter.com/socialistcall">
+              <ExternalLink href="https://twitter.com/BreadRosesDSA">
                 <Icon type="twitter" />
               </ExternalLink>
             </div>

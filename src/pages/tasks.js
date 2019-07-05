@@ -16,41 +16,32 @@ const Tasks = () => (
           <InternalLink to="preamble">Preamble</InternalLink>
         </li>
         <li>
-          <InternalLink to="political-priorities">
-            Political Priorities
+          <InternalLink to="bernie-sanders">
+            Bernie Sanders and Class-Struggle Elections
           </InternalLink>
-          <ul>
-            <li>
-              <InternalLink to="bernie-sanders">
-                Bernie Sanders and Class-Struggle Elections
-              </InternalLink>
-            </li>
-            <li>
-              <InternalLink to="medicare-for-all">
-                Recommit to the Medicare for All Campaign
-              </InternalLink>
-            </li>
-            <li>
-              <InternalLink to="unions-strikes">
-                Work in the Unions, Support Strikes
-              </InternalLink>
-            </li>
-            <li>
-              <InternalLink to="fight-oppression">
-                Fight Oppression
-              </InternalLink>
-            </li>
-            <li>
-              <InternalLink to="green-new-deal">
-                Launch a Green New Deal Campaign
-              </InternalLink>
-            </li>
-            <li>
-              <InternalLink to="political-education">
-                Develop Consistent Political Education
-              </InternalLink>
-            </li>
-          </ul>
+        </li>
+        <li>
+          <InternalLink to="medicare-for-all">
+            Recommit to the Medicare for All Campaign
+          </InternalLink>
+        </li>
+        <li>
+          <InternalLink to="unions-strikes">
+            Work in the Unions, Support Strikes
+          </InternalLink>
+        </li>
+        <li>
+          <InternalLink to="fight-oppression">Fight Oppression</InternalLink>
+        </li>
+        <li>
+          <InternalLink to="green-new-deal">
+            Launch a Green New Deal Campaign
+          </InternalLink>
+        </li>
+        <li>
+          <InternalLink to="political-education">
+            Develop Consistent Political Education
+          </InternalLink>
         </li>
       </ul>
     </div>
@@ -191,11 +182,8 @@ const Tasks = () => (
         </p>
       </Element>
 
-      <Element name="political-priorities" id="political-priorities">
-        <h2>Political Priorities</h2>
-      </Element>
       <Element name="bernie-sanders" id="bernie-sanders">
-        <h3>Bernie Sanders and Class-Struggle Elections</h3>
+        <h2>Bernie Sanders and Class-Struggle Elections</h2>
         <p>
           We don’t believe we can elect socialists to office who can simply
           legislate in socialism — or even social democracy — from above. The
@@ -392,7 +380,7 @@ const Tasks = () => (
       </Element>
 
       <Element name="medicare-for-all" id="medicare-for-all">
-        <h3>Recommit to the Medicare for All Campaign</h3>
+        <h2>Recommit to the Medicare for All Campaign</h2>
         <p>
           Perhaps no other demand since the postwar era has provoked as powerful
           an opposition as the demand for Medicare for All. The ruling class
@@ -490,7 +478,7 @@ const Tasks = () => (
       </Element>
 
       <Element name="unions-strikes" id="unions-strikes">
-        <h3>Work in the Unions, Support Strikes</h3>
+        <h2>Work in the Unions, Support Strikes</h2>
         <p>
           DSA today is still largely confined to a relatively small section of
           downwardly mobile, well-educated, white and young workers and
@@ -632,7 +620,7 @@ const Tasks = () => (
       </Element>
 
       <Element name="fight-oppression" id="fight-oppression">
-        <h3>Fight Oppression</h3>
+        <h2>Fight Oppression</h2>
         <p>
           The programs described above are one step toward fighting oppression
           and prejudice, which are used to pit workers against each other in the
@@ -708,7 +696,7 @@ const Tasks = () => (
       </Element>
 
       <Element name="green-new-deal" id="green-new-deal">
-        <h3>Launch a Green New Deal Campaign</h3>
+        <h2>Launch a Green New Deal Campaign</h2>
         <p>
           As the recent report from the Intergovernmental Panel on Climate
           Change has found, we face an immense and urgent set of tasks to
@@ -813,7 +801,7 @@ const Tasks = () => (
       </Element>
 
       <Element name="political-education" id="political-education">
-        <h3>Develop Consistent Political Education</h3>
+        <h2>Develop Consistent Political Education</h2>
         <p>
           One of the key jobs of a socialist organization is political
           education. Historically, the socialist movement has offered a coherent

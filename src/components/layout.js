@@ -41,6 +41,7 @@ const Layout = ({ title, color, children }) => (
             href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap"
             rel="stylesheet"
           />
+          <link rel="stylesheet" type="text/css" href="/kelpt.css" />
         </Helmet>
         <Header
           menuLinks={data.site.siteMetadata.menuLinks}

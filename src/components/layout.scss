@@ -2,26 +2,6 @@
 @import "./colors";
 @import "./candidates.scss";
 
-@font-face {
-  font-family: "kelpt_a1_black";
-  src: url("../fonts/kelpt-a1-black/typesketchbook_-_kelpta1-black-webfont.woff2")
-      format("woff2"),
-    url("../fonts/kelpt-a1-black/typesketchbook_-_kelpta1-black-webfont.woff")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "kelpt_a1_medium";
-  src: url("../fonts/kelpt-a1-medium/typesketchbook_-_kelpta1-medium-webfont.woff2")
-      format("woff2"),
-    url("../fonts/kelpt-a1-medium/typesketchbook_-_kelpta1-medium-webfont.woff")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   font-family: "Lora", serif;
   font-size: 16px;
@@ -42,7 +22,9 @@ h1 {
 }
 
 h2 {
-  font-family: "kelpt_a1_medium", Serif;
+  font-family: "KelptA1-Medium", sans-serif;
+  font-weight: normal;
+  font-style: normal;
   font-size: 40px;
   line-height: 1.2em;
 }

@@ -186,9 +186,9 @@ const VotingGuide = () => (
           massive fight against the fossil fuel industry and members of the
           capitalist class who profit from our current carbon-powered economy.
           We strongly support therefore the Green New Deal priority campaign
-          being proposed by DSA's Ecosocialist Working Group and coauthored by
-          members across DSA's tendencies. This campaign proposes a vigorous
-          fight on the scale of DSA's other major priority campaigns to
+          being proposed by DSA&rsquo;s Ecosocialist Working Group and coauthored by
+          members across DSA&rsquo;s tendencies. This campaign proposes a vigorous
+          fight on the scale of DSA&rsquo;s other major priority campaigns to
           popularize and win a robust, anti-capitalist version of the Green New
           Deal.
         </p>
@@ -202,32 +202,30 @@ const VotingGuide = () => (
 
       <Element name="amendment-55" id="amendment-55">
         <h2>
-          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSe9-3RnoAY-ZO9XxKblF-s47x_xKtnawqnzyj4T28uSLm0YAw/viewform">
-            Amendment to Resolution #55: Resolution on Grassroots Fundraising
-            and Small Chapter Growth
+          <ExternalLink href="https://drive.google.com/file/d/17EFMrsKu5dGfJD59PILL2rVGpIxkRuGa/view">
+            Amendment to Resolution #55: Grassroots Fundraising and Small
+            Chapter Growth
           </ExternalLink>
         </h2>
         <p>
-          We should all be proud of DSA&rsquo;s enormous growth and its outsized
-          impact over the last few years. To build a durable movement, we need
-          to improve our collective ability to analyze the strengths and
-          weaknesses of our movement and capitalist class rule. We also need to
-          better understand the history of and debates within the socialist
-          movement.&nbsp;
+          Resolution #55 is a strong proposal to support DSA&rsquo;s small and new
+          chapters, by increasing national DSA&rsquo;s support in the form of dues
+          sharing to these small chapters.
         </p>
 
         <p>
-          That is why we are proposing a resolution to consolidate and develop
-          political education materials and to make them more easily accessible
-          to chapters. By taking what materials they find useful, and modifying
-          them as they wish, chapters can avoid spending time reinventing the
-          wheel. This will both make political education more accessible to more
-          members, and free up time at the chapter level for other organizing
-          tasks.{" "}
+          We and members of the Socialist Majority Caucus who coauthored this
+          amendment with us believe that Resolution #55 can be further
+          strengthened by making allowances for chapters that do not have bank
+          accounts. Our amendment would instruct the national organization to
+          give chapters that do not have bank accounts their dues share through
+          other means, potentially including prepaid debit cards, credit towards
+          purchasing DSA supplies, and/or fiscal cosponsorships by other DSA
+          chapters.
         </p>
 
         <p>
-          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSe9-3RnoAY-ZO9XxKblF-s47x_xKtnawqnzyj4T28uSLm0YAw/viewform">
+          <ExternalLink href="https://drive.google.com/file/d/17EFMrsKu5dGfJD59PILL2rVGpIxkRuGa/view">
             Read more and sign on as a sponsor here!
           </ExternalLink>
         </p>

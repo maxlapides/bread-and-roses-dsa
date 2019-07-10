@@ -22,7 +22,7 @@ module.exports = {
       },
       {
         name: "Our Proposals",
-        link: "/convention/our-Proposals/",
+        link: "/convention/our-proposals/",
       },
     ],
   },

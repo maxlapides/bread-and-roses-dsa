@@ -530,9 +530,9 @@ const Tasks = () => (
           strike to not only extract concessions from capital and the state but
           also to teach workers where their true source of power lies. Not only
           are teachers located in a strategic sector capable of having an
-          outsized influence on politics and society, their specific goals
-          — from West Virginia to Los Angeles &mdash; are class-wide demands.
-          Teachers across the country are demanding more than wage increases for
+          outsized influence on politics and society, their specific goals —
+          from West Virginia to Los Angeles — are class-wide demands. Teachers
+          across the country are demanding more than wage increases for
           themselves, they are pushing to raise the social wage for the whole
           class. That is, teachers have insisted upon better funding for public
           schools, wage hikes for all public employees, smaller class sizes, and

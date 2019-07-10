@@ -28,7 +28,7 @@ const IndexPage = () => (
         socialism a mainstream part of U.S. political life. And doing so is
         needed now more than ever if we want to defeat Trumpism, rebuild a{" "}
         <ExternalLink href="https://www.jacobinmag.com/2019/03/rank-and-file-strategy-union-organizing">
-          militant
+          militant left-wing and democratic
         </ExternalLink>{" "}
         labor movement, win{" "}
         <ExternalLink href="http://socialistcall.com/2018/10/26/why-we-fight-for-medicare-for-all/">
@@ -75,7 +75,7 @@ const IndexPage = () => (
         in the multiracial working class.
       </p>
       <p>
-        Bread and Roses&rsquo;s politics and perspectives are outlined in our{" "}
+        Bread &amp; Roses&rsquo;s politics and perspectives are outlined in our{" "}
         <Link to="/where-we-stand/">Where We Stand</Link> and{" "}
         <Link to="/tasks/">Tasks for 2019</Link> documents. We strongly
         encourage active DSA members who agree with our point of view and

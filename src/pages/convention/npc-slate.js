@@ -96,19 +96,21 @@ class NPCSlate extends React.Component {
             <h2>Priorities</h2>
 
             <p>
-              DSA&rsquo;s National Political Committee is the highest leadership
-              body in the organization. Made up of 16 members plus
-              representatives from the Young Democratic Socialists of America,
-              it makes important policy and organizational decisions for DSA in
-              between biennial national conventions.
+              DSA&rsquo;s{" "}
+              <ExternalLink href="https://www.dsausa.org/about-us/structure/">
+                National Political Committee
+              </ExternalLink>{" "}
+              is the highest leadership body in the organization. Made up of 16
+              members plus representatives from the Young Democratic Socialists
+              of America, it makes important policy and organizational decisions
+              for DSA in between biennial national conventions.
             </p>
 
             <p>
               For the 2019 DSA National Convention, Bread &amp; Roses is proud
               to be running a five person slate for NPC including Marianela
               D&rsquo;Aprile, Marsha Niemeijer, Megan Svoboda, Natalie Midiri,
-              and Rachel Zibrat. We also plan to make voting recommendations for
-              additional candidates.
+              and Rachel Zibrat.
             </p>
 
             <p>

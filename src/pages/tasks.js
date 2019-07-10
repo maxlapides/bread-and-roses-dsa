@@ -628,7 +628,7 @@ const Tasks = ({ data }) => (
 
       <Element name="fight-oppression" id="fight-oppression">
         <h2>Fight Oppression</h2>
-
+        <Img fluid={data.oppression.childImageSharp.fluid} />
         <p>
           The programs described above are one step toward fighting oppression
           and prejudice, which are used to pit workers against each other in the
@@ -844,8 +844,8 @@ const Tasks = ({ data }) => (
   </Layout>
 )
 
-export const fluidImage = graphql`
-  fragment fluidImage on File {
+export const TasksPhoto = graphql`
+  fragment tasksPhoto on File {
     childImageSharp {
       fluid(maxWidth: 780) {
         ...GatsbyImageSharpFluid
@@ -854,22 +854,25 @@ export const fluidImage = graphql`
   }
 `
 
-export const pageQuery = graphql`
+export const tasksQuery = graphql`
   query {
     bernie: file(relativePath: { eq: "tasks/bernie.png" }) {
-      ...fluidImage
+      ...tasksPhoto
     }
     m4a: file(relativePath: { eq: "tasks/m4a.png" }) {
-      ...fluidImage
+      ...tasksPhoto
+    }
+    oppression: file(relativePath: { eq: "tasks/against-oppression.png" }) {
+      ...tasksPhoto
     }
     gnd: file(relativePath: { eq: "tasks/gnd.png" }) {
-      ...fluidImage
+      ...tasksPhoto
     }
     poled: file(relativePath: { eq: "tasks/poled.png" }) {
-      ...fluidImage
+      ...tasksPhoto
     }
     redfored: file(relativePath: { eq: "tasks/redfored.png" }) {
-      ...fluidImage
+      ...tasksPhoto
     }
   }
 `

@@ -52,7 +52,7 @@ const WhereWeStand = ({ data }) => (
       </ul>
     </div>
 
-    <div className="content">
+    <div className="content" id="wws">
       <Element name="for-socialism" id="for-socialism">
         <h2>For Socialism</h2>
         <p>
@@ -74,8 +74,14 @@ const WhereWeStand = ({ data }) => (
         id="centrality-of-class-struggle"
       >
         <h2>The Centrality of Class Struggle</h2>
-        <Img fluid={data.class.childImageSharp.fluid} />
         <p>
+          <Img
+            fixed={data.class.childImageSharp.fixed}
+            style={{
+              display: "inline-block",
+              float: "right",
+            }}
+          />
           Capitalism is a system{" "}
           <a href="https://www.jacobinmag.com/2014/12/capitalisms-gravediggers/">
             built on exploitation
@@ -184,8 +190,14 @@ const WhereWeStand = ({ data }) => (
 
       <Element name="democratic-road" id="democratic-road">
         <h2>Democratic Road to Socialism</h2>
-        <Img fluid={data.demroad.childImageSharp.fluid} />
         <p>
+          <Img
+            fixed={data.demroad.childImageSharp.fixed}
+            style={{
+              display: "inline-block",
+              float: "right",
+            }}
+          />
           Socialist organizing should be oriented toward the working-class
           majority who are not yet politically active. We need to bring people
           into open conflict with capitalists and their politicians around
@@ -349,8 +361,14 @@ const WhereWeStand = ({ data }) => (
 
       <Element name="internationalism" id="internationalism">
         <h2>Internationalism</h2>
-        <Img fluid={data.internationalism.childImageSharp.fluid} />
         <p>
+          <Img
+            fixed={data.internationalism.childImageSharp.fixed}
+            style={{
+              display: "inline-block",
+              float: "right",
+            }}
+          />
           Winning socialism will require a protracted struggle against the
           ruling class in the United States. But the struggle for socialism is{" "}
           <a href="https://www.jacobinmag.com/2017/07/second-international-bernstein-rosa-luxemburg-unions-world-war">
@@ -416,28 +434,28 @@ const WhereWeStand = ({ data }) => (
   </Layout>
 )
 
-export const fluidImage = graphql`
-  fragment fluidImage on File {
+export const WwsPhoto = graphql`
+  fragment wwsPhoto on File {
     childImageSharp {
-      fluid(maxWidth: 780) {
-        ...GatsbyImageSharpFluid
+      fixed(width: 390) {
+        ...GatsbyImageSharpFixed
       }
     }
   }
 `
 
-export const pageQuery = graphql`
+export const wwsQuery = graphql`
   query {
     class: file(relativePath: { eq: "where-we-stand/WWS-class-struggle.png" }) {
-      ...fluidImage
+      ...wwsPhoto
     }
     demroad: file(relativePath: { eq: "where-we-stand/WWS-dem-road.png" }) {
-      ...fluidImage
+      ...wwsPhoto
     }
     internationalism: file(
       relativePath: { eq: "where-we-stand/WWS-internationalism.png" }
     ) {
-      ...fluidImage
+      ...wwsPhoto
     }
   }
 `

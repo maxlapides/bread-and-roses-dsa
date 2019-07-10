@@ -94,7 +94,6 @@ class NPCSlate extends React.Component {
         <div className="content-column">
           <Element name="priorities" id="priorities">
             <h2>Priorities</h2>
-
             <p>
               DSA&rsquo;s{" "}
               <ExternalLink href="https://www.dsausa.org/about-us/structure/">
@@ -105,121 +104,112 @@ class NPCSlate extends React.Component {
               of America, it makes important policy and organizational decisions
               for DSA in between biennial national conventions.
             </p>
-
             <p>
               For the 2019 DSA National Convention, Bread &amp; Roses is proud
               to be running a five person slate for NPC including Marianela
               D&rsquo;Aprile, Marsha Niemeijer, Megan Svoboda, Natalie Midiri,
               and Rachel Zibrat.
             </p>
-
             <p>
               If elected to the NPC, Marianela, Marsha, Megan, Natalie, and
               Rachel will work to prioritize five areas of work.
             </p>
-
-            <ol>
-              <li>
-                <strong>Organize with the Rank-and-File:</strong> The greatest
-                power we have as working people to end exploitation and
-                oppression is the power we have in our workplaces to stop the
-                flow of profits to the capitalist class. That power can only be
-                unlocked, though, when we successfully organize with our
-                coworkers. DSA has a responsibility to help build a new
-                militant, democratic, and left-wing labor movement that can
-                truly unlock that power. The{" "}
-                <ExternalLink href="https://www.jacobinmag.com/2019/03/rank-and-file-strategy-union-organizing">
-                  rank-and-file strategy
-                </ExternalLink>{" "}
-                is at the core of our vision for doing that. We need democratic
-                socialists across the country to{" "}
-                <ExternalLink href="https://socialistcall.com/2019/05/24/rank-and-file-strategy-union-socialism/">
-                  get union jobs
-                </ExternalLink>{" "}
-                and organize with their coworkers to transform their unions. And
-                we need to improve our capacity as an organization to do{" "}
-                <ExternalLink href="https://socialistcall.com/2019/05/14/lessons-from-the-east-bay/">
-                  strike solidarity work
-                </ExternalLink>{" "}
-                in our communities, assisting workers in struggle whenever they
-                need it.
-              </li>
-
-              <li>
-                <strong> Build Bernie 2020 and Beyond:</strong> In 2020, we have
-                a chance through the Bernie Sanders campaign to{" "}
-                <ExternalLink href="https://socialistcall.com/2018/08/16/bernie-2020/">
-                  popularize a platform
-                </ExternalLink>{" "}
-                of demands that could materially change the lives of Americans
-                toward power and freedom. DSA must seize this opportunity by
-                doing our best to help win the Democratic presidential primary
-                for Bernie Sanders, who is our best hope of beating Donald Trump
-                in November 2020. We must also use the campaign to organize
-                alongside millions of new activists,{" "}
-                <ExternalLink href="https://socialistcall.com/2018/12/06/bernie-and-class-politics/">
-                  build class consciousness
-                </ExternalLink>{" "}
-                on an unprecedented scale, and expand DSA. By the end of the
-                campaign, we must be prepared as an organization to channel this
-                momentum into down-ballot electoral campaigns, workplace
-                actions, and mass protests that push class struggle politics
-                even further.
-              </li>
-              <li>
-                <strong>Fight Oppression:</strong> A socialist world{" "}
-                <ExternalLink href="https://socialistcall.com/2018/09/07/class-politics-and-the-fight-against-oppression/">
-                  cannot coexist
-                </ExternalLink>{" "}
-                with racial, national, gender, and other forms of oppression. We
-                believe that DSA must foreground demands that can help destroy
-                these forms of oppression in{" "}
-                <ExternalLink href="https://socialistcall.com/2019/06/04/tiffany-caban-dsa-queens/">
-                  all our campaign work
-                </ExternalLink>
-                . And as an organization we must be prepared in the next two
-                years to mobilize on a national scale in coalitions to defend
-                the right to abortion, to defeat police and gender violence, to
-                end mass incarceration and the brutal immigration regime, and to
-                stop US military interventions in Venezuela, Iran, and around
-                the world.
-              </li>
-              <li>
-                <strong>Expand Mass Action Campaigns:</strong> We support
-                propaganda and legislative{" "}
-                <ExternalLink href="https://socialistcall.com/2018/08/16/liberalism-ultraleftism-or-mass-action/">
-                  campaigns for big demands
-                </ExternalLink>{" "}
-                that are popular with millions of working people and draw sharp
-                lines between the interests of millionaires and billionaires and
-                everyone else. In 2019, we support renewing DSA&rsquo;s{" "}
-                <ExternalLink href="https://socialistcall.com/2018/10/26/why-we-fight-for-medicare-for-all/">
-                  Medicare for All
-                </ExternalLink>{" "}
-                campaign and launching a new fight for an anti-capitalist{" "}
-                <ExternalLink href="https://socialistcall.com/2019/04/26/fight-for-the-green-new-deal/">
-                  Green New Deal
-                </ExternalLink>
-                .
-              </li>
-              <li>
-                <strong>
-                  Strengthen DSA&rsquo;s Political Education Projects:
-                </strong>{" "}
-                Every socialist knows at least ten people who are curious about
-                class-struggle politics and how capitalism works.{" "}
-                <ExternalLink href="https://drive.google.com/file/d/1y4qZUIxx-4XBqXAWRDRQI5glJY8WPmyW/view">
-                  Political education
-                </ExternalLink>{" "}
-                is our best means to train ourselves to convince those people of
-                the importance of building a movement that fights capitalism,
-                white supremacy, imperialism, patriarchy, and climate
-                catastrophe. DSA must beef up its political education program in
-                the next two years, including applying more resources to
-                political education courses and kicking our communications and
-                media game to a new level.
-              </li>
-            </ol>
+            <h3>1. Organize with the Rank-and-File:</h3>
+            <p>
+              The greatest power we have as working people to end exploitation
+              and oppression is the power we have in our workplaces to stop the
+              flow of profits to the capitalist class. That power can only be
+              unlocked, though, when we successfully organize with our
+              coworkers. DSA has a responsibility to help build a new militant,
+              democratic, and left-wing labor movement that can truly unlock
+              that power. The{" "}
+              <ExternalLink href="https://www.jacobinmag.com/2019/03/rank-and-file-strategy-union-organizing">
+                rank-and-file strategy
+              </ExternalLink>{" "}
+              is at the core of our vision for doing that. We need democratic
+              socialists across the country to{" "}
+              <ExternalLink href="https://socialistcall.com/2019/05/24/rank-and-file-strategy-union-socialism/">
+                get union jobs
+              </ExternalLink>{" "}
+              and organize with their coworkers to transform their unions. And
+              we need to improve our capacity as an organization to do{" "}
+              <ExternalLink href="https://socialistcall.com/2019/05/14/lessons-from-the-east-bay/">
+                strike solidarity work
+              </ExternalLink>{" "}
+              in our communities, assisting workers in struggle whenever they
+              need it.
+            </p>
+            <h3>2. Build Bernie 2020 and Beyond:</h3>
+            <p>
+              In 2020, we have a chance through the Bernie Sanders campaign to{" "}
+              <ExternalLink href="https://socialistcall.com/2018/08/16/bernie-2020/">
+                popularize a platform
+              </ExternalLink>{" "}
+              of demands that could materially change the lives of Americans
+              toward power and freedom. DSA must seize this opportunity by doing
+              our best to help win the Democratic presidential primary for
+              Bernie Sanders, who is our best hope of beating Donald Trump in
+              November 2020. We must also use the campaign to organize alongside
+              millions of new activists,{" "}
+              <ExternalLink href="https://socialistcall.com/2018/12/06/bernie-and-class-politics/">
+                build class consciousness
+              </ExternalLink>{" "}
+              on an unprecedented scale, and expand DSA. By the end of the
+              campaign, we must be prepared as an organization to channel this
+              momentum into down-ballot electoral campaigns, workplace actions,
+              and mass protests that push class struggle politics even further.
+            </p>
+            <h3>3. Fight Oppression:</h3>
+            <p>
+              A socialist world{" "}
+              <ExternalLink href="https://socialistcall.com/2018/09/07/class-politics-and-the-fight-against-oppression/">
+                cannot coexist
+              </ExternalLink>{" "}
+              with racial, national, gender, and other forms of oppression. We
+              believe that DSA must foreground demands that can help destroy
+              these forms of oppression in{" "}
+              <ExternalLink href="https://socialistcall.com/2019/06/04/tiffany-caban-dsa-queens/">
+                all our campaign work
+              </ExternalLink>
+              . And as an organization we must be prepared in the next two years
+              to mobilize on a national scale in coalitions to defend the right
+              to abortion, to defeat police and gender violence, to end mass
+              incarceration and the brutal immigration regime, and to stop US
+              military interventions in Venezuela, Iran, and around the world.
+            </p>
+            <h3>4. Expand Mass Action Campaigns:</h3>
+            <p>
+              We support propaganda and legislative{" "}
+              <ExternalLink href="https://socialistcall.com/2018/08/16/liberalism-ultraleftism-or-mass-action/">
+                campaigns for big demands
+              </ExternalLink>{" "}
+              that are popular with millions of working people and draw sharp
+              lines between the interests of millionaires and billionaires and
+              everyone else. In 2019, we support renewing DSA&rsquo;s{" "}
+              <ExternalLink href="https://socialistcall.com/2018/10/26/why-we-fight-for-medicare-for-all/">
+                Medicare for All
+              </ExternalLink>{" "}
+              campaign and launching a new fight for an anti-capitalist{" "}
+              <ExternalLink href="https://socialistcall.com/2019/04/26/fight-for-the-green-new-deal/">
+                Green New Deal
+              </ExternalLink>
+              .
+            </p>
+            <h3>5. Strengthen DSA&rsquo;s Political Education Projects:</h3>
+            <p>
+              Every socialist knows at least ten people who are curious about
+              class-struggle politics and how capitalism works.{" "}
+              <ExternalLink href="https://drive.google.com/file/d/1y4qZUIxx-4XBqXAWRDRQI5glJY8WPmyW/view">
+                Political education
+              </ExternalLink>{" "}
+              is our best means to train ourselves to convince those people of
+              the importance of building a movement that fights capitalism,
+              white supremacy, imperialism, patriarchy, and climate catastrophe.
+              DSA must beef up its political education program in the next two
+              years, including applying more resources to political education
+              courses and kicking our communications and media game to a new
+              level.
+            </p>
           </Element>
         </div>
 

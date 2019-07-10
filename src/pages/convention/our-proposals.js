@@ -42,8 +42,8 @@ const VotingGuide = () => (
         </p>
 
         <p>
-          We&rsquo;re also proud to share an amendment to strengthen DSA&rsquo;s dues
-          sharing program that supports small and new chapter.
+          We&rsquo;re also proud to share an amendment to strengthen DSA&rsquo;s
+          dues sharing program that supports small and new chapter.
         </p>
 
         <p>
@@ -87,9 +87,8 @@ const VotingGuide = () => (
           elections, public offices, and legislation as vehicles to encourage
           working-class organization, promote progressive legislation, and build
           support for democratic socialist ideas.&rdquo; The resolution also
-          asks the organization to orient our work towards the Bernie Sanders
-          campaign in a way that builds independent working class power, whether
-          Bernie ultimately wins or loses.
+          orients DSA&rsquo;s work in the Bernie Sanders campaign towards
+          building independent working-class power.
         </p>
 
         <p>
@@ -110,8 +109,8 @@ const VotingGuide = () => (
           In the past two years we have seen a major upswing in labor militancy
           across the country. In many cases, DSA members played leading roles in
           organizing strikes and other collective action. But to truly build a
-          strong working class movement, workers will have to fight the boss
-          even more frequently and even more aggressively.
+          strong working-class movement, workers will have to take on the boss
+          on a greater scale than ever before.
         </p>
 
         <p>
@@ -120,14 +119,13 @@ const VotingGuide = () => (
           <ExternalLink href="https://socialistcall.com/2019/05/03/workers-have-the-power/">
             worker-leaders
           </ExternalLink>{" "}
-          who are already DSA members. It will also provide support for those
-          members who want to{" "}
+          who are already DSA members. It will make supporting DSA members who
+          want to{" "}
           <ExternalLink href="https://socialistcall.com/2019/05/24/rank-and-file-strategy-union-socialism/">
             find rank-and-file union jobs
           </ExternalLink>{" "}
-          in order to bring their politics to work, fight the boss with their
-          coworkers, and help to root the socialist movement in the working
-          class over the long term.{" "}
+          a top priority, so that they can help transform unions into militant,
+          left-wing, and democratic organizations.{" "}
         </p>
 
         <p>
@@ -184,22 +182,20 @@ const VotingGuide = () => (
         </p>
 
         <p>
-          A Green New Deal is our best hope to prevent a climate catastrophe. We
-          recognize however that building this new society will require a
-          massive fight against the fossil fuel industry and members of the
-          capitalist class who profit from our current carbon-powered economy.
-          We strongly support therefore the Green New Deal priority campaign
-          being proposed by DSA&rsquo;s Ecosocialist Working Group and
-          coauthored by members across DSA&rsquo;s tendencies. This campaign
-          proposes a vigorous fight on the scale of DSA&rsquo;s other major
-          priority campaigns to popularize and win a robust, anti-capitalist
-          version of the Green New Deal.
-        </p>
-
-        <p>
-          <ExternalLink href="https://docs.google.com/document/d/1QpxsM7ZZS7-NbFN80UKsJyDDPtkID_AbFdeBzzblMTs/edit">
-            Read more and sign on as a sponsor here!
-          </ExternalLink>
+          A{" "}
+          <ExternalLink href="https://socialistcall.com/2019/04/26/fight-for-the-green-new-deal/">
+            Green New Deal
+          </ExternalLink>{" "}
+          is our best hope to prevent a climate catastrophe. We recognize
+          however that building this new society will require a massive fight
+          against the fossil fuel industry and members of the capitalist class
+          who profit from our current carbon-powered economy. We strongly
+          support therefore the Green New Deal priority campaign being proposed
+          by DSA&rsquo;s Ecosocialist Working Group and coauthored by members
+          across DSA&rsquo;s tendencies, including members of DSA&rsquo;s Bread
+          &amp; Roses caucus. This campaign proposes a vigorous fight on the
+          scale of DSA&rsquo;s other major priority campaigns to popularize and
+          win a robust, anti-capitalist version of the Green New Deal.
         </p>
       </Element>
 
@@ -212,25 +208,22 @@ const VotingGuide = () => (
         </h2>
         <p>
           Resolution #55 is a strong proposal to support DSA&rsquo;s small and
-          new chapters, by increasing national DSA&rsquo;s support in the form
-          of dues sharing to these small chapters.
+          new chapters. It increases national DSA&rsquo;s support to these
+          chapters through DSA&rsquo;s dues sharing program. We believe it{" "}
+          <ExternalLink href="https://socialistcall.com/2019/06/17/dsa-national-convention-money/">
+            Green New Deal
+          </ExternalLink>{" "}
+          is superior to proposed alternatives.
         </p>
 
         <p>
           We and members of the Socialist Majority Caucus who coauthored this
-          amendment with us believe that Resolution #55 can be further
-          strengthened by making allowances for chapters that do not have bank
-          accounts. Our amendment would instruct the national organization to
-          give chapters that do not have bank accounts their dues share through
-          other means, potentially including prepaid debit cards, credit towards
-          purchasing DSA supplies, and/or fiscal cosponsorships by other DSA
-          chapters.
-        </p>
-
-        <p>
-          <ExternalLink href="https://drive.google.com/file/d/17EFMrsKu5dGfJD59PILL2rVGpIxkRuGa/view">
-            Read more and sign on as a sponsor here!
-          </ExternalLink>
+          amendment with us believe that Resolution #55 can be strengthened by
+          making allowances for chapters that do not have bank accounts. Our
+          amendment would instruct the national organization to give chapters
+          that do not have bank accounts their dues share through other means,
+          potentially including prepaid debit cards, credit towards purchasing
+          DSA supplies, and&#47;or fiscal cosponsorships by other DSA chapters.
         </p>
       </Element>
     </div>

@@ -1,11 +1,13 @@
 import React from "react"
 import { Element } from "react-scroll"
+import Img from "gatsby-image"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import InternalLink from "../components/internal-link"
 
-const WhereWeStand = () => (
+const WhereWeStand = ({ data }) => (
   <Layout title="Where We Stand" color="green" heroImageName="where-we-stand">
     <SEO title="Where We Stand" />
     <div className="sidebar">
@@ -72,6 +74,7 @@ const WhereWeStand = () => (
         id="centrality-of-class-struggle"
       >
         <h2>The Centrality of Class Struggle</h2>
+        <Img fluid={data.class.childImageSharp.fluid} />
         <p>
           Capitalism is a system{" "}
           <a href="https://www.jacobinmag.com/2014/12/capitalisms-gravediggers/">
@@ -181,6 +184,7 @@ const WhereWeStand = () => (
 
       <Element name="democratic-road" id="democratic-road">
         <h2>Democratic Road to Socialism</h2>
+        <Img fluid={data.demroad.childImageSharp.fluid} />
         <p>
           Socialist organizing should be oriented toward the working-class
           majority who are not yet politically active. We need to bring people
@@ -345,6 +349,7 @@ const WhereWeStand = () => (
 
       <Element name="internationalism" id="internationalism">
         <h2>Internationalism</h2>
+        <Img fluid={data.internationalism.childImageSharp.fluid} />
         <p>
           Winning socialism will require a protracted struggle against the
           ruling class in the United States. But the struggle for socialism is{" "}
@@ -410,5 +415,31 @@ const WhereWeStand = () => (
     </div>
   </Layout>
 )
+
+export const fluidImage = graphql`
+  fragment fluidImage on File {
+    childImageSharp {
+      fluid(maxWidth: 780) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
+
+export const pageQuery = graphql`
+  query {
+    class: file(relativePath: { eq: "where-we-stand/WWS-class-struggle.png" }) {
+      ...fluidImage
+    }
+    demroad: file(relativePath: { eq: "where-we-stand/WWS-dem-road.png" }) {
+      ...fluidImage
+    }
+    internationalism: file(
+      relativePath: { eq: "where-we-stand/WWS-internationalism.png" }
+    ) {
+      ...fluidImage
+    }
+  }
+`
 
 export default WhereWeStand

@@ -1,11 +1,13 @@
 import React from "react"
 import { Element } from "react-scroll"
+import Img from "gatsby-image"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import InternalLink from "../components/internal-link"
 
-const Tasks = () => (
+const Tasks = ({ data }) => (
   <Layout title="Tasks for 2019" color="blue" heroImageName="tasks">
     <SEO title="Tasks for 2019" />
 
@@ -184,6 +186,9 @@ const Tasks = () => (
 
       <Element name="bernie-sanders" id="bernie-sanders">
         <h2>Bernie Sanders and Class-Struggle Elections</h2>
+
+        <Img fluid={data.bernie.childImageSharp.fluid} />
+
         <p>
           We don’t believe we can elect socialists to office who can simply
           legislate in socialism — or even social democracy — from above. The
@@ -381,6 +386,7 @@ const Tasks = () => (
 
       <Element name="medicare-for-all" id="medicare-for-all">
         <h2>Recommit to the Medicare for All Campaign</h2>
+        <Img fluid={data.m4a.childImageSharp.fluid} />
         <p>
           Perhaps no other demand since the postwar era has provoked as powerful
           an opposition as the demand for Medicare for All. The ruling class
@@ -479,6 +485,7 @@ const Tasks = () => (
 
       <Element name="unions-strikes" id="unions-strikes">
         <h2>Work in the Unions, Support Strikes</h2>
+        <Img fluid={data.redfored.childImageSharp.fluid} />
         <p>
           DSA today is still largely confined to a relatively small section of
           downwardly mobile, well-educated, white and young workers and
@@ -621,6 +628,7 @@ const Tasks = () => (
 
       <Element name="fight-oppression" id="fight-oppression">
         <h2>Fight Oppression</h2>
+
         <p>
           The programs described above are one step toward fighting oppression
           and prejudice, which are used to pit workers against each other in the
@@ -697,6 +705,7 @@ const Tasks = () => (
 
       <Element name="green-new-deal" id="green-new-deal">
         <h2>Launch a Green New Deal Campaign</h2>
+        <Img fluid={data.gnd.childImageSharp.fluid} />
         <p>
           As the recent report from the Intergovernmental Panel on Climate
           Change has found, we face an immense and urgent set of tasks to
@@ -802,6 +811,7 @@ const Tasks = () => (
 
       <Element name="political-education" id="political-education">
         <h2>Develop Consistent Political Education</h2>
+        <Img fluid={data.poled.childImageSharp.fluid} />
         <p>
           One of the key jobs of a socialist organization is political
           education. Historically, the socialist movement has offered a coherent
@@ -833,5 +843,35 @@ const Tasks = () => (
     </div>
   </Layout>
 )
+
+export const fluidImage = graphql`
+  fragment fluidImage on File {
+    childImageSharp {
+      fluid(maxWidth: 780) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
+
+export const pageQuery = graphql`
+  query {
+    bernie: file(relativePath: { eq: "tasks/bernie.png" }) {
+      ...fluidImage
+    }
+    m4a: file(relativePath: { eq: "tasks/m4a.png" }) {
+      ...fluidImage
+    }
+    gnd: file(relativePath: { eq: "tasks/gnd.png" }) {
+      ...fluidImage
+    }
+    poled: file(relativePath: { eq: "tasks/poled.png" }) {
+      ...fluidImage
+    }
+    redfored: file(relativePath: { eq: "tasks/redfored.png" }) {
+      ...fluidImage
+    }
+  }
+`
 
 export default Tasks

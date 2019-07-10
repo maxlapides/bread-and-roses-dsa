@@ -211,9 +211,9 @@ const VotingGuide = () => (
           new chapters. It increases national DSA&rsquo;s support to these
           chapters through DSA&rsquo;s dues sharing program. We believe it{" "}
           <ExternalLink href="https://socialistcall.com/2019/06/17/dsa-national-convention-money/">
-            Green New Deal
+            is superior
           </ExternalLink>{" "}
-          is superior to proposed alternatives.
+          to proposed alternatives.
         </p>
 
         <p>

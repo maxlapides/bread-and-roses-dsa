@@ -19,7 +19,7 @@ import ExternalLink from "./external-link"
 import "antd/dist/antd.less"
 import "./layout.scss"
 
-const Layout = ({ title, color, children }) => (
+const Layout = ({ title, color, children, heroImageName }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -64,7 +64,7 @@ const Layout = ({ title, color, children }) => (
             </Link>
           </div>
           <TopNav menuLinks={data.site.siteMetadata.menuLinks} />
-          <Hero title={title} color={color} />
+          <Hero title={title} color={color} imageName={heroImageName} />
           <AntLayout.Content>{children}</AntLayout.Content>
         </AntLayout>
       </>

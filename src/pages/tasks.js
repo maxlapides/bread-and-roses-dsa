@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import InternalLink from "../components/internal-link"
 
 const Tasks = () => (
-  <Layout title="Tasks for 2019" color="blue">
+  <Layout title="Tasks for 2019" color="blue" heroImageName="tasks">
     <SEO title="Tasks for 2019" />
 
     <div className="sidebar">

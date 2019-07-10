@@ -114,15 +114,17 @@ class NPCSlate extends React.Component {
               If elected to the NPC, Marianela, Marsha, Megan, Natalie, and
               Rachel will work to prioritize five areas of work.
             </p>
-            <h3>1. Organize with the Rank-and-File:</h3>
+            <h3>1. Organize with the Rank-and-File</h3>
             <p>
               The greatest power we have as working people to end exploitation
               and oppression is the power we have in our workplaces to stop the
               flow of profits to the capitalist class. That power can only be
               unlocked, though, when we successfully organize with our
-              coworkers. DSA has a responsibility to help build a new militant,
-              democratic, and left-wing labor movement that can truly unlock
-              that power. The{" "}
+              coworkers.
+            </p>
+            <p>
+              DSA has a responsibility to help build a new militant, democratic,
+              and left-wing labor movement that can truly unlock that power. The{" "}
               <ExternalLink href="https://www.jacobinmag.com/2019/03/rank-and-file-strategy-union-organizing">
                 rank-and-file strategy
               </ExternalLink>{" "}
@@ -139,34 +141,39 @@ class NPCSlate extends React.Component {
               in our communities, assisting workers in struggle whenever they
               need it.
             </p>
-            <h3>2. Build Bernie 2020 and Beyond:</h3>
+            <h3>2. Build Bernie 2020 and Beyond</h3>
             <p>
               In 2020, we have a chance through the Bernie Sanders campaign to{" "}
               <ExternalLink href="https://socialistcall.com/2018/08/16/bernie-2020/">
                 popularize a platform
               </ExternalLink>{" "}
-              of demands that could materially change the lives of Americans
-              toward power and freedom. DSA must seize this opportunity by doing
-              our best to help win the Democratic presidential primary for
-              Bernie Sanders, who is our best hope of beating Donald Trump in
-              November 2020. We must also use the campaign to organize alongside
-              millions of new activists,{" "}
+              of demands that could materially change the lives of Americans and
+              build working-class power. DSA must seize this opportunity by
+              doing our best to help win the Democratic presidential primary for
+              Bernie Sanders. Sanders is far and away our best hope to beat
+              Donald Trump in November 2020. We must also use the campaign to
+              organize alongside millions of new activists,{" "}
               <ExternalLink href="https://socialistcall.com/2018/12/06/bernie-and-class-politics/">
                 build class consciousness
               </ExternalLink>{" "}
-              on an unprecedented scale, and expand DSA. By the end of the
-              campaign, we must be prepared as an organization to channel this
-              momentum into down-ballot electoral campaigns, workplace actions,
-              and mass protests that push class struggle politics even further.
+              on an unprecedented scale, and expand DSA.
             </p>
-            <h3>3. Fight Oppression:</h3>
+            <p>
+              By the end of the campaign, we must be prepared as an organization
+              to channel this momentum into down-ballot electoral campaigns,
+              workplace actions, and mass protests that push class struggle
+              politics even further.
+            </p>
+            <h3>3. Fight Oppression</h3>
             <p>
               A socialist world{" "}
               <ExternalLink href="https://socialistcall.com/2018/09/07/class-politics-and-the-fight-against-oppression/">
                 cannot coexist
               </ExternalLink>{" "}
-              with racial, national, gender, and other forms of oppression. We
-              believe that DSA must foreground demands that can help destroy
+              with racial, national, gender, and other forms of oppression.
+            </p>
+            <p>
+              We believe that DSA must foreground demands that can help destroy
               these forms of oppression in{" "}
               <ExternalLink href="https://socialistcall.com/2019/06/04/tiffany-caban-dsa-queens/">
                 all our campaign work
@@ -177,7 +184,7 @@ class NPCSlate extends React.Component {
               incarceration and the brutal immigration regime, and to stop US
               military interventions in Venezuela, Iran, and around the world.
             </p>
-            <h3>4. Expand Mass Action Campaigns:</h3>
+            <h3>4. Expand Mass Action Campaigns</h3>
             <p>
               We support propaganda and legislative{" "}
               <ExternalLink href="https://socialistcall.com/2018/08/16/liberalism-ultraleftism-or-mass-action/">
@@ -185,7 +192,10 @@ class NPCSlate extends React.Component {
               </ExternalLink>{" "}
               that are popular with millions of working people and draw sharp
               lines between the interests of millionaires and billionaires and
-              everyone else. In 2019, we support renewing DSA&rsquo;s{" "}
+              everyone else.
+            </p>
+            <p>
+              In 2019, we support renewing DSA&rsquo;s{" "}
               <ExternalLink href="https://socialistcall.com/2018/10/26/why-we-fight-for-medicare-for-all/">
                 Medicare for All
               </ExternalLink>{" "}
@@ -195,7 +205,7 @@ class NPCSlate extends React.Component {
               </ExternalLink>
               .
             </p>
-            <h3>5. Strengthen DSA&rsquo;s Political Education Projects:</h3>
+            <h3>5. Strengthen DSA&rsquo;s Political Education Projects</h3>
             <p>
               Every socialist knows at least ten people who are curious about
               class-struggle politics and how capitalism works.{" "}
@@ -205,10 +215,12 @@ class NPCSlate extends React.Component {
               is our best means to train ourselves to convince those people of
               the importance of building a movement that fights capitalism,
               white supremacy, imperialism, patriarchy, and climate catastrophe.
-              DSA must beef up its political education program in the next two
-              years, including applying more resources to political education
-              courses and kicking our communications and media game to a new
-              level.
+            </p>
+            <p>
+              DSA must therefore beef up its political education program in the
+              next two years, including applying more resources to political
+              education courses and kicking our communications and media game to
+              a new level.
             </p>
           </Element>
         </div>

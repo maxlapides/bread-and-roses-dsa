@@ -177,7 +177,7 @@ const VotingGuide = () => (
           A radical transition is needed towards a completely decarbonized
           economy in the next 12 years in order to save our planet. No challenge
           is of greater urgency both to humanity as a whole and to the socialist
-          project. It is therefore of the utmost important that DSA participate
+          project. It is of the utmost important that DSA participate
           in the fight to build an ecologically sustainable society.
         </p>
 
@@ -190,7 +190,7 @@ const VotingGuide = () => (
           however that building this new society will require a massive fight
           against the fossil fuel industry and members of the capitalist class
           who profit from our current carbon-powered economy. We strongly
-          support therefore the Green New Deal priority campaign being proposed
+          support the Green New Deal priority campaign being proposed
           by DSA&rsquo;s Ecosocialist Working Group and coauthored by members
           across DSA&rsquo;s tendencies, including members of DSA&rsquo;s Bread
           &amp; Roses caucus. This campaign proposes a vigorous fight on the

@@ -42,7 +42,7 @@ const VotingGuide = () => (
         </p>
 
         <p>
-          We're also proud to share an amendment to strengthen DSA&rsquo;s dues
+          We&rsquo;re also proud to share an amendment to strengthen DSA&rsquo;s dues
           sharing program that supports small and new chapter.
         </p>
 

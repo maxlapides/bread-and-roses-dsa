@@ -42,13 +42,16 @@ const VotingGuide = () => (
         </p>
 
         <p>
-          While these are the resolutions we have decided to collectively
-          endorse so far, we may endorse additional resolutions in the weeks to
-          come, including resolutions that were written by caucus members but
-          did not undergo the collective drafting and approval process that the
-          three above did, and resolutions written by members outside of our
-          caucus. We also will likely propose some amendments to other
-          resolutions and changes to DSA&rsquo;s constitution and bylaws.
+          We're also proud to share an amendment to strengthen DSA&rsquo;s dues
+          sharing program that supports small and new chapter.
+        </p>
+
+        <p>
+          While these are the proposals we have decided to collectively endorse
+          so far, we may endorse additional resolutions in the weeks to come,
+          including resolutions that were written by caucus members but did not
+          undergo the collective drafting and approval process that the three
+          above did, and resolutions written by members outside of our caucus.
         </p>
       </Element>
 
@@ -168,7 +171,7 @@ const VotingGuide = () => (
 
       <Element name="resolution-34" id="resolution-34">
         <h2>
-          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSe9-3RnoAY-ZO9XxKblF-s47x_xKtnawqnzyj4T28uSLm0YAw/viewform">
+          <ExternalLink href="https://docs.google.com/document/d/1QpxsM7ZZS7-NbFN80UKsJyDDPtkID_AbFdeBzzblMTs/edit">
             Resolution #34: Ecosocialist Green New Deal Priority
           </ExternalLink>
         </h2>
@@ -186,15 +189,15 @@ const VotingGuide = () => (
           massive fight against the fossil fuel industry and members of the
           capitalist class who profit from our current carbon-powered economy.
           We strongly support therefore the Green New Deal priority campaign
-          being proposed by DSA&rsquo;s Ecosocialist Working Group and coauthored by
-          members across DSA&rsquo;s tendencies. This campaign proposes a vigorous
-          fight on the scale of DSA&rsquo;s other major priority campaigns to
-          popularize and win a robust, anti-capitalist version of the Green New
-          Deal.
+          being proposed by DSA&rsquo;s Ecosocialist Working Group and
+          coauthored by members across DSA&rsquo;s tendencies. This campaign
+          proposes a vigorous fight on the scale of DSA&rsquo;s other major
+          priority campaigns to popularize and win a robust, anti-capitalist
+          version of the Green New Deal.
         </p>
 
         <p>
-          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSe9-3RnoAY-ZO9XxKblF-s47x_xKtnawqnzyj4T28uSLm0YAw/viewform">
+          <ExternalLink href="https://docs.google.com/document/d/1QpxsM7ZZS7-NbFN80UKsJyDDPtkID_AbFdeBzzblMTs/edit">
             Read more and sign on as a sponsor here!
           </ExternalLink>
         </p>
@@ -208,9 +211,9 @@ const VotingGuide = () => (
           </ExternalLink>
         </h2>
         <p>
-          Resolution #55 is a strong proposal to support DSA&rsquo;s small and new
-          chapters, by increasing national DSA&rsquo;s support in the form of dues
-          sharing to these small chapters.
+          Resolution #55 is a strong proposal to support DSA&rsquo;s small and
+          new chapters, by increasing national DSA&rsquo;s support in the form
+          of dues sharing to these small chapters.
         </p>
 
         <p>

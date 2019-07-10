@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import InternalLink from "../components/internal-link"
 
 const WhereWeStand = () => (
-  <Layout title="Where We Stand" color="green">
+  <Layout title="Where We Stand" color="green" heroImageName="where-we-stand">
     <SEO title="Where We Stand" />
     <div className="sidebar">
       <h2>Outline</h2>

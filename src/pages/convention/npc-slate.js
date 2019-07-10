@@ -63,7 +63,7 @@ class NPCSlate extends React.Component {
 
   render() {
     return (
-      <Layout title="NPC Slate" color="yellow">
+      <Layout title="NPC Slate" color="yellow" heroImageName="convention">
         <SEO title="NPC Slate" />
 
         <div className="content-column content-column-candidates">

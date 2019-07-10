@@ -2,11 +2,17 @@
 @import "breakpoints.scss";
 
 .hero {
-  background: $red;
+  background-color: $red;
   margin: 2.5rem auto 0;
   padding: 4rem 3rem;
   width: 100%;
   max-width: 1200px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+
+  @media (max-width: 768px) {
+    background-image: none !important;
+  }
 
   @include bp(desktop) {
     margin-top: 0;
@@ -30,19 +36,19 @@
   }
 
   &--red {
-    background: $red;
+    background-color: $red;
   }
 
   &--green {
-    background: $green;
+    background-color: $green;
   }
 
   &--blue {
-    background: $blue;
+    background-color: $blue;
   }
 
   &--yellow {
-    background: $yellow;
+    background-color: $yellow;
 
     h1 {
       color: black;

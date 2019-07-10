@@ -7,11 +7,11 @@ import SEO from "../../components/seo"
 import ExternalLink from "../../components/external-link"
 
 const VotingGuide = () => (
-  <Layout title="Our Resolutions" color="yellow">
-    <SEO title="Our Resolutions" />
+  <Layout title="Our Proposals" color="yellow">
+    <SEO title="Our Proposals" />
 
     <div className="content">
-      <Element name="our-resolutions" id="our-resolutions">
+      <Element name="our-proposals" id="our-proposals">
         <p>
           We in DSA&rsquo;s <Link to="/">Bread &amp; Roses</Link> caucus are
           excited to share three resolutions we drafted collectively for the
@@ -88,6 +88,12 @@ const VotingGuide = () => (
           campaign in a way that builds independent working class power, whether
           Bernie ultimately wins or loses.
         </p>
+
+        <p>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScKg8Tt2GMsGwzA4BTUJL58KkWicg_IXAABV_G8Tv2tDxat0g/viewform">
+            Read more and sign on as a sponsor here!
+          </ExternalLink>
+        </p>
       </Element>
 
       <Element name="resolution-32" id="resolution-32">
@@ -119,6 +125,9 @@ const VotingGuide = () => (
           in order to bring their politics to work, fight the boss with their
           coworkers, and help to root the socialist movement in the working
           class over the long term.{" "}
+        </p>
+
+        <p>
           <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScvTihWiHZcv9rKsI_2EHN9nRRhG3kPOHGSuJjNl9lcB8tICw/viewform">
             Read more and sign on as a sponsor here!
           </ExternalLink>
@@ -148,8 +157,78 @@ const VotingGuide = () => (
           wheel. This will both make political education more accessible to more
           members, and free up time at the chapter level for other organizing
           tasks.{" "}
+        </p>
+
+        <p>
           <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSdZjxbBWdYgXIl1PtZqLZrwbSJ2xjs82soCqj9rBdXuDQjx_w/viewform">
-            Please sign on to support the resolution here!
+            Read more and sign on as a sponsor here!
+          </ExternalLink>
+        </p>
+      </Element>
+
+      <Element name="resolution-34" id="resolution-34">
+        <h2>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSe9-3RnoAY-ZO9XxKblF-s47x_xKtnawqnzyj4T28uSLm0YAw/viewform">
+            Resolution #34: Ecosocialist Green New Deal Priority
+          </ExternalLink>
+        </h2>
+        <p>
+          A radical transition is needed towards a completely decarbonized
+          economy in the next 12 years in order to save our planet. No challenge
+          is of greater urgency both to humanity as a whole and to the socialist
+          project. It is therefore of the utmost important that DSA participate
+          in the fight to build an ecologically sustainable society.
+        </p>
+
+        <p>
+          A Green New Deal is our best hope to prevent a climate catastrophe. We
+          recognize however that building this new society will require a
+          massive fight against the fossil fuel industry and members of the
+          capitalist class who profit from our current carbon-powered economy.
+          We strongly support therefore the Green New Deal priority campaign
+          being proposed by DSA's Ecosocialist Working Group and coauthored by
+          members across DSA's tendencies. This campaign proposes a vigorous
+          fight on the scale of DSA's other major priority campaigns to
+          popularize and win a robust, anti-capitalist version of the Green New
+          Deal.
+        </p>
+
+        <p>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSe9-3RnoAY-ZO9XxKblF-s47x_xKtnawqnzyj4T28uSLm0YAw/viewform">
+            Read more and sign on as a sponsor here!
+          </ExternalLink>
+        </p>
+      </Element>
+
+      <Element name="amendment-55" id="amendment-55">
+        <h2>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSe9-3RnoAY-ZO9XxKblF-s47x_xKtnawqnzyj4T28uSLm0YAw/viewform">
+            Amendment to Resolution #55: Resolution on Grassroots Fundraising
+            and Small Chapter Growth
+          </ExternalLink>
+        </h2>
+        <p>
+          We should all be proud of DSA&rsquo;s enormous growth and its outsized
+          impact over the last few years. To build a durable movement, we need
+          to improve our collective ability to analyze the strengths and
+          weaknesses of our movement and capitalist class rule. We also need to
+          better understand the history of and debates within the socialist
+          movement.&nbsp;
+        </p>
+
+        <p>
+          That is why we are proposing a resolution to consolidate and develop
+          political education materials and to make them more easily accessible
+          to chapters. By taking what materials they find useful, and modifying
+          them as they wish, chapters can avoid spending time reinventing the
+          wheel. This will both make political education more accessible to more
+          members, and free up time at the chapter level for other organizing
+          tasks.{" "}
+        </p>
+
+        <p>
+          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSe9-3RnoAY-ZO9XxKblF-s47x_xKtnawqnzyj4T28uSLm0YAw/viewform">
+            Read more and sign on as a sponsor here!
           </ExternalLink>
         </p>
       </Element>

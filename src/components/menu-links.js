@@ -60,7 +60,7 @@ class MenuLinks extends React.Component {
               <Link to="/convention/npc-slate/">NPC Slate</Link>
             </li>
             <li className="indented">
-              <Link to="/convention/our-resolutions/">Our Resolutions</Link>
+              <Link to="/convention/our-proposals/">Our Proposals</Link>
             </li>
           </ul>
         </li>

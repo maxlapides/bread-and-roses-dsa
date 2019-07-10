@@ -21,8 +21,8 @@ module.exports = {
         link: "/convention/npc-slate/",
       },
       {
-        name: "Our Resolutions",
-        link: "/convention/our-resolutions/",
+        name: "Our Proposals",
+        link: "/convention/our-Proposals/",
       },
     ],
   },

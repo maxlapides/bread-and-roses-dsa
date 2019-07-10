@@ -340,7 +340,7 @@ const Tasks = () => (
           to a clean energy economy, repeal of Taft-Hartley, defending voting
           rights, and democratic reform of the Constitution. Such a platform
           should guide our 2019 and 2020 endorsements and give DSA a clearer and
-          more unified political identity —based in class struggle and
+          more unified political identity — based in class struggle and
           solidarity, within and beyond the electoral realm. A detailed platform
           can provide a level of ideological coherence, guide and unite our
           campaign work at the national and local level, and bring us closer to
@@ -531,7 +531,7 @@ const Tasks = () => (
           also to teach workers where their true source of power lies. Not only
           are teachers located in a strategic sector capable of having an
           outsized influence on politics and society, their specific goals
-          ––from West Virginia to Los Angeles –– are class-wide demands.
+          — from West Virginia to Los Angeles &mdash; are class-wide demands.
           Teachers across the country are demanding more than wage increases for
           themselves, they are pushing to raise the social wage for the whole
           class. That is, teachers have insisted upon better funding for public

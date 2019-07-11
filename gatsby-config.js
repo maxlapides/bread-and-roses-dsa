@@ -5,17 +5,35 @@ module.exports = {
     author: `@gatsbyjs`,
     menuLinks: [
       {
-        name: "Where We Stand",
+        name: "Home",
         link: "/",
+      },
+      {
+        name: "Where We Stand",
+        link: "/where-we-stand/",
       },
       {
         name: "Tasks for 2019",
         link: "/tasks/",
       },
+      {
+        name: "NPC Slate",
+        link: "/convention/npc-slate/",
+      },
+      {
+        name: "Our Proposals",
+        link: "/convention/our-proposals/",
+      },
     ],
   },
 
   plugins: [
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require("sass"),
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -39,7 +57,8 @@ module.exports = {
       options: {
         javascriptEnabled: true,
         modifyVars: {
-          "primary-color": "#FF1717",
+          "primary-color": "#ef3f35",
+          "text-color": "#333333",
         },
       },
     },

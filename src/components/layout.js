@@ -7,16 +7,19 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
-import { Layout as AntLayout } from "antd"
+import { StaticQuery, graphql, Link } from "gatsby"
+import { Layout as AntLayout, Icon } from "antd"
+import Helmet from "react-helmet"
 
-import Logo from "../images/bread-and-roses.svg"
+import Logo from "../images/logo.svg"
 import Header from "./header"
-import { JoinButton } from "./join"
+import Hero from "./hero"
+import TopNav from "./top-nav"
+import ExternalLink from "./external-link"
 import "antd/dist/antd.less"
-import "./layout.css"
+import "./layout.scss"
 
-const Layout = ({ children }) => (
+const Layout = ({ title, color, children, heroImageName }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -32,19 +35,39 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <AntLayout>
+      <>
+        <Helmet>
+          <link
+            href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap"
+            rel="stylesheet"
+          />
+          <link rel="stylesheet" type="text/css" href="/kelpt.css" />
+        </Helmet>
         <Header
           menuLinks={data.site.siteMetadata.menuLinks}
           siteTitle={data.site.siteMetadata.title}
         />
-        <div className="logo-container">
-          <Logo className="logo" />
-        </div>
-        <AntLayout.Content>
-          {children}
-          <JoinButton />
-        </AntLayout.Content>
-      </AntLayout>
+        <AntLayout>
+          <div className="social-wrapper">
+            <div className="social">
+              <ExternalLink href="https://www.facebook.com/breadandrosesdsa/">
+                <Icon type="facebook" theme="filled" />
+              </ExternalLink>
+              <ExternalLink href="https://twitter.com/BreadRosesDSA">
+                <Icon type="twitter" />
+              </ExternalLink>
+            </div>
+          </div>
+          <div className="logo-container">
+            <Link to="/">
+              <Logo className="logo" />
+            </Link>
+          </div>
+          <TopNav menuLinks={data.site.siteMetadata.menuLinks} />
+          <Hero title={title} color={color} imageName={heroImageName} />
+          <AntLayout.Content>{children}</AntLayout.Content>
+        </AntLayout>
+      </>
     )}
   />
 )

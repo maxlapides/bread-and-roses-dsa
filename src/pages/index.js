@@ -53,12 +53,12 @@ const IndexPage = () => (
         chokehold on progressive politics.
       </p>
       <p>
-        The Left doesn&rsquo;t get an opening like this very often &mdash;
-        it&rsquo;s important that we{" "}
+        The Left in the U.S. hasn't had an opportunity like this since the 1930&rsquo;s &mdash;
+        we have to{" "}
         <ExternalLink href="http://socialistcall.com/2019/01/01/mayflies-and-mass-strikes/">
           seize it
         </ExternalLink>{" "}
-        fully.
+        .
       </p>
       <p>
         We in Bread &amp; Roses are convinced that DSA has the potential to

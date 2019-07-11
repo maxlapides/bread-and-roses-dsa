@@ -232,25 +232,29 @@ a:hover {
 }
 
 #priorities {
-  
   h3 {
-    font-weight: bold
+    font-weight: bold;
   }
 }
 
 #wws {
   .gatsby-image-wrapper {
     width: 100%;
-    padding: 1em;
+    max-width: 350px;
+    margin: 0 auto;
 
     @include bp(tablet) {
-      max-width: 50%;
-      margin: 0 auto;
+      float: right;
+      margin: 0 0 20px 20px;
 
+      img {
+        padding: 0;
+      }
     }
-  
-    @include bp(desktop) {
 
+    @media (min-width: 1230px) {
+      margin-left: 0;
+      left: 30px;
     }
   }
 }

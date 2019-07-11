@@ -62,29 +62,14 @@
     flex: 1 0 auto;
     text-align: center;
 
-    &:first-child {
-      border-radius: 4px 0 0 4px;
-      overflow: hidden;
-    }
-
-    &:last-child {
-      border-radius: 0 4px 4px 0;
-      overflow: hidden;
-    }
-
     @include bp(xlarge) {
       font-size: 20px;
-    }
-
-    li {
-      border-radius: 0 !important;
     }
   }
 
   a {
     color: black;
     display: block;
-
 
     &:hover {
       color: $red;
@@ -101,7 +86,6 @@
     font-size: 24px;
     line-height: 50px;
     height: 50px;
-
 
     &:hover {
       background: rgba(#ddd, 0.5);

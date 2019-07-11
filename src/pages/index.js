@@ -57,7 +57,7 @@ const IndexPage = () => (
         we have to{" "}
         <ExternalLink href="http://socialistcall.com/2019/01/01/mayflies-and-mass-strikes/">
           seize it
-        </ExternalLink>{" "}
+        </ExternalLink>
         .
       </p>
       <p>

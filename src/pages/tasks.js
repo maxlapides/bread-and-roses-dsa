@@ -187,9 +187,7 @@ const Tasks = ({ data }) => (
 
       <Element name="bernie-sanders" id="bernie-sanders">
         <h2>Bernie Sanders and Class-Struggle Elections</h2>
-
         <Img fluid={data.bernie.childImageSharp.fluid} />
-
         <p>
           We don’t believe we can elect socialists to office who can simply
           legislate in socialism — or even social democracy — from above. The

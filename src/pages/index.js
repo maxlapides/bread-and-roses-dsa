@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import ExternalLink from "../components/external-link"
 
 const IndexPage = () => (
-  <Layout title="Democratic Socialism for the many" color="red">
+  <Layout title="Democratic Socialism for the many" color="red" heroImageName="index">
     <SEO title="Home" />
     <div className="content">
       <p>

@@ -51,6 +51,7 @@ const Tasks = ({ data }) => (
     <div className="content">
       <Element name="preamble" id="preamble">
         <h2>Preamble</h2>
+        <Img fluid={data.preamble.childImageSharp.fluid} />
         <p>
           Today the world is more unequal than ever before. Forty two
           billionaires hold the same amount of wealth as the bottom half of the
@@ -856,6 +857,9 @@ export const TasksPhoto = graphql`
 
 export const tasksQuery = graphql`
   query {
+    preamble: file(relativePath: { eq: "tasks/preamble.png" }) {
+      ...tasksPhoto
+    }
     bernie: file(relativePath: { eq: "tasks/bernie.png" }) {
       ...tasksPhoto
     }

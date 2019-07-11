@@ -29,14 +29,17 @@
     font-size: 60px;
     line-height: 1em;
     text-align: left;
+    max-width: 500px;
 
     @include bp(desktop) {
       font-size: 80px;
+      max-width: 650px;
     }
   }
 
   &--red {
     background-color: $red;
+    padding: 72px 3rem;
   }
 
   &--green {

@@ -70,7 +70,7 @@ const VotingGuide = () => (
           popularity has only risen. We have also seen a small but significant
           shift in favor of down-ballot class-struggle electoral candidates like
           Rashida Tlaib, Alexandria Ocasio-Cortez, Julia Salazar, Jovanka
-          Beckles, Lee Carter, and the{" "}
+          Beckles, and the{" "}
           <ExternalLink href="https://socialistcall.com/2019/05/02/chicago-will-be-ours/">
             Chicago City Council slate
           </ExternalLink>

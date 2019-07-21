@@ -78,7 +78,7 @@ function SEO({
           content: metaDescription,
         },
         {
-          name: `og:image`,
+          property: `og:image`,
           content: `https://breadandrosesdsa.org/${imagePath}`,
         },
       ]

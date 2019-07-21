@@ -11,7 +11,7 @@ const IndexPage = () => (
     color="red"
     heroImageName="index"
   >
-    <SEO title="Home" ogImage="home" />
+    <SEO title="Bread and Roses DSA" ogImage="home" titleTemplate={`%s`} />
     <div className="content">
       <p>
         Bread &amp; Roses is a national caucus of Marxist organizers in the

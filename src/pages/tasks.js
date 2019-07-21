@@ -9,7 +9,7 @@ import InternalLink from "../components/internal-link"
 
 const Tasks = ({ data }) => (
   <Layout title="Tasks for 2019" color="blue" heroImageName="tasks">
-    <SEO title="Tasks for 2019" />
+    <SEO title="Tasks for 2019" ogImage="tasks" />
 
     <div className="sidebar">
       <h2>Outline</h2>

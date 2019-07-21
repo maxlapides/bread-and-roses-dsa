@@ -8,7 +8,7 @@ import ExternalLink from "../../components/external-link"
 
 const VotingGuide = () => (
   <Layout title="Our Proposals" color="yellow" heroImageName="convention">
-    <SEO title="Our Proposals" />
+    <SEO title="Our Proposals" ogImage="convention" />
 
     <div className="content">
       <Element name="our-proposals" id="our-proposals">

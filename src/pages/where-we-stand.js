@@ -9,7 +9,7 @@ import InternalLink from "../components/internal-link"
 
 const WhereWeStand = ({ data }) => (
   <Layout title="Where We Stand" color="green" heroImageName="where-we-stand">
-    <SEO title="Where We Stand" />
+    <SEO title="Where We Stand" ogImage="where-we-stand" />
     <div className="sidebar">
       <h2>Outline</h2>
       <ul>

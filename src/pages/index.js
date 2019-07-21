@@ -11,7 +11,7 @@ const IndexPage = () => (
     color="red"
     heroImageName="index"
   >
-    <SEO title="Home" />
+    <SEO title="Home" ogImage="home" />
     <div className="content">
       <p>
         Bread &amp; Roses is a national caucus of Marxist organizers in the
@@ -53,8 +53,8 @@ const IndexPage = () => (
         chokehold on progressive politics.
       </p>
       <p>
-        The Left in the U.S. hasn't had an opportunity like this since the 1930&rsquo;s &mdash;
-        we have to{" "}
+        The Left in the U.S. hasn't had an opportunity like this since the
+        1930&rsquo;s &mdash; we have to{" "}
         <ExternalLink href="http://socialistcall.com/2019/01/01/mayflies-and-mass-strikes/">
           seize it
         </ExternalLink>

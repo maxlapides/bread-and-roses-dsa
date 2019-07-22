@@ -7,8 +7,8 @@ import SEO from "../../components/seo"
 import ExternalLink from "../../components/external-link"
 
 const VotingGuide = () => (
-  <Layout title="The Debate" color="yellow" heroImageName="convention">
-    <SEO title="The Debate" />
+  <Layout title="Follow the Debates" color="yellow" heroImageName="convention">
+    <SEO title="Follow the Debates" />
 
     <div className="content">
       <Element name="the-debate" id="the-debate">

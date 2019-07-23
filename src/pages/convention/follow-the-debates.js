@@ -437,7 +437,7 @@ const TheDebate = () => (
           <p>
             DSA’s electoral strategy has been tested and honed in the two years
             following the 2017 convention in a number of impressive electoral
-            wins and close loses. And in March, after a national referendum was
+            wins and close losses. And in March, after a national referendum was
             conducted and 76% of members responding voted yes, DSA endorsed
             Bernie Sanders’s 2020 presidential campaign bid.
           </p>

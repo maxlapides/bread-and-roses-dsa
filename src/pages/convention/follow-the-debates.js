@@ -43,14 +43,14 @@ const TheDebate = () => (
         </p>
 
         <p>
-          So far competing resolutions and debates have focused on DSA’s
-          approach to the labor movement, electoral strategy, and competing
-          visions for how to redesign the national organization. Our summary
-          focuses on those debates for now. Delegates have also put forward,
-          among other proposals, important resolutions to ground DSA’s work in
-          struggles against racism, gender oppression, and imperialism; to fight
-          for the Green New Deal; and to take on voter suppression, mass
-          incarceration, police brutality, and anti-immigrant policies.
+          So far resolutions and debates have focused on DSA’s approach to the
+          labor movement, electoral strategy, and competing visions for how to
+          redesign the national organization. Our summary focuses on those
+          debates for now. Delegates have also put forward, among other
+          proposals, important resolutions to ground DSA’s work in struggles
+          against racism, gender oppression, and imperialism; to fight for the
+          Green New Deal; and to take on voter suppression, mass incarceration,
+          police brutality, and anti-immigrant policies.
         </p>
 
         <p>
@@ -90,10 +90,7 @@ const TheDebate = () => (
           Nationally — and not including issue-based and identity caucuses — key
           political caucuses and tendencies include{" "}
           <Link to="/">Bread &amp; Roses</Link> (B&amp;R),{" "}
-          <ExternalLink href="https://dsabuild.org/">
-          Build
-          </ExternalLink>
-          ,{" "}
+          <ExternalLink href="https://dsabuild.org/">Build</ExternalLink>,{" "}
           <ExternalLink href="https://collectivepower.network/">
             Collective Power Network
           </ExternalLink>{" "}
@@ -123,7 +120,7 @@ const TheDebate = () => (
 
         <p>
           In 2017, members of B&amp;R ran candidates for the NPC on a slate
-          called Momentum and members of Build ran candidates for the NPC a
+          called Momentum and members of Build ran candidates for the NPC on a
           slate called Praxis. North Star tends to be associated with the
           leadership of DSA prior to 2016 and many of its members are also
           members of SMC. R&amp;R is made up of members who left Socialist
@@ -162,27 +159,27 @@ const TheDebate = () => (
             CPN’s
           </ExternalLink>{" "}
           one. Three members of San Francisco DSA are running on the{" "}
-          <ExternalLink href="https://www.dsausa.org/working-groups/afrosocialists-and-socialists-of-color-caucus/">
+          <ExternalLink href="https://www.sanfranciscoslate.com/">
             San Francisco Slate
           </ExternalLink>
           . And, though they haven’t stated this formally, Build has a number of
           candidates running either{" "}
-          <ExternalLink href="https://www.dsausa.org/working-groups/afrosocialists-and-socialists-of-color-caucus/">
+          <ExternalLink href="https://www.youtube.com/watch?v=edE3NHFdFi8">
             independently
           </ExternalLink>{" "}
           or on &quot;mini-slates&quot; like &quot;
-          <ExternalLink href="https://www.dsausa.org/working-groups/afrosocialists-and-socialists-of-color-caucus/">
+          <ExternalLink href="http://organizing.rocks/">
             Shine Under Pressure
           </ExternalLink>
           &quot; (SUP), as does LSC. A number of candidates are running
           explicitly as independents and without caucus affiliation. North Star
           issued a{" "}
-          <ExternalLink href="https://www.dsausa.org/working-groups/afrosocialists-and-socialists-of-color-caucus/">
+          <ExternalLink href="https://www.dsanorthstar.org/blog/north-star-convention-endorsements">
             full list
           </ExternalLink>{" "}
           of recommended candidates, with the SMC slate at the top of their
           list. For a full overview of the candidates,{" "}
-          <ExternalLink href="https://www.dsausa.org/working-groups/afrosocialists-and-socialists-of-color-caucus/">
+          <ExternalLink href="https://medium.com/@andrew.sernatinger/2019-convention-npc-candidates-4e81831b12f2">
             Andrew Sernatinger’s piece
           </ExternalLink>{" "}
           is the most helpful.
@@ -199,16 +196,14 @@ const TheDebate = () => (
         <p>
           Finally, we’ve done our best to report what we know to be true about
           the leadup to the convention. If you see any factual mistakes, please
-          email us at editor &#91;a&#91; socialistcall &#91;dot&#91; com.
+          email us at <i>editor &#91;a&#93; socialistcall &#91;dot&#93; com</i>.
         </p>
       </Element>
 
       <Element name="labor" id="labor">
         <h2>Labor</h2>
 
-        <p>
-          <i>The Debate So Far</i>
-        </p>
+        <h3>The Debate So Far</h3>
 
         <p>
           At the 2017 DSA National Convention, DSA endorsed through the{" "}
@@ -240,8 +235,11 @@ const TheDebate = () => (
           ) or have not taken a position. Bread &amp; Roses and the Libertarian
           Socialist Caucus have taken the{" "}
           <Link to="/where-we-stand/#rank-and-file-strategy">
-            most explicit positions
+            most explicit
           </Link>{" "}
+          <ExternalLink href="https://dsa-lsc.org/2019/06/18/dsa-libertarian-socialist-caucus-endorsement-of-the-rank-and-file-strategy/">
+            positions
+          </ExternalLink>{" "}
           in favor of the RFS. But a major question at the 2019 DSA convention
           will be the degree to which DSA remains focused on that vision as a
           top labor priority.
@@ -310,54 +308,83 @@ const TheDebate = () => (
           again criticizing B&amp;R’s labor resolution.
         </p>
 
+        <h3>What’s at Stake in Atlanta</h3>
+
         <p>
-          <i>What’s at Stake in Atlanta</i>
+          One notable feature of the convention is the widespread agreement
+          among all proposals that labor should remain a key feature of
+          DSA&#39;s work. Rather than adopting an overwhelming focus on
+          electoral work, DSA takes a broader and more serious approach to class
+          struggle.
+        </p>
+
+        <p>
+          Starting from that very important baseline of agreement, the labor
+          debate has been concretized into two main proposals for how the DSLC
+          should conduct its work going forth (further amendments may help
+          clarify lines of debate further) — Bread &amp; Roses&#39;s Resolution
+          32 and Collective Power Network&#39;s Resolution 3. Both resolutions
+          were drafted by members of the DSLC, propose hiring an organizer to
+          support the work of the DSLC, and instruct the DSLC to help chapters
+          develop stronger labor groups.
         </p>
 
         <p>
           An endorsement of the B&amp;R proposal would provide the &quot;clear
-          strategy&quot; and that CPN calls for but fails to articulate.
-          According to the rank-and-file strategy advocated by our resolution,
-          the central focus of DSA's labor work should be to help develop and
-          empower a growing layer of rank-and-file workers to fight the bosses
-          and transform our unions into militant and democratic vehicles for
-          class struggle.
+          strategy&quot; that the CPN resolution calls for but fails to
+          articulate. According to the rank-and-file strategy advocated for by
+          the B&amp;R resolution, the central focus of DSA&#39;s labor work
+          should be to help develop and empower a growing layer of rank-and-file
+          workers to fight the bosses and transform our unions into militant and
+          democratic vehicles for class struggle.
         </p>
+
         <p>
-          CPN's resolution proposes a reorganization of the DSLC and it sets the
-          commendable (if very broad) three goals of working within unions,
+          CPN's resolution proposes a reorganization of the DSLC and it sets
+          three commendable (if very broad) goals of working within unions,
           focusing on strategic industries, and organizing the unorganized. But
-          CPN's resolution (and its article defending it) says nothing about the
-          need to politically transform existing unions from the bottom-up. Nor
-          does it provide any clear answers on how to reach these three goals
-          and what tactics to prioritize given the current state of DSA and the
-          labor movement.
+          CPN&#39;s resolution says nothing about the need to politically
+          transform existing unions from the bottom-up. Nor does it provide any
+          clear answers for how to achieve these three goals or what tactics to
+          prioritize given the current state of DSA and the labor movement.
         </p>
+
         <p>
-          B&amp;R’s resolution is informed by the belief that socialists can be
-          most effective at taking on our class enemies and organizing the
+          B&amp;R&#39;s resolution is informed by the belief that socialists can
+          be most effective at taking on our class enemies and organizing the
           unorganized by working, wherever possible, within unions in strategic
-          industries. While we support various tactics for rebuilding workers'
-          power —including salting unorganized industries and organizing new
-          unions at our workplaces — our resolution establishes mechanisms to
-          help DSA prioritize actively embedding ourselves into strategic
-          industries and unions.
+          industries. While we support various tactics for rebuilding
+          workers&#39; power — including salting unorganized industries and
+          organizing new unions at our workplaces — our resolution establishes
+          mechanisms to help DSA prioritize actively embedding ourselves into
+          strategic industries and unions.
         </p>
+
         <p>
-          B&amp;R’s resolution is important because it offers clear instructions
-          to the DSLC to help DSA activists become shopfloor organizers capable
-          of helping revitalize the labor movement from the bottom up. We
-          recommend delegates vote for both resolutions because CPN's resolution
-          reiterates commendable goals that are complimentary, not contradictory
-          with our resolution.
+          B&amp;R&#39;s resolution is important because it offers clear
+          instructions to the DSLC to help DSA activists become shopfloor
+          organizers capable of helping revitalize the labor movement from the
+          bottom up. We also recommend delegates vote for both resolutions
+          because CPN&#39;s resolution reiterates commendable goals that are
+          complimentary, not contradictory with our resolution.
+        </p>
+
+        <p>
+          Additional proposals call for specific new organizing campaigns.
+          Resolution 46 would have DSA support new organizing efforts in
+          logistics, including supporting salting efforts. Resolution 68,
+          proposed by some members connected to Build — including one candidate
+          for NPC from the SUP slate — would have DSA call on unions to launch a
+          new &quot;Operation Dixie&quot; to organize the South. Finally
+          Resolution 67, coauthored by members of Build and San Francisco&#39;s
+          Red Star Caucus, calls on the DSLC to do more to support organizing
+          the unorganized.
         </p>
 
         <Element name="electoral-strategy" id="electoral-strategy">
           <h2>Electoral Strategy</h2>
 
-          <p>
-            <i>The Debate So Far</i>
-          </p>
+          <h3>The Debate So Far</h3>
 
           <p>
             The 2017 DSA National convention made a renewed attention to
@@ -377,7 +404,7 @@ const TheDebate = () => (
 
           <p>
             Historically, DSA as an organization embraced the{" "}
-            <ExternalLink href="https://electoral.dsausa.org/">
+            <ExternalLink href="https://www.jacobinmag.com/2016/02/democratic-party-realignment-civil-rights-mcgovern-meany-rustin-sanders">
               realignment
             </ExternalLink>{" "}
             strategy — a dream that socialists and other progressives could
@@ -393,7 +420,7 @@ const TheDebate = () => (
             least publicly defend, the organization remains committed to using
             the Democratic Party ballot line for most electoral campaigns. The
             rationale was{" "}
-            <ExternalLink href="https://electoral.dsausa.org/">
+            <ExternalLink href="https://www.jacobinmag.com/2016/11/bernie-sanders-democratic-labor-party-ackerman">
               convincingly articulated
             </ExternalLink>{" "}
             by Seth Ackerman in Jacobin back in 2016, and the tactic has
@@ -461,9 +488,7 @@ const TheDebate = () => (
             their campaigns.
           </p>
 
-          <p>
-            <i>What’s at Stake in Atlanta</i>
-          </p>
+          <h3>What’s at Stake in Atlanta</h3>
 
           <p>
             By our count, more than 15 resolutions touch on DSA’s electoral
@@ -494,7 +519,7 @@ const TheDebate = () => (
             endorsements, including requiring that candidates identify openly as
             socialists, support a number of key economic and social reforms, and
             endorse Bernie Sanders. Resolution 49 (&quot;PAC Spending for
-            Nationally Endorsed DSA candidates&quot;) would make national
+            Nationally Endorsed DSA Candidates&quot;) would make national
             endorsements more meaningful, by among other things committing DSA
             to donating money from its national PAC to endorsed candidates.
           </p>
@@ -585,7 +610,7 @@ const TheDebate = () => (
             regional organizations would look like. In this proposal, DSA
             chapters would be grouped into regions solely for the purpose of
             electing members of the NOC to represent their region. Although
-            Bread &amp; Roses has not taken a position the proposal, it has{" "}
+            Bread &amp; Roses has not taken a position on the proposal, it has{" "}
             <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSd794FJgGKmVZwiXmI8_vaheTt0PV4oV5c2Z6kK95-81NrXLw/viewform?fbclid=IwAR17M4mDmBDZBDQBvET3UbYY8U85RxUZ0wnFDGjHqkbjvWdbEtm6NA-mE7Y">
               proposed an amendment
             </ExternalLink>{" "}
@@ -624,12 +649,12 @@ const TheDebate = () => (
           <p>
             Constitution/Bylaws Change 33, proposed by members of the
             Libertarian Socialist Caucus, creates an &quot;Assembly of
-            Locals&quot; (the &quot;AOL&quot;). The proposal is difficult to parse, though
-            it appears to call for a leadership body of up to 400 members and
-            removes most powers from the NPC, which would be renamed &quot;the
-            Board&quot;. It is hard to imagine how such a proposal could work
-            effectively in practice, and if enacted the work of national DSA
-            could be fatally hamstrung.
+            Locals&quot; (the &quot;AOL&quot;). The proposal is difficult to
+            parse, though it appears to call for a leadership body of up to 400
+            members and removes most powers from the NPC, which would be renamed
+            &quot;the Board&quot;. It is hard to imagine how such a proposal
+            could work effectively in practice, and if enacted the work of
+            national DSA could be fatally hamstrung.
           </p>
 
           <p>

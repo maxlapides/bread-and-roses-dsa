@@ -620,7 +620,7 @@ const TheDebate = () => (
           </p>
 
           <p>
-            Four alternative constitution and bylaws changes have similar goals
+            Three alternative constitution and bylaws changes have similar goals
             but approach the problem in different ways.
           </p>
 
@@ -630,20 +630,6 @@ const TheDebate = () => (
             to 28 members. While the simplest solution to expanding the national
             leadership, it lacks the regional representation that members may
             desire.
-          </p>
-
-          <p>
-            Constitution/Bylaws Change 16, proposed by members of the Collective
-            Power Network, creates a new National Organizing Council elected on
-            a regional basis similar to what is proposed in Constitution/Bylaws
-            Change 31. It also contains language to build and strengthen
-            regional organizations. The proposal as we understand it potentially
-            creates a situation where regions could be of very different sizes
-            depending on which region each chapter affiliates with. If that
-            happens, and if the proposal remains the same in that every region
-            receives five representatives on the NOC, an undesirable &quot;DSA
-            senate&quot; could be created in which members in smaller regions
-            have proportionally much greater representation on the NOC.
           </p>
 
           <p>
@@ -661,9 +647,8 @@ const TheDebate = () => (
             Finally, Constitution/Bylaws Change 34, proposed by members of
             Build, reactivates the National Advisory Committee to act as a new
             intermediary leadership body. The controversial aspect of the NAC
-            proposal, similar to Constitution/Bylaws Change 16, is that by
-            giving every chapter, regardless of its size, a single
-            representative on the NAC, it would also create a &quot;DSA
+            proposal is that by giving every chapter, regardless of its size, a
+            single representative on the NAC, it would also create a &quot;DSA
             senate&quot;.
           </p>
         </Element>

@@ -11,7 +11,7 @@ const TheDebate = () => (
     <SEO title="Follow the Debates" />
 
     <div className="content">
-      <Element name="the-debate" id="the-debate">
+      <Element name="follow-the-debates" id="follow-the-debates">
         <p>
           As the 2019 DSA National Convention heats up, it can be difficult to
           follow all the debates and proposals being made. Between now and the
@@ -21,7 +21,7 @@ const TheDebate = () => (
         </p>
 
         <p>
-          In preparing for the convention, we in DSA’s Bread & Roses caucus have
+          In preparing for the convention, we in DSA’s Bread &amp; Roses caucus have
           put together this page to summarize what we see as the major debates
           and tendencies in the organization. We’ll update it semi-regularly
           between now and the convention as additional contributions to debates
@@ -103,7 +103,7 @@ const TheDebate = () => (
           </ExternalLink>{" "}
           ,{" "}
           <ExternalLink href="https://reformandrevolution.org/">
-            Reform & Revolution
+            Reform &amp; Revolution
           </ExternalLink>{" "}
           (R&R), and{" "}
           <ExternalLink href="https://socialistmajority.com/">
@@ -118,11 +118,11 @@ const TheDebate = () => (
         </p>
 
         <p>
-          In 2017, members of B&R ran candidates for the NPC on a slate called
+          In 2017, members of B&amp;R ran candidates for the NPC on a slate called
           Momentum and members of Build ran candidates for the NPC a slate
           called Praxis. North Star tends to be associated with the leadership
           of DSA prior to 2016 and many of its members are also members of SMC.
-          R&R is made up of members who left Socialist Alternative in late 2018.
+          R&amp;R is made up of members who left Socialist Alternative in late 2018.
           SMC appears to be the largest caucus of active members based on its
           published membership list.
         </p>
@@ -144,14 +144,14 @@ const TheDebate = () => (
         </p>
 
         <p>
-          In the elections for the 16-member NPC, only SMC, B&R, and CPN are
+          In the elections for the 16-member NPC, only SMC, B&amp;R, and CPN are
           explicitly sponsoring their own slates —{" "}
           <ExternalLink href="https://socialistmajority.com/npc-slate/">
             SMC’s
           </ExternalLink>{" "}
           includes six candidates,{" "}
           <ExternalLink href="https://breadandrosesdsa.org/convention/npc-slate/">
-            B&R’s
+            B&amp;R’s
           </ExternalLink>{" "}
           five, and{" "}
           <ExternalLink href="https://dsaorganizer.org/2019/07/19/cpn-endorsements-and-voter-guide/">
@@ -233,7 +233,7 @@ const TheDebate = () => (
           <ExternalLink href="https://www.jacobinmag.com/2018/08/unions-socialists-rank-and-file-strategy-kim-moody">
             The Rank-and-File Strategy
           </ExternalLink>{" "}
-          ) or have not taken a position. Bread & Roses and the Libertarian
+          ) or have not taken a position. Bread &amp; Roses and the Libertarian
           Socialist Caucus have taken the{" "}
           <Link to="/where-we-stand/#rank-and-file-strategy">
             most explicit positions
@@ -245,7 +245,7 @@ const TheDebate = () => (
 
         <p>
           Discussions about what kind of labor work DSA should prioritize has
-          been brewing since the start of this year. Barry Eidlin (LA-DSA/B&R)
+          been brewing since the start of this year. Barry Eidlin (LA-DSA/B&amp;R)
           published a{" "}
           <ExternalLink href="https://www.jacobinmag.com/2019/03/rank-and-file-strategy-union-organizing">
             thorough defense
@@ -256,7 +256,7 @@ const TheDebate = () => (
             somewhat critical reading
           </ExternalLink>{" "}
           of Kim Moody’s original pamphlet for the Build tendency, to which Jane
-          Slaughter (Detroit DSA/B&R){" "}
+          Slaughter (Detroit DSA/B&amp;R){" "}
           <ExternalLink href="https://socialistcall.com/2019/05/03/workers-have-the-power/">
             replied with some corrections.
           </ExternalLink>{" "}
@@ -284,10 +284,10 @@ const TheDebate = () => (
           <ExternalLink href="https://dsaorganizer.org/2019/07/01/structure-and-subjecthood-in-dsa-labor-organizing-a-response-to-the-bread-roses-labor-resolution/">
             a criticism
           </ExternalLink>{" "}
-          by Annabel Vera (Sacramento DSA/CPN) of the Bread & Roses labor
+          by Annabel Vera (Sacramento DSA/CPN) of the Bread &amp; Roses labor
           resolution. Vera, a member of the DSLC Steering Committee, faulted the
-          B&R resolution and the DSLC more broadly for not paying attention to
-          local organizing conditions. Bread & Roses weighed in again in July
+          B&amp;R resolution and the DSLC more broadly for not paying attention to
+          local organizing conditions. Bread &amp; Roses weighed in again in July
           with a{" "}
           <ExternalLink href="https://socialistcall.com/2019/07/03/dsa-organizing-unorganized-labor/">
             piece by Eidlin
@@ -297,12 +297,12 @@ const TheDebate = () => (
           <ExternalLink href="https://socialistcall.com/2019/05/24/rank-and-file-strategy-union-socialism/">
             a piece
           </ExternalLink>{" "}
-          by a Bread & Roses member who decided to get a union job to pursue the
+          by a Bread &amp; Roses member who decided to get a union job to pursue the
           RFS. Ryan Mosgrove (DC DSA/CPN){" "}
           <ExternalLink href="https://dsaorganizer.org/2019/07/22/you-cant-have-a-strategy-without-priorities/">
             wrote a followup
           </ExternalLink>{" "}
-          again criticizing B&R’s labor resolution.
+          again criticizing B&amp;R’s labor resolution.
         </p>
 
         <p>
@@ -310,7 +310,7 @@ const TheDebate = () => (
         </p>
 
         <p>
-          An endorsement of the B&R proposal would provide the "clear strategy"
+          An endorsement of the B&amp;R proposal would provide the "clear strategy"
           and that CPN calls for but fails to articulate. According to the
           rank-and-file strategy advocated by our resolution, the central focus
           of DSA's labor work should be to help develop and empower a growing
@@ -328,7 +328,7 @@ const TheDebate = () => (
           labor movement.
         </p>
         <p>
-          B&R’s resolution is informed by the belief that socialists can be most
+          B&amp;R’s resolution is informed by the belief that socialists can be most
           effective at taking on our class enemies and organizing the
           unorganized by working, wherever possible, within unions in strategic
           industries. While we support various tactics for rebuilding workers'
@@ -338,7 +338,7 @@ const TheDebate = () => (
           industries and unions.
         </p>
         <p>
-          B&R’s resolution is important because it offers clear instructions to
+          B&amp;R’s resolution is important because it offers clear instructions to
           the DSLC to help DSA activists become shopfloor organizers capable of
           helping revitalize the labor movement from the bottom up. We recommend
           delegates vote for both resolutions because CPN's resolution
@@ -427,7 +427,7 @@ const TheDebate = () => (
             On the question of long-term strategy, Socialist Majority Caucus
             tends to hew closest to the strategy outlined by Ackerman —
             including its aversion to talk of a new party down the line — while
-            Bread & Roses is more vocal about the need to break from the
+            Bread &amp; Roses is more vocal about the need to break from the
             Democratic Party and commit to forming an independent party at some
             point in the future. Luke Elliot-Negri (Nassau County DSA/SMC)
             published{" "}
@@ -436,7 +436,7 @@ const TheDebate = () => (
             </ExternalLink>{" "}
             a criticism of{" "}
             <ExternalLink href="https://breadandrosesdsa.org/where-we-stand/#independent-political-action">
-              Bread & Roses’s commitment
+              Bread &amp; Roses’s commitment
             </ExternalLink>{" "}
             to forming an independent party. David Duhalde (NYC-DSA/SMC) in
             Socialist Forum recently wrote a{" "}
@@ -447,7 +447,7 @@ const TheDebate = () => (
             Parties in every state to reform them and open up new opportunities.
             Megan Svoboda,{" "}
             <ExternalLink href="https://socialistcall.com/2019/07/16/what-are-class-struggle-elections/">
-              writing for Bread & Roses
+              writing for Bread &amp; Roses
             </ExternalLink>{" "}
             , has published a call for a class-struggle electoral strategy aimed
             at recruiting strong working-class candidates who identify as
@@ -519,7 +519,7 @@ const TheDebate = () => (
           </p>
 
           <p>
-            Looking to down ballot races, members of SMC, B&R, and other
+            Looking to down ballot races, members of SMC, B&amp;R, and other
             independents have proposed Resolution 36 to support socialist
             challenges in District Attorney races. Resolution 87 sets new
             guidelines for the process of making endorsements.
@@ -579,7 +579,7 @@ const TheDebate = () => (
             regional organizations would look like. In this proposal, DSA
             chapters would be grouped into regions solely for the purpose of
             electing members of the NOC to represent their region. Although
-            Bread & Roses has not taken a position the proposal, it has{" "}
+            Bread &amp; Roses has not taken a position the proposal, it has{" "}
             <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSd794FJgGKmVZwiXmI8_vaheTt0PV4oV5c2Z6kK95-81NrXLw/viewform?fbclid=IwAR17M4mDmBDZBDQBvET3UbYY8U85RxUZ0wnFDGjHqkbjvWdbEtm6NA-mE7Y">
               proposed an amendment
             </ExternalLink>{" "}
@@ -592,7 +592,7 @@ const TheDebate = () => (
             Four alternative constitution and bylaws changes have similar goals
             but approach the problem in different ways.
           </p>
-          
+
           <p>
             Constitution/Bylaws Change 15, proposed by members of the North Star
             caucus, would increase the size of the National Political Committee
@@ -600,7 +600,7 @@ const TheDebate = () => (
             leadership, it lacks the regional representation that members may
             desire.
           </p>
-          
+
           <p>
             Constitution/Bylaws Change 16, proposed by members of the Collective
             Power Network, creates a new National Organizing Council elected on
@@ -614,7 +614,7 @@ const TheDebate = () => (
             senate” could be created in which members in smaller regions have
             proportionally much greater representation on the NOC.
           </p>
-          
+
           <p>
             Constitution/Bylaws Change 33, proposed by members of the
             Libertarian Socialist Caucus, creates an “Assembly of Locals” (the
@@ -624,7 +624,7 @@ const TheDebate = () => (
             to imagine how such a proposal could work effectively in practice,
             and if enacted the work of national DSA could be fatally hamstrung.
           </p>
-          
+
           <p>
             Finally, Constitution/Bylaws Change 34, proposed by members of
             Build, reactivates the National Advisory Committee to act as a new

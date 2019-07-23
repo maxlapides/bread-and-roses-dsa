@@ -112,7 +112,7 @@ const TheDebate = () => (
           </ExternalLink>{" "}
           (SMC). DSA’s{" "}
           <ExternalLink href="https://www.dsausa.org/working-groups/afrosocialists-and-socialists-of-color-caucus/">
-            Afrosocialist and Socialists of Color Caucus
+            Afrosocialists and Socialists of Color Caucus
           </ExternalLink>{" "}
           is also an important group in the organization, and is a combination
           of a caucus and an officially-recognized national working group.
@@ -252,7 +252,7 @@ const TheDebate = () => (
           <ExternalLink href="https://www.jacobinmag.com/2019/03/rank-and-file-strategy-union-organizing">
             thorough defense
           </ExternalLink>{" "}
-          of the RFS in Jacobin in March. Andrew D. (Suffolk County DSA)
+          of the RFS in <i>Jacobin</i> in March. Andrew D. (Suffolk County DSA)
           published a close and{" "}
           <ExternalLink href="https://dsabuild.org/rank-and-file-analysis">
             somewhat critical reading
@@ -266,7 +266,7 @@ const TheDebate = () => (
         </p>
 
         <p>
-          In June, Jacobin hosted further contributions to the discussion, first
+          In June, <i>Jacobin</i> hosted further contributions to the discussion, first
           via{" "}
           <ExternalLink href="https://jacobinmag.com/2019/06/rank-and-file-strategy-socialists-labor-dsa">
             a critical piece
@@ -423,7 +423,7 @@ const TheDebate = () => (
             <ExternalLink href="https://www.jacobinmag.com/2016/11/bernie-sanders-democratic-labor-party-ackerman">
               convincingly articulated
             </ExternalLink>{" "}
-            by Seth Ackerman in Jacobin back in 2016, and the tactic has
+            by Seth Ackerman in <i>Jacobin</i> back in 2016, and the tactic has
             basically been the unchallenged approach of almost all DSA chapters
             engaged in electoral work since. In sum, Ackerman made the case for
             building an electoral apparatus completely independent of the

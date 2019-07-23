@@ -167,7 +167,7 @@ const TheDebate = () => (
           <ExternalLink href="https://www.youtube.com/watch?v=edE3NHFdFi8">
             independently
           </ExternalLink>{" "}
-          or on &quot;mini-slates&quot; like &quot;
+          or on groupings like &quot;
           <ExternalLink href="http://organizing.rocks/">
             Shine Under Pressure
           </ExternalLink>

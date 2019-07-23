@@ -266,8 +266,8 @@ const TheDebate = () => (
         </p>
 
         <p>
-          In June, <i>Jacobin</i> hosted further contributions to the discussion, first
-          via{" "}
+          In June, <i>Jacobin</i> hosted further contributions to the
+          discussion, first via{" "}
           <ExternalLink href="https://jacobinmag.com/2019/06/rank-and-file-strategy-socialists-labor-dsa">
             a critical piece
           </ExternalLink>{" "}
@@ -472,7 +472,7 @@ const TheDebate = () => (
               Bread &amp; Roses’s commitment
             </ExternalLink>{" "}
             to forming an independent party. David Duhalde (NYC-DSA/SMC) in
-            Socialist Forum recently wrote a{" "}
+            {" "}<i>Socialist Forum</i> recently wrote a{" "}
             <ExternalLink href="https://socialistforum.dsausa.org/issues/spring-summer-2019/its-party-time-dsa-and-post-realignment-electoral-strategy/">
               call to arms
             </ExternalLink>{" "}

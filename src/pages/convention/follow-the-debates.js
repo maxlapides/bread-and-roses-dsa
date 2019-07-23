@@ -8,7 +8,7 @@ import ExternalLink from "../../components/external-link"
 
 const TheDebate = () => (
   <Layout title="Follow the Debates" color="yellow" heroImageName="convention">
-    <SEO title="Follow the Debates" />
+    <SEO title="Follow the Debates" ogImage="convention" />
 
     <div className="content">
       <Element name="follow-the-debates" id="follow-the-debates">
@@ -471,8 +471,8 @@ const TheDebate = () => (
             <ExternalLink href="https://breadandrosesdsa.org/where-we-stand/#independent-political-action">
               Bread &amp; Roses’s commitment
             </ExternalLink>{" "}
-            to forming an independent party. David Duhalde (NYC-DSA/SMC) in
-            {" "}<i>Socialist Forum</i> recently wrote a{" "}
+            to forming an independent party. David Duhalde (NYC-DSA/SMC) in{" "}
+            <i>Socialist Forum</i> recently wrote a{" "}
             <ExternalLink href="https://socialistforum.dsausa.org/issues/spring-summer-2019/its-party-time-dsa-and-post-realignment-electoral-strategy/">
               call to arms
             </ExternalLink>{" "}

@@ -13,8 +13,8 @@ const VotingGuide = () => (
     <div className="content">
       <Element name="our-endorsements" id="our-endorsements">
         <p>
-          In addition to our proposals and our NPC slate, DSA’s Bread & Roses
-          caucus has endorsed a number of proposals at the DSA National
+          In addition to our proposals and our NPC slate, DSA’s Bread &amp;
+          Roses caucus has endorsed a number of proposals at the DSA National
           Convention. We believe these candidates, resolutions,
           constitution/bylaws changes, and amendments will help strengthen DSA
           and root us more firmly in the multiracial working class.
@@ -68,7 +68,7 @@ const VotingGuide = () => (
       </Element>
 
       <Element name="resolutions-changes" id="resolutions-changes">
-        <h2>Resolutions, Constitution\/Bylaws Changes, and Amendments</h2>
+        <h2>Resolutions, Constitution&#47;Bylaws Changes, and Amendments</h2>
 
         <p>
           You can read the text for{" "}
@@ -83,9 +83,8 @@ const VotingGuide = () => (
         </p>
 
         <p>
-          Including{" "}
-          <Link to="/convention/our-proposals/">our proposals</Link>
-          , our full list of endorsed proposals includes:
+          Including <Link to="/convention/our-proposals/">our proposals</Link>,
+          our full list of endorsed proposals includes:
         </p>
 
         <ul>

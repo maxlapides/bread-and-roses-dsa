@@ -13,218 +13,168 @@ const VotingGuide = () => (
     <div className="content">
       <Element name="our-endorsements" id="our-endorsements">
         <p>
-          We in DSA&rsquo;s <Link to="/">Bread &amp; Roses</Link> caucus are
-          excited to share three resolutions we drafted collectively for the
-          2019 DSA National Convention, one on labor organizing and the DSLC,
-          one on class-struggle election campaigns, and one on investing greater
-          resources in political education. Bread &amp; Roses is also proud to
-          endorse the Ecosocialist Working Group&rsquo;s{" "}
-          <ExternalLink href="https://docs.google.com/document/d/1QpxsM7ZZS7-NbFN80UKsJyDDPtkID_AbFdeBzzblMTs/edit">
-            Green New Deal Resolution
-          </ExternalLink>
-          .&nbsp;
-        </p>
-
-        <p>
-          These three resolutions and our support of the GND resolution are
-          based on our analysis of DSA&rsquo;s{" "}
-          <Link to="/tasks/">immediate tasks</Link> for the next one to two
-          years.
-        </p>
-
-        <p>
-          We&rsquo;re asking for DSA members&rsquo;{" "}
-          <ExternalLink href="http://bit.ly/BnRResolutions">
-            feedback and support
-          </ExternalLink>
-          , especially if you&rsquo;re going to be a delegate to the convention.
-          Please sign on!
-        </p>
-
-        <p>
-          We&rsquo;re also proud to share an amendment to strengthen DSA&rsquo;s
-          dues sharing program that supports small and new chapter.
-        </p>
-
-        <p>
-          While these are the proposals we have decided to collectively endorse
-          so far, we may endorse additional resolutions in the weeks to come,
-          including resolutions that were written by caucus members but did not
-          undergo the collective drafting and approval process that the three
-          above did, and resolutions written by members outside of our caucus.
+          In addition to our proposals and our NPC slate, DSA’s Bread & Roses
+          caucus has endorsed a number of proposals at the DSA National
+          Convention. We believe these candidates, resolutions,
+          constitution/bylaws changes, and amendments will help strengthen DSA
+          and root us more firmly in the multiracial working class.
         </p>
       </Element>
 
-      <Element name="resolution-31" id="resolution-31">
-        <h2>
-          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScKg8Tt2GMsGwzA4BTUJL58KkWicg_IXAABV_G8Tv2tDxat0g/viewform">
-            Resolution #31: Class-Struggle Elections
-          </ExternalLink>
-        </h2>
+      <Element name="npc-candidates" id="npc-candidates">
+        <h2>NPC Candidates</h2>
 
         <p>
-          Since Trump&rsquo;s election,{" "}
-          <ExternalLink href="https://socialistcall.com/2018/08/16/bernie-2020/">
-            Bernie Sanders&rsquo;s
+          We encourage all delegates to vote for our five candidates — Marianela
+          D’Aprile, Marsha Niemeijer, Megan Svoboda, Natalie Midiri, and Rachel
+          Zibrat — in slots #1-5 on their ballot (preferably in an
+          non-alphabetical order of the delegates’ choosing). Because the
+          elections will be done by a ranked choice system, ranking our five
+          candidates at the top of one’s ballot is very important to ensuring
+          they win.
+        </p>
+
+        <p>
+          Following these five candidates, we are proud to endorse the
+          candidacies of Sean Estelle and Dave Pinkham. We are asking delegates
+          to rank them #6 and #7 on their ballots, in an order of the delegates’
+          choosing.
+        </p>
+
+        <ul>
+          <li>
+            <p>
+              <ExternalLink href="https://www.davepinkhamfornpc.info/?fbclid=IwAR28SWSh5A11YIZulttDxPHuam6w4ayBkozs0Bi8uVD1Haebg3_s4aDqTKE">
+                Dave Pinkham
+              </ExternalLink>{" "}
+              is a leader in Austin DSA who helped win sick days, forced Lloyd
+              Doggett to cosponsor Medicare for All, helped Bookpeople workers
+              organize a union, and is working to make Austin a shining example
+              of what socialist organizing in the South can look like.
+            </p>
+          </li>
+          <li>
+            <p>
+              <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSdgd0ZmoOYEi7aAYzuwFl3i5swtBPzBIWmls86kIrx-IHqd-w/viewform?fbclid=IwAR0u_R2UvnagWaFRdKxu8Wwc1BhFdCX7m4z4Iu4RQJs_5vM1HG_8wOYjnfA">
+                Sean Estelle
+              </ExternalLink>{" "}
+              helped to build a campaign to democratize ComEd, the energy
+              utility in Chicago, and shares our vision for a strong DSA rooted
+              in the working class that can make the fight for a Green New Deal
+              a socialist one.
+            </p>
+          </li>
+        </ul>
+      </Element>
+
+      <Element name="resolutions-changes" id="resolutions-changes">
+        <h2>Resolutions, Constitution\/Bylaws Changes, and Amendments</h2>
+
+        <p>
+          You can read the text for{" "}
+          <ExternalLink href="https://docs.google.com/document/d/1xoO-jCn569xR01aglGa6iND58frVRohO8dpZW_LrB-s/edit">
+            all resolutions here
           </ExternalLink>{" "}
-          popularity has only risen. We have also seen a small but significant
-          shift in favor of down-ballot class-struggle electoral candidates like
-          Rashida Tlaib, Alexandria Ocasio-Cortez, Julia Salazar, Jovanka
-          Beckles, and the{" "}
-          <ExternalLink href="https://socialistcall.com/2019/05/02/chicago-will-be-ours/">
-            Chicago City Council slate
+          and all{" "}
+          <ExternalLink href="https://docs.google.com/document/d/1MUregNfOrNf4wLwlfMYXWgklOySOdOa7iCxuGk3dzrs/edit">
+            constitution/bylaws changes here
           </ExternalLink>
           .
         </p>
 
         <p>
-          Just as with the strike wave, we see this as a very promising
-          development. But again, to build the movement we need, we need to grow
-          our capacity exponentially. That&rsquo;s why we&rsquo;re proposing a
-          clear set of criteria for national DSA endorsement as well as a
-          candidate pipeline program to help DSA develop strong class-struggle
-          candidates. We see class-struggle candidates as those who &ldquo;use
-          elections, public offices, and legislation as vehicles to encourage
-          working-class organization, promote progressive legislation, and build
-          support for democratic socialist ideas.&rdquo; The resolution also
-          orients DSA&rsquo;s work in the Bernie Sanders campaign towards
-          building independent working-class power.
+          Including{" "}
+          <Link to="/convention/our-proposals/">our proposals</Link>
+          , our full list of endorsed proposals includes:
         </p>
+
+        <ul>
+          <li>R2 National Growth and Development Committee</li>
+          <li>R3 Towards a Clear Multifaceted Strategy for Labor</li>
+          <li>R4 DSA Internationalism Committee</li>
+          <li>R5 Defense of Immigrants on Refugees</li>
+          <li>R6 Orient toward Latinx communities</li>
+          <li>R15 In the Event of a Sanders Loss</li>
+          <li>R23 HGO Updates</li>
+          <li>R30 National HGO expulsion list</li>
+          <li>R31 Class Struggle Elections</li>
+          <li>R32 Labor Strategy and the DSLC</li>
+          <li>R33 Invest in Political Education</li>
+          <li>R34 Ecosocialist Green New Deal Priority</li>
+          <li>R36 DA Races</li>
+          <li>R38 Fight for abortion access</li>
+          <li>
+            R39 Petition to Bernie Sanders for a People’s Foreign Policy
+            Platform
+          </li>
+          <li>R41 Take over fossil fuels companies</li>
+          <li>R42 Great Lakes Authority</li>
+          <li>R46 National Logistics Worker Organizing</li>
+          <li>R48 Candidate Litmus Test</li>
+          <li>R51 Code of Conduct</li>
+          <li>R53 Decriminalize sex work</li>
+          <li>
+            R55 Resolution on Grassroots Fundraising and Small Chapter Growth
+          </li>
+          <li>R56 Ecosocialism as a Guiding Principle</li>
+          <li>R59 Presidential candidates and reparations</li>
+          <li>R64 Housing for all</li>
+          <li>R69 YDSA staff expansion</li>
+          <li>R71 Strengthen Int'l Committee</li>
+          <li>R72 Mass campaign for voting rights</li>
+          <li>R73 Support for Open Borders</li>
+          <li>R74 Bernie Housing Res</li>
+          <li>R80 Security and Marshalling Program</li>
+          <li>R82 National Electoral Priority Resolution</li>
+          <li>R84 Socialist Organizer Trainings</li>
+          <li>R88 Political Platform</li>
+          <li>CB11 Setting Delegate Ratio at Time of Apportionment</li>
+          <li>CB29 Equal Treatment of Amendments</li>
+        </ul>
+
+        <p>There are amendments to some of these proposals.</p>
 
         <p>
-          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScKg8Tt2GMsGwzA4BTUJL58KkWicg_IXAABV_G8Tv2tDxat0g/viewform">
-            Read more and sign on as a sponsor here!
-          </ExternalLink>
-        </p>
-      </Element>
-
-      <Element name="resolution-32" id="resolution-32">
-        <h2>
-          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScvTihWiHZcv9rKsI_2EHN9nRRhG3kPOHGSuJjNl9lcB8tICw/viewform">
-            Resolution #32: Labor Strategy and the DSLC
-          </ExternalLink>
-        </h2>
-
-        <p>
-          In the past two years we have seen a major upswing in labor militancy
-          across the country. In many cases, DSA members played leading roles in
-          organizing strikes and other collective action. But to truly build a
-          strong working-class movement, workers will have to take on the boss
-          on a greater scale than ever before.
+          We strongly encourage delegates to{" "}
+          <strong>
+            <u>vote for</u>
+          </strong>{" "}
+          the following amendments:
         </p>
 
-        <p>
-          Our resolution on labor organizing and the DSLC will build DSA&rsquo;s
-          capacity to identify, train, and connect{" "}
-          <ExternalLink href="https://socialistcall.com/2019/05/03/workers-have-the-power/">
-            worker-leaders
-          </ExternalLink>{" "}
-          who are already DSA members. It will make supporting DSA members who
-          want to{" "}
-          <ExternalLink href="https://socialistcall.com/2019/05/24/rank-and-file-strategy-union-socialism/">
-            find rank-and-file union jobs
-          </ExternalLink>{" "}
-          a top priority, so that they can help transform unions into militant,
-          left-wing, and democratic organizations.{" "}
-        </p>
+        <ul>
+          <li>
+            Amendment #9 (“Adding Bernie Specific Priorities to the National
+            Electoral Priority Resolution”) to Resolution #82
+          </li>
+          <li>
+            Amendment #28 (“Amendment on Unincorporated Chapters”) to Resolution
+            #55
+          </li>
+          <li>
+            Amendment #23 (“Striking Language on Amending the DSA Constitution
+            &amp; Bylaws”) to Constitution/Bylaws Change #31
+          </li>
+        </ul>
 
         <p>
-          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScvTihWiHZcv9rKsI_2EHN9nRRhG3kPOHGSuJjNl9lcB8tICw/viewform">
-            Read more and sign on as a sponsor here!
-          </ExternalLink>
-        </p>
-      </Element>
-
-      <Element name="resolution-33" id="resolution-33">
-        <h2>
-          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSdZjxbBWdYgXIl1PtZqLZrwbSJ2xjs82soCqj9rBdXuDQjx_w/viewform">
-            Resolution #33: Invest in Political Education
-          </ExternalLink>
-        </h2>
-        <p>
-          We should all be proud of DSA&rsquo;s enormous growth and its outsized
-          impact over the last few years. To build a durable movement, we need
-          to improve our collective ability to analyze the strengths and
-          weaknesses of our movement and capitalist class rule. We also need to
-          better understand the history of and debates within the socialist
-          movement.&nbsp;
+          And we strongly encourage delegates to{" "}
+          <strong>
+            <u>vote against</u>
+          </strong>{" "}
+          the following amendments to our proposals:
         </p>
 
-        <p>
-          That is why we are proposing a resolution to consolidate and develop
-          political education materials and to make them more easily accessible
-          to chapters. By taking what materials they find useful, and modifying
-          them as they wish, chapters can avoid spending time reinventing the
-          wheel. This will both make political education more accessible to more
-          members, and free up time at the chapter level for other organizing
-          tasks.{" "}
-        </p>
-
-        <p>
-          <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLSdZjxbBWdYgXIl1PtZqLZrwbSJ2xjs82soCqj9rBdXuDQjx_w/viewform">
-            Read more and sign on as a sponsor here!
-          </ExternalLink>
-        </p>
-      </Element>
-
-      <Element name="resolution-34" id="resolution-34">
-        <h2>
-          <ExternalLink href="https://docs.google.com/document/d/1QpxsM7ZZS7-NbFN80UKsJyDDPtkID_AbFdeBzzblMTs/edit">
-            Resolution #34: Ecosocialist Green New Deal Priority
-          </ExternalLink>
-        </h2>
-        <p>
-          A radical transition is needed towards a completely decarbonized
-          economy in the next 12 years in order to save our planet. No challenge
-          is of greater urgency both to humanity as a whole and to the socialist
-          project. It is of the utmost important that DSA participate in the
-          fight to build an ecologically sustainable society.
-        </p>
-
-        <p>
-          A{" "}
-          <ExternalLink href="https://socialistcall.com/2019/04/26/fight-for-the-green-new-deal/">
-            Green New Deal
-          </ExternalLink>{" "}
-          is our best hope to prevent a climate catastrophe. We recognize
-          however that building this new society will require a massive fight
-          against the fossil fuel industry and members of the capitalist class
-          who profit from our current carbon-powered economy. We strongly
-          support the Green New Deal priority campaign being proposed by
-          DSA&rsquo;s Ecosocialist Working Group and coauthored by members
-          across DSA&rsquo;s tendencies, including members of DSA&rsquo;s Bread
-          &amp; Roses caucus. This campaign proposes a vigorous fight on the
-          scale of DSA&rsquo;s other major priority campaigns to popularize and
-          win a robust, anti-capitalist version of the Green New Deal.
-        </p>
-      </Element>
-
-      <Element name="amendment-55" id="amendment-55">
-        <h2>
-          <ExternalLink href="https://drive.google.com/file/d/17EFMrsKu5dGfJD59PILL2rVGpIxkRuGa/view">
-            Amendment to Resolution #55: Grassroots Fundraising and Small
-            Chapter Growth
-          </ExternalLink>
-        </h2>
-        <p>
-          Resolution #55 is a strong proposal to support DSA&rsquo;s small and
-          new chapters. It increases national DSA&rsquo;s support to these
-          chapters through DSA&rsquo;s dues sharing program. We believe it{" "}
-          <ExternalLink href="https://socialistcall.com/2019/06/17/dsa-national-convention-money/">
-            is superior
-          </ExternalLink>{" "}
-          to proposed alternatives.
-        </p>
-
-        <p>
-          We and members of the Socialist Majority Caucus who coauthored this
-          amendment with us believe that Resolution #55 can be strengthened by
-          making allowances for chapters that do not have bank accounts. Our
-          amendment would instruct the national organization to give chapters
-          that do not have bank accounts their dues share through other means,
-          potentially including prepaid debit cards, credit towards purchasing
-          DSA supplies, and&#47;or fiscal cosponsorships by other DSA chapters.
-        </p>
+        <ul>
+          <li>
+            Amendment #8 (“Striking Language on an Independent Worker's Party”)
+            to Resolution #31
+          </li>
+          <li>
+            Amendment #25 (“Adding Language on Big Tent Political Education”) to
+            Resolution #33
+          </li>
+        </ul>
       </Element>
     </div>
   </Layout>

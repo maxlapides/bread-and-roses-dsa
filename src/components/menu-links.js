@@ -43,33 +43,7 @@ class MenuLinks extends React.Component {
         <li>
           <Link to="/tasks/">Tasks for 2019</Link>
         </li>
-        <li
-          className="has-submenu"
-          onMouseEnter={() => this.setSubmenuHover(true)}
-          onMouseLeave={() => this.setSubmenuHover(false)}
-        >
-          <div className="submenu-label" onClick={this.toggleSubmenuVisible}>
-            DSA Convention 2019
-          </div>
-          <ul
-            className={classNames({
-              visible: this.state.submenuHover || this.state.submenuVisible,
-            })}
-          >
-            <li className="indented">
-              <Link to="/convention/npc-slate/">NPC Slate</Link>
-            </li>
-            <li className="indented">
-              <Link to="/convention/our-proposals/">Our Proposals</Link>
-            </li>
-            <li className="indented">
-              <Link to="/convention/our-endorsements/">Our Endorsements</Link>
-            </li>
-            <li className="indented">
-              <Link to="/convention/follow-the-debates/">Follow the Debates</Link>
-            </li>
-          </ul>
-        </li>
+
         <li>
           <ExternalLink href="https://socialistcall.com/">
             Read <em>The Call</em>

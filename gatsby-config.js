@@ -16,14 +16,6 @@ module.exports = {
         name: "Tasks for 2019",
         link: "/tasks/",
       },
-      {
-        name: "NPC Slate",
-        link: "/convention/npc-slate/",
-      },
-      {
-        name: "Our Proposals",
-        link: "/convention/our-proposals/",
-      },
     ],
   },
 

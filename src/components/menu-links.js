@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import classNames from "classnames"
 import onClickOutside from "react-onclickoutside"
 
 import ExternalLink from "./external-link"
@@ -43,7 +42,6 @@ class MenuLinks extends React.Component {
         <li>
           <Link to="/tasks/">Tasks for 2019</Link>
         </li>
-
         <li>
           <ExternalLink href="https://socialistcall.com/">
             Read <em>The Call</em>

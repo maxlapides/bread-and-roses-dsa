@@ -16,6 +16,10 @@ module.exports = {
         name: "Tasks for 2019",
         link: "/tasks/",
       },
+      {
+        name: "Join Bread & Roses",
+        link: "/join/",
+      },
     ],
   },
 

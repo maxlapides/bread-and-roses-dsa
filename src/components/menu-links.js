@@ -48,9 +48,7 @@ class MenuLinks extends React.Component {
           </ExternalLink>
         </li>
         <li>
-          <ExternalLink href="https://forms.gle/M6vVT4JQTJQcr7Tf8">
-            Join Bread &amp; Roses
-          </ExternalLink>
+          <Link to="/join/">Join Bread &amp; Roses</Link>
         </li>
       </ul>
     )

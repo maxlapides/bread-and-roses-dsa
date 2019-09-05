@@ -1,9 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ExternalLink from "../components/external-link"
 
 const JoinPage = () => (
   <Layout title="Join Bread &amp; Roses" color="yellow" heroImageName="index">

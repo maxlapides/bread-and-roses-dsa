@@ -39,7 +39,10 @@
 
   &--red {
     background-color: $red;
-    padding: 72px 3rem;
+
+    .home & {
+      padding: 72px 3rem;
+    }
   }
 
   &--green {

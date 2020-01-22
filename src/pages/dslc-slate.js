@@ -78,7 +78,7 @@ class NPCSlate extends React.Component {
 
   render() {
     return (
-      <Layout title="DSLC Slate 2020" color="yellow" heroImageName="dslc">
+      <Layout title="DSLC Slate 2020" color="red" heroImageName="dslc">
         <SEO title="DSLC Slate 2020" ogImage="dslc" />
 
         <div className="content-column content-column-candidates">

@@ -19,7 +19,7 @@ import ExternalLink from "./external-link"
 import "antd/dist/antd.less"
 import "./layout.scss"
 
-const Layout = ({ title, color, children, heroImageName }) => (
+const Layout = ({ title, color, children, heroImageName, layoutClassName }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -47,7 +47,7 @@ const Layout = ({ title, color, children, heroImageName }) => (
           menuLinks={data.site.siteMetadata.menuLinks}
           siteTitle={data.site.siteMetadata.title}
         />
-        <AntLayout>
+        <AntLayout className={layoutClassName}>
           <div className="social-wrapper">
             <div className="social">
               <ExternalLink href="https://www.facebook.com/breadandrosesdsa/">

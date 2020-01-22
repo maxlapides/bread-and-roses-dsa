@@ -10,6 +10,7 @@ const IndexPage = () => (
     title="Democratic Socialism for the many"
     color="red"
     heroImageName="index"
+    layoutClassName="home"
   >
     <SEO title="Bread and Roses DSA" ogImage="home" titleTemplate={`%s`} />
     <div className="content">

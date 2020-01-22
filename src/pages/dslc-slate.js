@@ -87,11 +87,14 @@ class NPCSlate extends React.Component {
           </Element>
 
           <div className="candidate-cards">
-            {candidates.map(candidate => (
-              <button
+            {candidates.map((candidate, index) => (
+              <div
                 className="candidate-card"
                 onClick={() => this.showModal(candidate)}
+                onKeyPress={() => this.showModal(candidate)}
                 key={candidate.name}
+                role="button"
+                tabIndex={index}
               >
                 <CandidatePhoto
                   img={this.image(candidate)}
@@ -102,7 +105,7 @@ class NPCSlate extends React.Component {
                   <h4>{candidate.chapter}</h4>
                   <Button>Read more&hellip;</Button>
                 </div>
-              </button>
+              </div>
             ))}
           </div>
         </div>
@@ -119,7 +122,7 @@ class NPCSlate extends React.Component {
               labor organizers for the Democratic Socialists Labor Commission:
               Anthony Downing (Lehigh Valley), Ashley Payne (East Bay), J.P.
               Kaderbek (Chicago), K.T. Liberato (Philly), Laura Gabby (NYC), and
-              Rebecca Garelli (Phoenix)!.
+              Rebecca Garelli (Phoenix)!
             </p>
             <p>
               We are committed to rebuilding and supporting the organized labor

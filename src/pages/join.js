@@ -9,6 +9,7 @@ const JoinPage = () => (
     <div className="content">
       <iframe
         src="https://airtable.com/embed/shr1pdmCIC6JShvFH?backgroundColor=green"
+        title="Join Bread and Roses"
         frameborder="0"
         onmousewheel=""
         width="100%"

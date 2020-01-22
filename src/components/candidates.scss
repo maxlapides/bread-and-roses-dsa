@@ -16,6 +16,26 @@
   display: flex;
   flex: 0 1 100%;
   margin: 1% 0;
+  text-align: left;
+
+  &:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.08);
+  }
+
+  &:focus {
+    outline: 0;
+  }
+
+  h3 {
+    font-size: 1.3em;
+    margin-bottom: 0;
+  }
+
+  h4 {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 0.8em;
+  }
 }
 
 .candidate-cards-wrapper {
@@ -29,14 +49,6 @@
 .candidate-cards-wrapper--single .candidate-card {
   flex: 1 1 auto;
   margin: 0;
-}
-
-.candidate-card h3 {
-  font-size: 1.3em;
-}
-
-.candidate-card:hover {
-  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.08);
 }
 
 .candidate-card__content {
@@ -55,6 +67,16 @@
 }
 
 .ant-modal-body {
+  h2 {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+
   .candidate-photo {
     float: left;
     margin: 0 25px 5px 0;

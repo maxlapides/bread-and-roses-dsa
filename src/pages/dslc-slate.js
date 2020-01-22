@@ -212,9 +212,9 @@ class NPCSlate extends React.Component {
                 Should Become Teachers&rdquo; for other strategic industries.
               </li>
               <li>
-                Create a Speakers Bureau. The DSLC will find speakers who are
-                knowledgeable and make it easy for chapters to connect with
-                them.
+                Create a speakers bureau. The DSLC will find speakers who are
+                knowledgeable about different aspects of the labor movement and
+                make it easy for chapters to connect with them.
               </li>
               <li>
                 Create pamphlets on the Rank and File Strategy and on Organizing

@@ -118,98 +118,98 @@ class NPCSlate extends React.Component {
               Announcing the Bread &amp; Roses DSLC Slate!
             </h2>
             <p>
-              Bread and Roses is thrilled to announce our slate of six socialist
-              labor organizers for the Democratic Socialists Labor Commission:
-              Anthony Downing (Lehigh Valley), Ashley Payne (East Bay), J.P.
-              Kaderbek (Chicago), K.T. Liberato (Philly), Laura Gabby (NYC), and
-              Rebecca Garelli (Phoenix)!
+              Bread and Roses is proud to announce our slate of six socialist
+              labor organizers for the Democratic Socialist Labor Commission
+              steering committee: Anthony Downing (Lehigh Valley), Ashley Payne
+              (East Bay), J.P. Kaderbek (Chicago), K.T. Liberato (Philly), Laura
+              Gabby (NYC), and Rebecca Garelli (Phoenix).
             </p>
             <p>
-              We are committed to rebuilding and supporting the organized labor
-              movement because labor unions are society’s primary engine of
-              explicit and continuous class struggle and because we believe that
-              only a united multiracial working class can defeat capital. In
-              addition to carrying out the resolutions passed at the 2019 DSA
-              National Convention, our priorities for building a militant,
-              democratic, rank and file-led socialist labor movement are:
+              We are committed to rebuilding and supporting the labor movement
+              because unions are society&rsquo;s primary engine of explicit and
+              continuous class struggle and because only a united multiracial
+              working class can defeat capital.
+            </p>
+            <p>
+              As we carry out the labor resolutions passed at the 2019 DSA
+              Convention, we want to focus on these areas of work:
             </p>
             <h3>1. Position Socialists in the Rank and File</h3>
             <p>
               We cannot rebuild the labor movement without being embedded in the
-              labor movement taking up our coworkers’ fights as our own. Labor
-              militancy starts on the shop floor. If we are successful in our
-              task of re-embedding ourselves in the organized labor movement, we
-              will be able to advance socialist ideas as part of the diverse
-              working class. We can help rebuild the activist layer within
-              unions by:
+              labor movement, taking up our coworkers&rsquo; fights as our own.
+              The fight with the boss starts on the shop floor. If we are
+              successful in re-embedding ourselves in the labor movement, we
+              will be able to advance socialist ideas as part of the multiracial
+              working class. We can help rebuild the activist layer in unions
+              by:
             </p>
             <ul>
+              <li>
+                Helping chapters survey and map their local labor conditions to
+                identify organizing opportunities and encourage socialists to
+                enter strategic sectors, such as logistics or teaching.
+              </li>
               <li>
                 Encouraging and facilitating socialists to take union jobs.
               </li>
               <li>Educating DSA members about the rank and file strategy.</li>
               <li>
-                Providing ongoing support for rank and file socialist labor
-                militants with ongoing training such as Labor Notes
-                Troublemakers schools and/or supporting labor activists in
-                seeking union office to transform their union.
+                Providing ongoing support for DSA members in the labor movement
+                with training such as Labor Notes Troublemakers Schools and by
+                supporting activists in seeking union office to transform their
+                unions.
               </li>
               <li>
                 Collaborating with YDSA chapters to encourage high school and
                 college students to consider rank and file union jobs.
               </li>
               <li>
-                Helping chapters survey and map their local labor conditions to
-                encourage socialists to enter strategic industries and sectors
-                such as logistics or teaching.
-              </li>
-              <li>
                 Facilitating communication of socialists within industries to
                 coordinate organizing within and across regions.
               </li>
               <li>
-                Existing unions are the most strategic instruments for new
-                organizing, and rank and file-led democratic unions can initiate
-                unionization drives to grow the labor movement.
+                Encouraging democratic unions to initiate unionization drives to
+                grow the labor movement and supporting DSA members who are
+                organizing their workplaces.
               </li>
             </ul>
-            <h3>2. Building Strong Labor Formations</h3>
+            <h3>2. Build Strong Labor Formations</h3>
             <p>
               Local DSA labor formations (local branches or committees) are
-              where the day to day organizing occur. This is where DSA members
-              get support, political and labor education, and plug into labor
-              movement organizing.
+              where the day-to-day organizing occurs. This is where DSA members
+              get support, get political and labor education, and plug into
+              labor organizing whether or not they are union members themselves.
             </p>
             <ul>
               <li>
-                Facilitate the creation of labor committees, branches, or
-                working groups to serve as a home base for carrying out DSLC’s
+                Facilitate creation of labor committees, branches, or working
+                groups to serve as a home base for carrying out the DSLC&rsquo;s
                 priorities.
               </li>
               <li>
                 Create a national communication network so labor formations can
-                coordinate across chapters, regions, industries, and sectors
+                coordinate across chapters, regions, industries, and sectors.
               </li>
               <li>
-                Facilitate labor formations in assisting with mapping and
-                surveying DSA’s membership in the labor movement.
+                Help labor formations to assist with mapping and surveying
+                DSA&rsquo;s membership in the labor movement, and help chapters
+                to define organizing targets and pick priorities.
               </li>
             </ul>
-            <h3> 3. Establish a Socialist Labor Education Program</h3>
+            <h3>3. Establish a Socialist Labor Education Program</h3>
             <p>
-              Create labor education materials for DSA. The socialist and labor
-              movements are operating separately from one another without much
-              overlap in membership and therefore they lack unity of action. It
-              is essential that socialists rebuild the historically strong
-              connection between the two. Further, our members need to
-              understand how today’s labor movement functions so we can
-              intervene strategically on the shop floor, at the bargaining
-              table, or in the streets.
+              By and large the socialist and labor movements operate separately
+              from one another without much overlap in membership. It&rsquo;s
+              our job to rebuild the historically strong connection between the
+              two. Our members need to understand how today&rsquo;s labor
+              movement functions so we can organize strategically on the shop
+              floor, at the bargaining table, and in the streets.
             </p>
             <ul>
               <li>
-                Continue to create pamphlets like the “Why Democratic Socialists
-                Should Become Teachers” for other strategic industries.
+                Continue to create pamphlets like the &ldquo;Why Socialists
+                Should Become Teachers&rdquo; for other strategic industries.
               </li>
               <li>
                 Create a Speakers Bureau. The DSLC will find speakers who are
@@ -217,85 +217,90 @@ class NPCSlate extends React.Component {
                 them.
               </li>
               <li>
-                Create pamphlets on the Rank and File Strategy and Organizing
+                Create pamphlets on the Rank and File Strategy and on Organizing
                 the Unorganized.
               </li>
               <li>
-                Facilitate local labor formations in providing ongoing trainings
-                such as the Labor Notes “Secrets of a Successful Organizer”
-                trainings or providing trainings on how to inoculate members
-                against anti-union messaging during unionization drives.
+                Help local labor formations to provide ongoing trainings such as
+                the Labor Notes &ldquo;Secrets of a Successful Organizer&rdquo;
+                series or trainings on how to inoculate coworkers against
+                anti-union messaging during unionization drives.
               </li>
             </ul>
             <h3>4. Labor Solidarity Organizing</h3>
             <p>
-              Establish recommendations and guidance for local labor formations
-              to coordinate and mobilize DSA members in providing support for
-              union organizing efforts, contract campaigns and escalation
-              strategies, and especially around strike support. These moments of
-              heightened class struggle open opportunities for the development
-              of class consciousness. These moments also provide education for
-              socialists, as they develop new skills and understanding from
-              these experiences. The DSLC can support labor solidarity campaigns
-              in these ways, among others:
+              Establish guidance for local labor formations to mobilize DSA
+              members to support union organizing efforts, contract campaigns
+              and escalation strategies, and strikes. These moments of
+              heightened class struggle open opportunities for class
+              consciousness to expand. They also educate socialists, as we
+              develop new skills and understanding from these experiences. The
+              DSLC can support labor solidarity campaigns by:
             </p>
             <ul>
               <li>
-                Create and consolidate graphic design resources online like
-                signs and banners for chapters to use.
+                Creating and consolidating graphic design resources online, such
+                as signs and banners, for chapters to use.
               </li>
               <li>
-                Develop a strike solidarity manual including a picket line
+                Developing a strike solidarity manual, including a picket line
                 etiquette guide.
               </li>
-              <li>Develop a picket line etiquette manual</li>
               <li>
-                Hold national calls for members to share skills from outstanding
-                recent efforts in Chicago, East Bay, Los Angeles, and elsewhere.
+                Holding national calls for members to share skills from
+                outstanding solidarity efforts.
+              </li>
+              <li>
+                Creating a pamphlet on how to organize a union in your
+                workplace.
               </li>
             </ul>
             <h3>5. Class-Struggle Unionism</h3>
             <p>
-              The DSLC should help existing unions and rank-and-file labor
-              activists move to the next stage of their political development
-              from workplace militancy to class struggle unionism by sharing
-              resources they can use to develop class struggle campaigns. Some
-              may call this “social justice unionism” or “bargaining for the
-              common good.” We call it class struggle unionism because
-              organized, militant, democratic, rank and file led unions are the
-              best positioned to take up struggles that benefit the entire
-              multiracial working class like the fights for{" "}
+              The DSLC should promote class struggle unionism by sharing
+              resources for broad class struggle campaigns (&ldquo;social
+              justice unionism&rdquo; or &ldquo;bargaining for the common
+              good).&rdquo; Organized, militant, democratic, rank and file-led
+              unions are best positioned to take up struggles that benefit the
+              entire multiracial working class, such as fights for{" "}
               <ExternalLink href="https://jacobinmag.com/2019/12/medicare-for-all-social-workers-health-care">
                 Medicare for All
               </ExternalLink>{" "}
               or a Green New Deal. In places where DSA chapters have limited
               relationships with organized labor or where workers face
-              conditions that constrain their organizing on the shop floor,
-              these campaigns can play a key role in bringing together labor
-              activists to wage class struggle. The DSLC should develop a
-              program for working class socialist labor activists to run class
-              struggle campaigns, including demands like:
+              conditions that constrain their organizing on the shop floor, such
+              campaigns can bring together labor activists to wage class
+              struggle. The DSLC should develop a program for class struggle
+              campaigns, including demands like:
             </p>
             <ul>
               <li>
-                Organize for the{" "}
+                Organize for{" "}
                 <ExternalLink href="https://berniesanders.com/issues/workplace-democracy/">
-                  Bernie Sanders Workplace Democracy Act
+                  Bernie Sanders&rsquo;s Workplace Democracy Act
+                </ExternalLink>{" "}
+                and to elect Bernie Sanders
+              </li>
+              <li>
+                Fight privatization and commodification of the public sphere
+              </li>
+              <li>
+                Organize for demands like Medicare for All, Green New Deal,
+                immigrant rights, reproductive rights, and more.
+              </li>
+              <li>
+                Develop socialist labor leaders to run for public office and
+                support candidates running{" "}
+                <ExternalLink href="https://socialistcall.com/2019/08/01/class-struggle-politicians-dsa-elections/">
+                  class-struggle elections
                 </ExternalLink>
               </li>
-              <li>
-                Fight the forces of privatization and commodification of the
-                public sphere
-              </li>
-              <li>
-                Organize for socialist demands like Medicare for All, Green New
-                Deal, Open Borders, Reproductive Rights, etc.
-              </li>
-              <li>
-                Develop socialist labor leaders to run class struggle elections
-              </li>
-              <li>Support socialists running class struggle elections</li>
             </ul>
+            <p>
+              We look forward to working with other members of the steering
+              committee and the whole DSLC to carry out the ambitious plans we
+              passed at the convention. We have a world to win!
+            </p>
           </Element>
         </div>
 

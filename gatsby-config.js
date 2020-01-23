@@ -17,6 +17,10 @@ module.exports = {
         link: "/tasks/",
       },
       {
+        name: "DSLC Slate 2020",
+        link: "/dslc-slate/",
+      },
+      {
         name: "Join Bread & Roses",
         link: "/join/",
       },

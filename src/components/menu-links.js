@@ -43,6 +43,9 @@ class MenuLinks extends React.Component {
           <Link to="/tasks/">Tasks for 2019</Link>
         </li>
         <li>
+          <Link to="/dslc-slate/">DSLC Slate 2020</Link>
+        </li>
+        <li>
           <ExternalLink href="https://socialistcall.com/">
             Read <em>The Call</em>
           </ExternalLink>

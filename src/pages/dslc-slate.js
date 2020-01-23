@@ -71,7 +71,6 @@ class NPCSlate extends React.Component {
       .split(" ")[0]
       .toLowerCase()
       .replace(/\./g, "")
-    console.log(name)
     return this.images().find(image => image.name === name).childImageSharp
       .fluid
   }

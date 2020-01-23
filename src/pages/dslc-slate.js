@@ -78,7 +78,13 @@ class NPCSlate extends React.Component {
   render() {
     return (
       <Layout title="DSLC Slate 2020" color="red" heroImageName="dslc">
-        <SEO title="DSLC Slate 2020" ogImage="dslc" />
+        <SEO
+          title="DSLC Slate 2020"
+          ogImage="dslc"
+          description="Bread and Roses is proud to announce our slate of six socialist
+              labor organizers for the Democratic Socialist Labor Commission
+              steering committee."
+        />
 
         <div className="content-column content-column-candidates">
           <Element name="candidates" id="candidates">

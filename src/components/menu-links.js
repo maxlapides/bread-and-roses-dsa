@@ -41,10 +41,6 @@ class MenuLinks extends React.Component {
           <Link to="/where-we-stand/">Where We Stand</Link>
         </li>
         <li>
-          <Link to="/tasks/">Tasks for 2019</Link>
-        </li>
-
-        <li>
           <ExternalLink href="https://socialistcall.com/">
             Read <em>The Call</em>
           </ExternalLink>

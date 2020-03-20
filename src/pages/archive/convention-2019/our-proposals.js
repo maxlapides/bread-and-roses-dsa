@@ -2,9 +2,9 @@ import React from "react"
 import { Element } from "react-scroll"
 import { Link } from "gatsby"
 
-import Layout from "../../components/layout"
-import SEO from "../../components/seo"
-import ExternalLink from "../../components/external-link"
+import Layout from "../../../components/layout"
+import SEO from "../../../components/seo"
+import ExternalLink from "../../../components/external-link"
 
 const VotingGuide = () => (
   <Layout title="Our Proposals" color="yellow" heroImageName="convention">

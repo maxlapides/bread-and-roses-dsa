@@ -1,6 +1,11 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+
 import React from "react"
 import { Link } from "gatsby"
 import onClickOutside from "react-onclickoutside"
+import classNames from "classnames"
 
 import ExternalLink from "./external-link"
 
@@ -39,11 +44,26 @@ class MenuLinks extends React.Component {
         <li>
           <Link to="/where-we-stand/">Where We Stand</Link>
         </li>
-        <li>
-          <Link to="/tasks/">Tasks for 2019</Link>
-        </li>
-        <li>
-          <Link to="/dslc-slate/">DSLC Slate 2020</Link>
+        <li
+          className="has-submenu"
+          onMouseEnter={() => this.setSubmenuHover(true)}
+          onMouseLeave={() => this.setSubmenuHover(false)}
+        >
+          <div className="submenu-label" onClick={this.toggleSubmenuVisible}>
+            Resources
+          </div>
+          <ul
+            className={classNames({
+              visible: this.state.submenuHover || this.state.submenuVisible,
+            })}
+          >
+            <li className="indented">
+              <Link to="/reading-list/">Reading List</Link>
+            </li>
+            <li className="indented">
+              <Link to="/archive/">Archive</Link>
+            </li>
+          </ul>
         </li>
         <li>
           <ExternalLink href="https://socialistcall.com/">

@@ -3,9 +3,9 @@ import { Element } from "react-scroll"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import InternalLink from "../components/internal-link"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import InternalLink from "../../components/internal-link"
 
 const Tasks = ({ data }) => (
   <Layout title="Tasks for 2019" color="blue" heroImageName="tasks">

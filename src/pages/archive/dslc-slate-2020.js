@@ -5,9 +5,9 @@ import Img from "gatsby-image"
 import { graphql } from "gatsby"
 import ReactMarkdown from "react-markdown"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import ExternalLink from "../components/external-link"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
+import ExternalLink from "../../components/external-link"
 
 const candidates = [
   {
@@ -48,7 +48,7 @@ const candidates = [
   },
 ]
 
-class NPCSlate extends React.Component {
+class DSLCSlate extends React.Component {
   state = { visible: false, candidate: null }
 
   showModal = candidate => {
@@ -367,4 +367,4 @@ export const query = graphql`
   }
 `
 
-export default NPCSlate
+export default DSLCSlate

@@ -20,6 +20,7 @@ const ReadingListPage = () => (
       <h2>
         <em>Socialist Politics:</em> A Reading List
       </h2>
+      <br />
       <h3>Compiled by Bread and Roses</h3>
       <p>
         For the first time in many decades, interest in socialism is surging in
@@ -41,6 +42,7 @@ const ReadingListPage = () => (
         socialist politics start by reading the pieces in the Introduction to
         Socialism section, followed by the articles with stars next to them.
       </p>
+      <br />
       <h3>Introduction to Socialism</h3>
       <ul>
         <li>
@@ -54,7 +56,6 @@ const ReadingListPage = () => (
           <ExternalLink href="http://www.midwestsocialist.com/2018/11/29/what-it-means-to-be-a-marxist/?fbclid=IwAR2vQ8ZPf8lYXBYcp_Bg12E3E-DeGnapFbD3tAPaJRb8gMR26DYVWFnjYqo">
             &ldquo;What It Means to Be a Marxist&rdquo;
           </ExternalLink>
-          &nbsp;
         </li>
         <li>
           Nivedita Majumdar,{" "}
@@ -69,18 +70,17 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
       </ul>
-
+      <br />
       <h3>Class Structure and Class Formation</h3>
       <p>
         <strong>Introductory</strong>
       </p>
       <ul>
         <li>
-          *Hal Draper, &ldquo;
+          *Hal Draper,{" "}
           <ExternalLink href="https://drive.google.com/file/d/1RSO6rOW-LltGGo8NazNGLcVZQuGzwm0_/view?usp=sharing">
-            Why the Working Class?
+            &ldquo;Why the Working Class?&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Jane Slaughter,{" "}
@@ -95,9 +95,9 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Michael Zweig, &ldquo;
+          Michael Zweig,{" "}
           <ExternalLink href="https://monthlyreview.org/2006/07/01/six-points-on-class/">
-            Six Points on Class&rdquo;
+            &ldquo;Six Points on Class&rdquo;
           </ExternalLink>
         </li>
         <li>
@@ -112,22 +112,20 @@ const ReadingListPage = () => (
       </p>
       <ul>
         <li>
-          Erik Olin Wright, &ldquo;
+          Erik Olin Wright,{" "}
           <ExternalLink href="http://www.ssc.wisc.edu/~wright/Published%20writing/Class-Counts-chapter-1.pdf">
-            Class Analysis
-          </ExternalLink>
-          &rdquo; and &ldquo;
+            &ldquo;Class Analysis&rdquo;
+          </ExternalLink>{" "}
+          and{" "}
           <ExternalLink href="http://www.ssc.wisc.edu/~wright/Published%20writing/cc-C2.pdf">
-            Class Structure
+            &ldquo;Class Structure&rdquo;
           </ExternalLink>
-          &rdquo;&nbsp;
         </li>
         <li>
-          Vivek Chibber, &ldquo;
+          Vivek Chibber,{" "}
           <ExternalLink href="https://catalyst-journal.com/vol1/no1/cultural-turn-vivek-chibber">
-            Rescuing Class from the Cultural Turn
+            &ldquo;Rescuing Class from the Cultural Turn&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Karl Marx,{" "}
@@ -136,28 +134,27 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Kim Moody, &ldquo;
+          Kim Moody,{" "}
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdbGlRa0N4UmQ1NGM">
-            The New Terrain of Class Conflict in the United States
+            &ldquo;The New Terrain of Class Conflict in the United States
+            &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Claus Offe and Helmut Wiesenthal, &ldquo;
+          Claus Offe and Helmut Wiesenthal,{" "}
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdTmJkS190LXJubGc">
-            Two Logics of Collective Action: Theoretical Notes on Social Class
-            and Organizational Form
+            &ldquo;Two Logics of Collective Action: Theoretical Notes on Social
+            Class and Organizational Form&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Charlie Post,{" "}
           <ExternalLink href="https://solidarity-us.org/atc/123/p128/">
             &ldquo;The Myth of the Labor Aristocracy&rdquo;
           </ExternalLink>
-          &nbsp;
         </li>
       </ul>
+      <br />
       <h3>The Capitalist State</h3>
       <p>
         <strong>Introductory</strong>
@@ -183,11 +180,10 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Chris Maisano, &ldquo;
+          Chris Maisano,{" "}
           <ExternalLink href="https://socialistcall.com/2018/11/27/the-constitution-and-the-class-struggle/">
-            The Constitution and the Class Struggle
+            &ldquo;The Constitution and the Class Struggle&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Michael McCarthy,{" "}
@@ -201,11 +197,10 @@ const ReadingListPage = () => (
       </p>
       <ul>
         <li>
-          Ralph Miliband, &ldquo;
+          Ralph Miliband,
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdRS1yWGlDUE84Q0U">
-            State Power and Class Interests
+            &ldquo;State Power and Class Interests &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Ralph Miliband,{" "}
@@ -214,14 +209,14 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Fred Block, &ldquo;
+          Fred Block,{" "}
           <ExternalLink href="https://www.ssc.wisc.edu/~wright/SOC621/RulingClass.pdf">
-            The Ruling Class Does Not Rule: Notes on the Marxist Theory of the
-            State
+            &ldquo;The Ruling Class Does Not Rule: Notes on the Marxist Theory
+            of the State&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
       </ul>
+      <br />
       <h3>Racial Oppression</h3>
       <p>
         <strong>Introductory</strong>
@@ -237,6 +232,12 @@ const ReadingListPage = () => (
           Paul Heideman,{" "}
           <ExternalLink href="https://jacobinmag.com/2018/04/socialism-marx-race-class-struggle-color-line">
             &ldquo;Socialism and Black Oppression&rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Keeanga-Yamahtta Taylor,{" "}
+          <ExternalLink href="https://www.theparisreview.org/blog/2018/01/15/remembering-martin-luther-kings-radical-class-politics/">
+            &ldquo;Martin Luther King Jr&rsquo;s Radical Anti-Capitalism&rdquo;
           </ExternalLink>
         </li>
         <li>
@@ -258,15 +259,9 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Keeanga-Yamahtta Taylor, &ldquo;
-          <ExternalLink href="https://www.theparisreview.org/blog/2018/01/15/remembering-martin-luther-kings-radical-class-politics/">
-            Martin Luther King Jr&rsquo;s Radical Anti-Capitalism&rdquo;
-          </ExternalLink>
-        </li>
-        <li>
-          Victor Wallis,{" "}
-          <ExternalLink href="https://drive.google.com/file/d/1t1Ok5UbR_zUPVZam89bN92Eyv57WnLCj/view?usp=sharing">
-            &ldquo;Intersectionality&rsquo;s Binding Agent&rdquo;
+          Suzy Lee,{" "}
+          <ExternalLink href="https://catalyst-journal.com/vol2/no4/the-case-for-open-borders">
+            &ldquo;The Case for Open Borders&rdquo;
           </ExternalLink>
         </li>
       </ul>
@@ -275,17 +270,11 @@ const ReadingListPage = () => (
       </p>
       <ul>
         <li>
-          Suzy Lee,{" "}
-          <ExternalLink href="https://catalyst-journal.com/vol2/no4/the-case-for-open-borders">
-            &ldquo;The Case for Open Borders&rdquo;
-          </ExternalLink>
-        </li>
-        <li>
-          Martha Gimenez, &ldquo;
+          Martha Gimenez,{" "}
           <ExternalLink href="https://kupdf.net/download/martha-gimenez-quot-marxism-and-class-gender-race-rethinking-the-trilogy-quot_58dec03bdc0d60e06d8970fe_pdf">
-            Marxism and Class, Gender and Race: Rethinking The Trilogy
+            &ldquo;Marxism and Class, Gender and Race: Rethinking The
+            Trilogy&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Adolph Reed, Ellen Meiksins Wood, Maurice Zeitlin, Steven Gregory,{" "}
@@ -295,11 +284,11 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Barbara Jeanne Fields, &ldquo;
+          Barbara Jeanne Fields,{" "}
           <ExternalLink href="http://www.solidarity-us.org/pdfs/cadreschool/fields.pdf">
-            Slavery, Race, and Ideology in the United States of America
+            &ldquo;Slavery, Race, and Ideology in the United States of
+            America&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Michael McCarthy,{" "}
@@ -308,29 +297,29 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Charlie Post,{" "}
-          <ExternalLink href="http://salvage.zone/online-exclusive/comments-on-roedigers-class-race-and-marxism/#_ftn9">
-            &ldquo;Comments on Roediger&rsquo;s Class, Race and Marxism&rdquo;
-          </ExternalLink>
-        </li>
-        <li>
-          Christopher Phelps,{" "}
-          <ExternalLink href="https://drive.google.com/file/d/1I4cJibCtq1JelgEHtM0lC9hJWmCcWJ8N/view?usp=sharing">
-            &ldquo;Introduction to Race and Revolution&rdquo;
+          Adaner Usmani and John Clegg,{" "}
+          <ExternalLink href="https://drive.google.com/file/d/1CKUb1IoPj0OiongRqW3jw9yIcTfT9KBd/view?usp=sharing">
+            &ldquo;The Economic Origins of Mass Incarceration&rdquo;
           </ExternalLink>
         </li>
       </ul>
+      <br />
       <h3>Women&rsquo;s Oppression</h3>
       <p>
         <strong>Introductory</strong>
       </p>
       <ul>
         <li>
-          *Johanna Brenner, &ldquo;
+          *Johanna Brenner,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2014/09/the-promise-of-socialist-feminism/">
-            The Promise of Socialist Feminism
+            &ldquo;The Promise of Socialist Feminism&rdquo;
           </ExternalLink>
-          &rdquo;
+        </li>
+        <li>
+          Barbara Ehrenreich,{" "}
+          <ExternalLink href="https://www.marxists.org/subject/women/authors/ehrenreich-barbara/socialist-feminism.htm">
+            &ldquo;What is Socialist Feminism?&rdquo;
+          </ExternalLink>
         </li>
         <li>
           Alex Press,{" "}
@@ -347,16 +336,15 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Nancy Holmstrom, &ldquo;
-          <ExternalLink href="https://monthlyreview.org/2003/03/01/the-socialist-feminist-project/">
-            The Socialist Feminist Project
+          Jenny Brown,{" "}
+          <ExternalLink href="https://www.jacobinmag.com/2019/04/birth-strike-jenny-brown-interview">
+            &ldquo;Not in Labor&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Luci Cavallero et al.,{" "}
-          <ExternalLink href="https://www.jacobinmag.com/2018/09/argentinas-anticapitalist-feminism">
-            &ldquo;Argentina&rsquo;s Anticapitalist Feminism&rdquo;
+          Nancy Holmstrom,{" "}
+          <ExternalLink href="https://monthlyreview.org/2003/03/01/the-socialist-feminist-project/">
+            &ldquo;The Socialist Feminist Project&rdquo;
           </ExternalLink>
         </li>
       </ul>
@@ -365,18 +353,16 @@ const ReadingListPage = () => (
       </p>
       <ul>
         <li>
-          Martha Gimenez, &ldquo;
+          Martha Gimenez,{" "}
           <ExternalLink href="https://drive.google.com/open?id=0B082ah0hb7ImMlRwRGQza1NoN1U">
-            Capitalism and the Oppression of Women: Marx Revisited
+            &ldquo;Capitalism and the Oppression of Women: Marx Revisited&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Johanna Brenner and Maria Ramas, &ldquo;
+          Johanna Brenner and Maria Ramas,{" "}
           <ExternalLink href="https://drive.google.com/open?id=0B2qu_1LJy-irdi1VUkk3Mi14Qk0">
-            Rethinking Women&rsquo;s Oppression
+            &ldquo;Rethinking Women&rsquo;s Oppression&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Salar Mohandesi and Emma Teitelman,{" "}
@@ -391,14 +377,14 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
       </ul>
+      <br />
       <h3>LGBTQ Oppression</h3>
       <ul>
         <li>
-          *Jeremy Cohan and Ben Serby, &ldquo;
+          *Jeremy Cohan and Ben Serby,
           <ExternalLink href="https://d3n8a8pro7vhmx.cloudfront.net/religioussocialism/pages/145/attachments/original/1530008698/DSA_QueerLiberation.pdf?1530008698">
-            From Gay Rights to Queer Liberation
+            &ldquo;From Gay Rights to Queer Liberation &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Fainan Lakha,{" "}
@@ -407,11 +393,10 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          John D&rsquo;Emilio, &ldquo;
+          John D&rsquo;Emilio,{" "}
           <ExternalLink href="http://sites.middlebury.edu/sexandsociety/files/2015/01/DEmilio-Capitalism-and-Gay-Identity.pdf">
-            Capitalism and Gay Identity
+            &ldquo;Capitalism and Gay Identity&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Sherry Wolf,{" "}
@@ -420,6 +405,7 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
       </ul>
+      <br />
       <h3>Socialist Strategy</h3>
       <p>
         <strong>Introductory</strong>
@@ -432,26 +418,36 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Peter Gowan, &ldquo;
+          Ben Beckett,{" "}
+          <ExternalLink href="https://socialistforum.dsausa.org/issues/fall-2018/political-revolution-in-the-twenty-first-century/">
+            &ldquo;Political Revolution in the Twenty-First Century&rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Chris Maisano,{" "}
+          <ExternalLink href="https://socialistforum.dsausa.org/issues/spring-summer-2019/electoral-politics-class-formation-and-socialist-strategy/">
+            &ldquo;Electoral Politics, Class Formation, and Socialist
+            Strategy&rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Peter Gowan,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2017/11/social-democracy-sweden-meidner-plan-socialism">
-            A Plan to Win
+            &ldquo;A Plan to Win&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Peter Camejo, &ldquo;
+          Peter Camejo,{" "}
           <ExternalLink href="https://socialistcall.com/2018/08/16/liberalism-ultraleftism-or-mass-action/">
-            Liberalism, Ultraleftism, or Mass Action
+            &ldquo;Liberalism, Ultraleftism, or Mass Action&rdquo;
           </ExternalLink>
-          &rdquo;&nbsp;
         </li>
         <li>
-          Asbj&oslash;rn Wahl, &ldquo;
+          Asbj&oslash;rn Wahl,{" "}
           <ExternalLink href="http://www.socialistproject.ca/bullet/740.php">
-            The Left in Government - A Strategic Project: Latin America and
-            Europe Compared
+            &ldquo;The Left in Government - A Strategic Project: Latin America
+            and Europe Compared&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Eric Blanc,{" "}
@@ -471,23 +467,20 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Nicos Poulantzas, &ldquo;
+          Nicos Poulantzas,{" "}
           <ExternalLink href="https://drive.google.com/open?id=1RK4zB8AzkcSo1rpKEaQsimmrnLTkJTkW">
-            Towards a Democratic Socialism
+            &ldquo;Towards a Democratic Socialism&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Dylan Riley, &ldquo;
+          Dylan Riley,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2016/01/olin-wright-real-utopias-socialism-capitalism-gramsci-lenin-luxemburg/">
-            An Anticapitalism That Can Win
+            &ldquo;An Anticapitalism That Can Win&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Hal Draper,
+          Hal Draper,{" "}
           <ExternalLink href="https://www.marxists.org/archive/draper/1966/twosouls/">
-            {" "}
             &ldquo;The Two Souls of Socialism&rdquo;
           </ExternalLink>
         </li>
@@ -505,21 +498,20 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
       </ul>
+      <br />
       <h3>The Question of Organization</h3>
       <ul>
         <li>
           *Sam Gindin,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2016/12/socialist-party-bernie-sanders-labor-capitalism/">
-            &ldquo;Building a Mass Socialist Party
+            &ldquo;Building a Mass Socialist Party &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Catarina Principe and Dan Russell, &ldquo;
+          Catarina Principe and Dan Russell,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2015/08/greece-syriza-tsipras-elections-euro-left-strategy-die-linke/">
-            Asking the Right Questions
+            &ldquo;Asking the Right Questions&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Ernest Mandel,{" "}
@@ -528,39 +520,40 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Jared Abbott, &ldquo;
+          Jared Abbott,{" "}
           <ExternalLink href="https://socialistcall.com/2018/09/05/for-a-democratic-and-effective-dsa/">
-            For a Democratic and Effective DSA
+            &ldquo;For a Democratic and Effective DSA&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Vivek Chibber,
+          Vivek Chibber,{" "}
           <ExternalLink href="https://drive.google.com/file/d/0B9cQU-RREvC5U3NmY2VKSDdzZzBpakNhTTBLbExVcl9JYVcw/view?usp=sharing">
-            {" "}
             &ldquo;Our Road to Power&rdquo;
           </ExternalLink>
         </li>
         <li>
-          Solidarity, &ldquo;
-          <ExternalLink href="https://www.solidarity-us.org/whyorganization">
-            Why Socialists Need Organization
+          Solidarity,{" "}
+          <ExternalLink href="https://solidarity-us.org/pdfs/SOT2009.pdf">
+            &ldquo;Socialist Organization Today&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Hal Draper, &ldquo;
+          Hal Draper,{" "}
           <ExternalLink href="https://www.marxists.org/archive/draper/1973/xx/microsect.htm">
-            Anatomy of the Microsect
+            &ldquo;Anatomy of the Microsect&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Jo Freeman, &ldquo;
-          <ExternalLink href="http://www.jofreeman.com/joreen/tyranny.htm">
-            The Tyranny of Structurelessness
+          Sam Gindin,{" "}
+          <ExternalLink href="https://www.jacobinmag.com/2016/08/beyond-social-movement-unionism">
+            &ldquo;Beyond Social Movement Unionism&rdquo;
           </ExternalLink>
-          &rdquo;
+        </li>
+        <li>
+          Jo Freeman,{" "}
+          <ExternalLink href="http://www.jofreeman.com/joreen/tyranny.htm">
+            &ldquo;The Tyranny of Structurelessness&rdquo;
+          </ExternalLink>
         </li>
         <li>
           Paul Heideman,{" "}
@@ -575,58 +568,54 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
       </ul>
+      <br />
       <h3>The Dilemmas of Social Democracy</h3>
       <ul>
         <li>
-          *Peter Frase,
+          *Peter Frase,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2016/06/social-democracy-polanyi-great-transformation-welfare-state">
-            {" "}
             &ldquo;Social Democracy&rsquo;s Breaking Point&rdquo;
           </ExternalLink>
         </li>
         <li>
-          Robert Brenner, &ldquo;
+          Robert Brenner,{" "}
           <ExternalLink href="https://www.solidarity-us.org/pdfs/cadreschool/rbrenner.pdf">
-            The Problem of Reformism
+            &ldquo;The Problem of Reformism&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Chris Maisano, &ldquo;
+          Chris Maisano,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2013/11/an-incomplete-legacy">
-            Social Democracy&rsquo;s Incomplete Legacy
+            &ldquo;Social Democracy&rsquo;s Incomplete Legacy&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Ralph Miliband and Marcel Liebman,
+          Ralph Miliband and Marcel Liebman,{" "}
           <ExternalLink href="https://www.marxists.org/archive/miliband/1985/xx/beyondsd.htm">
-            {" "}
             &ldquo;Beyond Social Democracy&rdquo;
           </ExternalLink>
         </li>
         <li>
-          Leo Panitch, &ldquo;
+          Leo Panitch,
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdSFRjSVVoVXRfSnM">
-            The Impasse of Social Democratic Politics
+            &ldquo;The Impasse of Social Democratic Politics &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Adam Przeworski, &ldquo;
+          Adam Przeworski,
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdLURvandPSy1GWHc">
-            Social Democracy as a Historical Phenomenon
+            &ldquo;Social Democracy as a Historical Phenomenon &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Jonas Pontusson, &ldquo;
+          Jonas Pontusson,
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdMXV6M2gwUF9nRlU">
-            Radicalization and Retreat in Swedish Social Democracy
+            &ldquo;Radicalization and Retreat in Swedish Social Democracy
+            &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
       </ul>
+      <br />
       <h3>The Problems of Socialist Transition&nbsp;</h3>
       <ul>
         <li>
@@ -656,34 +645,32 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Ralph Miliband, &ldquo;
+          Ralph Miliband,{" "}
           <ExternalLink href="https://www.marxists.org/archive/miliband/1973/10/chile.htm">
-            The Coup in Chile
+            &ldquo;The Coup in Chile &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Tony Benn, &ldquo;
+          Tony Benn,{" "}
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdVzlYQ2ktZ2Fob2M">
-            Obstacles to Reform in Britain
+            &ldquo;Obstacles to Reform in Britain &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Jonah Birch, &ldquo;
+          Jonah Birch,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2015/08/francois-mitterrand-socialist-party-common-program-communist-pcf-1981-elections-austerity/">
-            The Many Lives of Francois Mitterrand
+            &ldquo;The Many Lives of Francois Mitterrand &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
       </ul>
+      <br />
       <h3>The Democratic Party and Independent Politics</h3>
       <p>
         <strong>Introductory&nbsp;</strong>
       </p>
       <ul>
         <li>
-          * Neal Meyer and Ben B.,{" "}
+          *Neal Meyer and Ben B.,{" "}
           <ExternalLink href="https://socialistcall.com/2018/08/16/bernie-2020/">
             &ldquo;The Case for Bernie 2020&rdquo;
           </ExternalLink>
@@ -754,13 +741,27 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
       </ul>
+      <br />
       <h3>The Labor Movement</h3>
       <p>
         <strong>Introductory</strong>
       </p>
       <ul>
         <li>
-          * Jane McAlevey,
+          *Jane Slaughter,{" "}
+          <ExternalLink href="https://socialistcall.com/2019/07/29/rank-and-file-strategy-for-everyone/">
+            &ldquo;The Rank-and-File Strategy for Everyone &rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Barry Eidlin,{" "}
+          <ExternalLink href="https://www.jacobinmag.com/2019/03/rank-and-file-strategy-union-organizing">
+            &ldquo;What is the Rank-and-File Strategy and Why Does it
+            Matter?&rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Jane McAlevey,
           <ExternalLink href="https://www.jacobinmag.com/2016/09/everything-old-is-new-again-mcaveley-2">
             {" "}
             &ldquo;Everything Old Is New Again&rdquo;
@@ -811,18 +812,16 @@ const ReadingListPage = () => (
       </p>
       <ul>
         <li>
-          Kim Moody,
+          Kim Moody,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2018/08/unions-socialists-rank-and-file-strategy-kim-moody">
-            {" "}
             &ldquo;The Rank-and-File Strategy&rdquo;
           </ExternalLink>
         </li>
         <li>
-          Jeremy Brecher, &ldquo;
+          Jeremy Brecher,{" "}
           <ExternalLink href="https://libcom.org/history/great-upheaval-1877-jeremy-brecher">
-            The Great Upheaval of 1877
+            &ldquo;The Great Upheaval of 1877 &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
           Jeremy Brecher,{" "}
@@ -863,6 +862,7 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
       </ul>
+      <br />
       <h3>Climate Change</h3>
       <ul>
         <li>
@@ -896,6 +896,7 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
       </ul>
+      <br />
       <h3>Capitalism and Imperialism</h3>
       <ul>
         <li>
@@ -905,60 +906,48 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Ellen Meiksins Wood, &ldquo;
+          Ellen Meiksins Wood,{" "}
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdd1JoSVM3eHQwV2M">
-            Globalization and Imperialism
+            &ldquo;Globalization and Imperialism &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Robert Brenner, &ldquo;
+          Robert Brenner,{" "}
           <ExternalLink href="http://sttpml.org/wp-content/uploads/2014/06/imperialism-brenner-what_is_and_what.pdf">
-            What Is, and What Is Not, Imperialism?
+            &ldquo;What Is, and What Is Not, Imperialism? &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Anthony Brewer, &ldquo;
-          <ExternalLink href="https://drive.google.com/open?id=0B8Za4DAJcXQQYmlPVk9Wc0Z0bVU">
-            Marxist Theories of Imperialism: A Critical Survey
-          </ExternalLink>
-          &rdquo;
-        </li>
-        <li>
-          Vivek Chibber, &ldquo;
+          Vivek Chibber,{" "}
           <ExternalLink href="https://socialistregister.com/index.php/srv/article/view/5895/2791">
-            American Militarism and the US Political Establishment: The Real
-            Lessons of the Invasion of Iraq
+            &ldquo;American Militarism and the US Political Establishment: The
+            Real Lessons of the Invasion of Iraq &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
       </ul>
+      <br />
       <h3>Where Did Capitalism Come From?</h3>
       <ul>
         <li>
-          *Ellen Meiksins Wood, &ldquo;
-          <ExternalLink href="https://www.jacobinmag.com/2014/12/capitalisms-gravediggers/">
-            Capitalism&rsquo;s Gravediggers
+          *Ellen Meiksins Wood,{" "}
+          <ExternalLink href="https://pdfs.semanticscholar.org/2584/58015224f66f4b718046dd26c1fadb49a8f7.pdf">
+            "From Opportunity to Imperative,"
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Charlie Post, &ldquo;
+          Charlie Post,{" "}
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdR2JTemNVWUxmUGc">
-            Slavery and the New History of Capitalism
+            &ldquo;Slavery and the New History of Capitalism &rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
         <li>
-          Robert Brenner, &ldquo;
-          <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdTkhZYVhfM3RTem8">
-            Agrarian Class Structure and Economic Development in Pre-Industrial
-            Europe
+          Robert Brenner,{" "}
+          <ExternalLink href="https://drive.google.com/file/d/1bTDrof_O78B1aqYyr_BHjVAJnd1y2uca/view?usp=sharing">
+            &ldquo;Property and Progress&rdquo;
           </ExternalLink>
-          &rdquo;
         </li>
       </ul>
+      <br />
       <h3>The Socialist Future</h3>
       <ul>
         <li>

@@ -199,7 +199,7 @@ const ReadingListPage = () => (
         <li>
           Ralph Miliband,
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdRS1yWGlDUE84Q0U">
-            &ldquo;State Power and Class Interests &rdquo;
+            &ldquo;State Power and Class Interests&rdquo;
           </ExternalLink>
         </li>
         <li>
@@ -262,6 +262,30 @@ const ReadingListPage = () => (
           Suzy Lee,{" "}
           <ExternalLink href="https://catalyst-journal.com/vol2/no4/the-case-for-open-borders">
             &ldquo;The Case for Open Borders&rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Joe William Trotter Jr.,{" "}
+          <ExternalLink href="https://www.jacobinmag.com/2019/12/black-working-class-joe-trotter-labor">
+            &ldquo;The Power of the Black Working Class&rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Robert Greene II,{" "}
+          <ExternalLink href="https://www.jacobinmag.com/2018/08/web-du-bois-black-reconstruction-civil-rights">
+            &ldquo;The Legacy of Black Reconstruction&rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Robert Greene II,{" "}
+          <ExternalLink href="https://www.jacobinmag.com/2016/10/black-panther-party-fifty-year-anniversary-founding">
+            &ldquo;Remembering the Black Panther Party&rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Brian Jones,{" "}
+          <ExternalLink href="https://www.jacobinmag.com/2017/04/martin-luther-king-vietnam-war-lyndon-johnson-militarism-capitalism">
+            &ldquo;Martin Luther King’s Revolution&rdquo;
           </ExternalLink>
         </li>
       </ul>
@@ -383,7 +407,7 @@ const ReadingListPage = () => (
         <li>
           *Jeremy Cohan and Ben Serby,
           <ExternalLink href="https://d3n8a8pro7vhmx.cloudfront.net/religioussocialism/pages/145/attachments/original/1530008698/DSA_QueerLiberation.pdf?1530008698">
-            &ldquo;From Gay Rights to Queer Liberation &rdquo;
+            &ldquo;From Gay Rights to Queer Liberation&rdquo;
           </ExternalLink>
         </li>
         <li>
@@ -504,7 +528,7 @@ const ReadingListPage = () => (
         <li>
           *Sam Gindin,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2016/12/socialist-party-bernie-sanders-labor-capitalism/">
-            &ldquo;Building a Mass Socialist Party &rdquo;
+            &ldquo;Building a Mass Socialist Party&rdquo;
           </ExternalLink>
         </li>
         <li>
@@ -598,13 +622,13 @@ const ReadingListPage = () => (
         <li>
           Leo Panitch,
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdSFRjSVVoVXRfSnM">
-            &ldquo;The Impasse of Social Democratic Politics &rdquo;
+            &ldquo;The Impasse of Social Democratic Politics&rdquo;
           </ExternalLink>
         </li>
         <li>
           Adam Przeworski,
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdLURvandPSy1GWHc">
-            &ldquo;Social Democracy as a Historical Phenomenon &rdquo;
+            &ldquo;Social Democracy as a Historical Phenomenon&rdquo;
           </ExternalLink>
         </li>
         <li>
@@ -647,19 +671,19 @@ const ReadingListPage = () => (
         <li>
           Ralph Miliband,{" "}
           <ExternalLink href="https://www.marxists.org/archive/miliband/1973/10/chile.htm">
-            &ldquo;The Coup in Chile &rdquo;
+            &ldquo;The Coup in Chile&rdquo;
           </ExternalLink>
         </li>
         <li>
           Tony Benn,{" "}
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdVzlYQ2ktZ2Fob2M">
-            &ldquo;Obstacles to Reform in Britain &rdquo;
+            &ldquo;Obstacles to Reform in Britain&rdquo;
           </ExternalLink>
         </li>
         <li>
           Jonah Birch,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2015/08/francois-mitterrand-socialist-party-common-program-communist-pcf-1981-elections-austerity/">
-            &ldquo;The Many Lives of Francois Mitterrand &rdquo;
+            &ldquo;The Many Lives of Francois Mitterrand&rdquo;
           </ExternalLink>
         </li>
       </ul>
@@ -750,7 +774,7 @@ const ReadingListPage = () => (
         <li>
           *Jane Slaughter,{" "}
           <ExternalLink href="https://socialistcall.com/2019/07/29/rank-and-file-strategy-for-everyone/">
-            &ldquo;The Rank-and-File Strategy for Everyone &rdquo;
+            &ldquo;The Rank-and-File Strategy for Everyone&rdquo;
           </ExternalLink>
         </li>
         <li>
@@ -806,6 +830,18 @@ const ReadingListPage = () => (
           </ExternalLink>
           &nbsp;
         </li>
+        <li>
+          William P Jones,{" "}
+          <ExternalLink href="https://www.thenation.com/article/archive/black-working-class-history-joe-william-trotter-book-review/">
+            &ldquo;The Making of the Black Working Class&rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Paul Prescod,{" "}
+          <ExternalLink href="https://www.jacobinmag.com/2018/05/postal-strike-1970-wildcat-rank-and-file-unions">
+            &ldquo;When the Mailmen Rebelled&rdquo;
+          </ExternalLink>
+        </li>
       </ul>
       <p>
         <strong>Advanced</strong>
@@ -820,7 +856,7 @@ const ReadingListPage = () => (
         <li>
           Jeremy Brecher,{" "}
           <ExternalLink href="https://libcom.org/history/great-upheaval-1877-jeremy-brecher">
-            &ldquo;The Great Upheaval of 1877 &rdquo;
+            &ldquo;The Great Upheaval of 1877&rdquo;
           </ExternalLink>
         </li>
         <li>
@@ -908,20 +944,26 @@ const ReadingListPage = () => (
         <li>
           Ellen Meiksins Wood,{" "}
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdd1JoSVM3eHQwV2M">
-            &ldquo;Globalization and Imperialism &rdquo;
+            &ldquo;Globalization and Imperialism&rdquo;
           </ExternalLink>
         </li>
         <li>
           Robert Brenner,{" "}
           <ExternalLink href="http://sttpml.org/wp-content/uploads/2014/06/imperialism-brenner-what_is_and_what.pdf">
-            &ldquo;What Is, and What Is Not, Imperialism? &rdquo;
+            &ldquo;What Is, and What Is Not, Imperialism?&rdquo;
           </ExternalLink>
         </li>
         <li>
           Vivek Chibber,{" "}
           <ExternalLink href="https://socialistregister.com/index.php/srv/article/view/5895/2791">
             &ldquo;American Militarism and the US Political Establishment: The
-            Real Lessons of the Invasion of Iraq &rdquo;
+            Real Lessons of the Invasion of Iraq&rdquo;
+          </ExternalLink>
+        </li>
+        <li>
+          Anand Gopal,{" "}
+          <ExternalLink href="https://www.jacobinmag.com/2019/12/afghanistan-war-imperialism-obama-trump">
+            &ldquo;We Have to End the Permanent Wars&rdquo;
           </ExternalLink>
         </li>
       </ul>
@@ -937,7 +979,7 @@ const ReadingListPage = () => (
         <li>
           Charlie Post,{" "}
           <ExternalLink href="https://drive.google.com/open?id=0Byh5jKbk0CCdR2JTemNVWUxmUGc">
-            &ldquo;Slavery and the New History of Capitalism &rdquo;
+            &ldquo;Slavery and the New History of Capitalism&rdquo;
           </ExternalLink>
         </li>
         <li>

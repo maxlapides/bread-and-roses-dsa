@@ -84,11 +84,7 @@ const IndexPage = () => (
         <Link to="/where-we-stand/">Where We Stand</Link> and{" "}
         <Link to="/tasks/">Tasks for 2019</Link> documents. We strongly
         encourage active DSA members who agree with our point of view and
-        strategy to consider{" "}
-        <ExternalLink href="https://docs.google.com/forms/d/e/1FAIpQLScNRnmrJ78L7hwxiHUVEfJHk-jTUKjAO1qfTZQaAW0JVQPg5A/viewform">
-          joining our caucus
-        </ExternalLink>
-        .
+        strategy to consider <Link to="/join/">joining our caucus</Link>.
       </p>
     </div>
   </Layout>

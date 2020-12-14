@@ -644,7 +644,7 @@ const ReadingListPage = () => (
       <ul>
         <li>
           *Carmen Sirianni,
-          <ExternalLink href="https://drive.google.com/file/d/1A6pzerYPy7PzVAWuiP2UeZ454juFozpR/view?usp=sharing">
+          <ExternalLink href="https://drive.google.com/file/d/1klCFBFsKLcTst5VdfYDRNNrRjPeNP5a7/view?usp=sharing">
             {" "}
             "Councils and Parliaments: The Problems of Dual Power and Democracy
             in Comparative Perspective"&nbsp;
@@ -886,7 +886,7 @@ const ReadingListPage = () => (
         </li>
         <li>
           Michael Goldfield,{" "}
-          <ExternalLink href="https://drive.google.com/file/d/1Uo-Q-efmQOzDQFoqdN31tvoEnLpZ9r2R/view?usp=sharing">
+          <ExternalLink href="https://drive.google.com/file/d/18tVcR05Hhub0D0ns2zpNP9ID_SgBO3ji/view?usp=sharing">
             &ldquo;Worker Insurgency, Radical Organization, and New Deal Labor
             Legislation&rdquo;
           </ExternalLink>

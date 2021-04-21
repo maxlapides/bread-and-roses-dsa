@@ -455,7 +455,7 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Peter Gowan,{" "}
+          Saoirse Gowan,{" "}
           <ExternalLink href="https://www.jacobinmag.com/2017/11/social-democracy-sweden-meidner-plan-socialism">
             &ldquo;A Plan to Win&rdquo;
           </ExternalLink>

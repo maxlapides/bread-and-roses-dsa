@@ -47,10 +47,18 @@
 
   &--green {
     background-color: $green;
+
+    .home & {
+      padding: 72px 3rem;
+    }
   }
 
   &--blue {
     background-color: $blue;
+
+    .home & {
+      padding: 72px 3rem;
+    }
   }
 
   &--yellow {

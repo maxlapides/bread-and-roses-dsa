@@ -6,6 +6,9 @@ body {
   font-family: "Lora", serif;
   font-size: 16px;
   line-height: 1.6em;
+  font-variant: normal !important;
+  font-feature-settings: normal !important;
+  font-variant-numeric: normal !important;
 
   @include bp(desktop) {
     font-size: 18px;
@@ -275,5 +278,15 @@ a:hover {
     width: 30%;
     max-width: 450px;
     padding-right: 40px;
+  }
+}
+
+.ant-collapse {
+  font-size: 18px;
+
+  .ant-collapse-header {
+    @extend h3;
+    line-height: 1.3em !important;
+    margin-bottom: 0 !important;
   }
 }

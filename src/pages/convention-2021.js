@@ -153,7 +153,7 @@ class Convention2021 extends React.Component {
             >
               <p>
                 We must transform DSA into an organization rooted in the
-                multi-racial working-class through strategic organizing and by
+                multiracial working class through strategic organizing and by
                 building up local DSA chapters around the country with permanent
                 office spaces and full time organizing staff.
               </p>

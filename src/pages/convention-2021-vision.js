@@ -105,8 +105,8 @@ const Convention2021Vision = ({ data }) => (
           capitalist controlled political establishment of both parties, in an
           effort to create visibility and consciousness of socialist politics
           for the sake of building working-class power, rooting DSA in the
-          multi-racial working class, and moving towards a mass independent
-          party of and for the working class.
+          multiracial working class, and moving towards a mass independent party
+          of and for the working class.
         </p>
         <p>
           <strong>
@@ -261,7 +261,7 @@ const Convention2021Vision = ({ data }) => (
         <p>
           DSA is disportionately highly educated, white, and professional,
           especially in major urban areas. We can and must transform DSA into an
-          organization of and for the multi-racial working-class through
+          organization of and for the multiracial working class through
           strategic organizing. As opposed to our current relatively
           self-selecting recruitment approach, DSA can proactively recruit
           workers and develop their leadership in the process of organizing
@@ -305,12 +305,12 @@ const Convention2021Vision = ({ data }) => (
               from the broader working class.
             </li>
             <li>
-              Building a truly multi-racial socialist movement capable of
-              uniting working people against our common enemies requires
-              fighting not only for the demands that affect all workers, but
-              also for demands that address specific instances of wage theft,
-              housing discrimination, and other sources of oppression. That is
-              why Bread &amp; Roses is putting forward a{" "}
+              Building a truly multiracial socialist movement capable of uniting
+              working people against our common enemies requires fighting not
+              only for the demands that affect all workers, but also for demands
+              that address specific instances of wage theft, housing
+              discrimination, and other sources of oppression. That is why Bread
+              &amp; Roses is putting forward a{" "}
               <ExternalLink href="https://docs.google.com/document/d/1DJ39rmzUb8wYCyqwvk9RptrF-w5l79wUgUII-EbE93c/edit?usp=sharing">
                 Resolution to Form a National Committee for Reparations to Black
                 People

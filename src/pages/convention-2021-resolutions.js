@@ -242,7 +242,7 @@ const Convention2021Resolutions = ({ data }) => (
           to Black People
         </h2>
         <p>
-          We must build a truly multi-racial socialist movement, capable of
+          We must build a truly multiracial socialist movement, capable of
           uniting working people against our common enemies. That will require
           fighting to win demands that affect all workers, but also for demands
           that address specific instances of wage theft, housing discrimination,

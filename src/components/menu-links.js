@@ -17,27 +17,27 @@ class MenuLinks extends React.Component {
     conventionSubmenuVisible: false,
   }
 
-  setResourcesSubmenuHover = isHovered => {
+  setResourcesSubmenuHover = (isHovered) => {
     this.setState({ resourcesSubmenuHover: isHovered })
   }
 
   toggleResourcesSubmenuVisible = () => {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       resourcesSubmenuVisible: !prevState.resourcesSubmenuVisible,
     }))
   }
 
-  setConventionSubmenuHover = isHovered => {
+  setConventionSubmenuHover = (isHovered) => {
     this.setState({ conventionSubmenuHover: isHovered })
   }
 
   toggleConventionSubmenuVisible = () => {
-    this.setState(prevState => ({
+    this.setState((prevState) => ({
       conventionSubmenuVisible: !prevState.conventionSubmenuVisible,
     }))
   }
 
-  handleClickOutside = evt => {
+  handleClickOutside = (evt) => {
     this.setState({
       resourcesSubmenuVisible: false,
       conventionSubmenuVisible: false,
@@ -81,6 +81,9 @@ class MenuLinks extends React.Component {
           >
             <li className="indented">
               <Link to="/convention-2021/">Overview</Link>
+            </li>
+            <li className="indented">
+              <Link to="/convention-2021-slate/">NPC Slate</Link>
             </li>
             <li className="indented">
               <Link to="/convention-2021-resolutions/">Resolutions</Link>

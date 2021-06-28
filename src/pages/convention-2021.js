@@ -54,27 +54,24 @@ const candidates = [
 class Convention2021 extends React.Component {
   state = { visible: false, candidate: null }
 
-  showModal = candidate => {
+  showModal = (candidate) => {
     this.setState({
       visible: true,
       candidate: candidate,
     })
   }
 
-  handleCancel = e => {
+  handleCancel = (e) => {
     this.setState({
       visible: false,
     })
   }
 
-  images = () => this.props.data.allFile.edges.map(edge => edge.node)
+  images = () => this.props.data.allFile.edges.map((edge) => edge.node)
 
-  image = candidate => {
-    const name = candidate.name
-      .split(" ")[0]
-      .toLowerCase()
-      .replace(/\./g, "")
-    return this.images().find(image => image.name === name).childImageSharp
+  image = (candidate) => {
+    const name = candidate.name.split(" ")[0].toLowerCase().replace(/\./g, "")
+    return this.images().find((image) => image.name === name).childImageSharp
       .fluid
   }
 
@@ -259,7 +256,7 @@ class Convention2021 extends React.Component {
               />
               <ReactMarkdown
                 renderers={{
-                  link: props => (
+                  link: (props) => (
                     <a
                       href={props.href}
                       target="_blank"

@@ -187,6 +187,24 @@ class Convention2021 extends React.Component {
               type="primary"
               shape="round"
               size="large"
+              icon="usergroup-add"
+              onClick={() => navigate("/convention-2021-slate/")}
+              style={{
+                whiteSpace: "normal",
+                height: "auto",
+                minHeight: "60px",
+                fontSize: 24,
+              }}
+            >
+              NPC Slate
+            </Button>
+          </p>
+
+          <p style={{ marginTop: 30, textAlign: "center" }}>
+            <Button
+              type="primary"
+              shape="round"
+              size="large"
               icon="pushpin"
               onClick={() => navigate("/convention-2021-resolutions/")}
               style={{

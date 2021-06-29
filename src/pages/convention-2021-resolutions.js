@@ -91,7 +91,7 @@ const Convention2021Resolutions = ({ data }) => (
       >
         <h2>
           The DSA National Electoral Committee’s Toward a Mass Working Class
-          Party.
+          Party
         </h2>
         <p>
           It’s important to turn DSA into a party-like electoral apparatus. We

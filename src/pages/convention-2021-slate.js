@@ -241,7 +241,7 @@ class NPCSlate extends React.Component {
         title="Convention 2021 NPC Slate"
         color="blue"
         heroImageName="convention-2021"
-        layoutClassName="home"
+        layoutClassName="home convention-2021"
       >
         <SEO title="Convention 2021 NPC Slate" ogImage="convention" />
 
@@ -274,9 +274,6 @@ class NPCSlate extends React.Component {
 
         <div className="content-column">
           <Element name="priorities" id="priorities">
-            <p>
-              <Img fluid={this.props.data.slate.childImageSharp.fluid} />
-            </p>
             <p>
               The Bread and Roses caucus is excited to introduce our slate for
               the 2021 National DSA convention: Sofia Guimarães Cutler, Gilman
@@ -316,6 +313,67 @@ class NPCSlate extends React.Component {
               work in coalition with the labor movement, and building a strong
               DSA that we can win a Green New Deal, the abolition of ICE,
               Medicare for All, defunding the police, and ultimately socialism.
+            </p>
+            <p>
+              <Img fluid={this.props.data.slate.childImageSharp.fluid} />
+            </p>
+            <p>
+              <p style={{ marginTop: 30, textAlign: "center" }}>
+                <Button
+                  type="primary"
+                  shape="round"
+                  size="large"
+                  icon="pushpin"
+                  onClick={() => navigate("/convention-2021-resolutions/")}
+                  style={{
+                    whiteSpace: "normal",
+                    height: "auto",
+                    minHeight: "60px",
+                    fontSize: 24,
+                  }}
+                >
+                  8 Convention Resolutions to Support
+                </Button>
+              </p>
+              <p style={{ marginTop: 30, textAlign: "center" }}>
+                <Button
+                  type="primary"
+                  shape="round"
+                  size="large"
+                  onClick={() => navigate("/convention-2021-vision/")}
+                  icon="bulb"
+                  style={{
+                    whiteSpace: "normal",
+                    height: "auto",
+                    minHeight: "60px",
+                    fontSize: 24,
+                  }}
+                >
+                  Full Convention Vision
+                </Button>
+              </p>
+              <p style={{ marginTop: 30, textAlign: "center" }}>
+                <Button
+                  type="primary"
+                  shape="round"
+                  size="large"
+                  onClick={() =>
+                    window.open(
+                      "https://breadandrosesdsa.us8.list-manage.com/subscribe?u=9448901c8beae38362c8093d1&id=c2b8e01b0d",
+                      "_blank"
+                    )
+                  }
+                  icon="form"
+                  style={{
+                    whiteSpace: "normal",
+                    height: "auto",
+                    minHeight: "60px",
+                    fontSize: 24,
+                  }}
+                >
+                  Subscribe for Updates
+                </Button>
+              </p>
             </p>
           </Element>
         </div>

@@ -35,6 +35,10 @@
       font-size: 80px;
       max-width: 650px;
     }
+
+    .convention-2021 & {
+      max-width: 550px;
+    }
   }
 
   &--red {

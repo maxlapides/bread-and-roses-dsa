@@ -4,7 +4,7 @@ import React from "react"
 import { Element } from "react-scroll"
 import { Modal, Button } from "antd"
 import Img from "gatsby-image"
-import { graphql } from "gatsby"
+import { graphql, navigate } from "gatsby"
 import ReactMarkdown from "react-markdown"
 
 import Layout from "../components/layout"

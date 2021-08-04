@@ -914,7 +914,7 @@ const ReadingListPage = () => (
           </ExternalLink>
         </li>
         <li>
-          Aylssa Battistoni,{" "}
+          Alyssa Battistoni,{" "}
           <ExternalLink href="https://jacobinmag.com/2018/10/climate-change-united-nations-report-nordhaus-nobel">
             &ldquo;There&rsquo;s No Time for Gradualism&rdquo;
           </ExternalLink>

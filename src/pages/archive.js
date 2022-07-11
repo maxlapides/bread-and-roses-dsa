@@ -8,6 +8,22 @@ const IndexPage = () => (
   <Layout title="Archive" color="red" heroImageName="index">
     <SEO title="Archive" ogImage="home" titleTemplate={`%s`} />
     <div className="content">
+      <h2>National Convention 2021</h2>
+      <ul>
+        <li>
+          <Link to="/archive/convention-2021/overview">Overview</Link>
+        </li>
+        <li>
+          <Link to="/archive/convention-2021/slate">NPC Slate</Link>
+        </li>
+        <li>
+          <Link to="/archive/convention-2021/resolutions">Resolutions</Link>
+        </li>
+        <li>
+          <Link to="/archive/convention-2021/vision">Convention Vision</Link>
+        </li>
+      </ul>
+
       <h2>DSLC Election 2020</h2>
       <ul>
         <li>

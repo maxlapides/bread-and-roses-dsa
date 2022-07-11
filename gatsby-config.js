@@ -13,14 +13,6 @@ module.exports = {
         link: "/where-we-stand/",
       },
       {
-        name: "Tasks for 2019",
-        link: "/tasks/",
-      },
-      {
-        name: "DSLC Slate 2020",
-        link: "/dslc-slate/",
-      },
-      {
         name: "Join Bread & Roses",
         link: "/join/",
       },

@@ -61,7 +61,7 @@ class MenuLinks extends React.Component {
         <li>
           <Link to="/where-we-stand/">Where We Stand</Link>
         </li>
-        <li
+        {/* <li
           className="has-submenu"
           onMouseEnter={() => this.setConventionSubmenuHover(true)}
           onMouseLeave={() => this.setConventionSubmenuHover(false)}
@@ -97,7 +97,7 @@ class MenuLinks extends React.Component {
               </ExternalLink>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li
           className="has-submenu"
           onMouseEnter={() => this.setResourcesSubmenuHover(true)}

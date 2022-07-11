@@ -4,10 +4,10 @@ import { Button } from "antd"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import InternalLink from "../components/internal-link"
-import ExternalLink from "../components/external-link"
+import Layout from "../../../components/layout"
+import SEO from "../../../components/seo"
+import InternalLink from "../../../components/internal-link"
+import ExternalLink from "../../../components/external-link"
 
 const ReadTheResolution = ({ href }) => (
   <Button

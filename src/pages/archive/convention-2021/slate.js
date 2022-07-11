@@ -7,9 +7,9 @@ import Img from "gatsby-image"
 import { graphql, navigate } from "gatsby"
 import ReactMarkdown from "react-markdown"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import ExternalLink from "../components/external-link"
+import Layout from "../../../components/layout"
+import SEO from "../../../components/seo"
+import ExternalLink from "../../../components/external-link"
 
 const candidates = [
   {

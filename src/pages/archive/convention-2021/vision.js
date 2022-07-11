@@ -3,9 +3,9 @@ import { Element } from "react-scroll"
 import Img from "gatsby-image"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import ExternalLink from "../components/external-link"
+import Layout from "../../../components/layout"
+import SEO from "../../../components/seo"
+import ExternalLink from "../../../components/external-link"
 
 const Convention2021Vision = ({ data }) => (
   <Layout
